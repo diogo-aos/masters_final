@@ -1,0 +1,28 @@
+* graddesc function
+** Data parameter
+The only mandatory parameter is the data *xyData*.
+
+** Steps
+The number of steps is the number of runs to the QC algorithm. For each 1/4 of the steps the gradient descent step *eta* is multiplied by 0.25. The *steps* parameters is by default 50.
+
+** Sigma
+There are two parameters that can set the sigma in the Parzen window function (wave function in the Schrodinger equation). The first is the actual *sigma*. The second is *q* which equals 1/(2*sigma^2). q superseeds sigma, i.e. if q is set, sigma will not be used. If only sigma is used, a q will be computed from that in the beginning of graddesc and sent to qc to avoid computing this value multiple times.
+
+** r
+
+*r* is the points in which the potential should be computed. By default r is the same as the dataset.
+
+** eta
+
+*eta* is the descent step of the gradient descent method. By default, takes the value 0.1.
+
+** all_square
+
+This parameter superseeds *r* and may only be defined for 2D data. It sets the points where the potential should be computed to all the points inside the unit square.
+
+** return_eta
+If *return_eta* is True, the function returns the eta in the end. This is useful if we want to run the algorithm for some steps analyze the results and continue from where we left.
+
+** timelapse
+This boolean parameter indicates that a list of states should be returned instead of just the final state. If *timelapse* is set to True (False by default), two other parameters can be set: *timelapse_list* and *timelapse_percent*. The first should be a list of the steps in which we wish to store the state to the timelapse. The second is a percentage (0-1) of the number of steps that we wish to store in the timelapse, e.g. timelapse_percent=0.5 means 50% of the steps's states will be stored in the timelapse plus the final state. The final state is always stored. *timelapse_list* supersedes *timelapse_percent*.
+
