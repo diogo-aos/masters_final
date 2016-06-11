@@ -51,7 +51,6 @@ class K_Means:
                             significant impact on performance
     '''
        
-
     def __init__(self, n_clusters=8, tol=1e-4,
                  max_iter=300, init='random', **kwargs):
 
@@ -105,7 +104,7 @@ class K_Means:
         self._cuda = True
         self._cuda_mem = kwargs.get("cuda_mem", "manual")
 
-        self._dist_kernel = 0 # 0 = normal index, 1 = special grid index
+        self._dist_kernel = 0  # 0 = normal index, 1 = special grid index
         
         self._gridDim = None
         self._blockDim = None
@@ -113,7 +112,7 @@ class K_Means:
         self._MAX_GRID_XYZ_DIM = 65535
         self._CUDA_WARP = 32
 
-        self._PPT = 1 # points to process per thread
+        self._PPT = 1  # points to process per thread
 
     def fit(self, data):
 
@@ -125,7 +124,7 @@ class K_Means:
         # GPU profile
         self._set_up_profiling()
         
-        N,D = data.shape
+        N, D = data.shape
             
         self.N = N
         self.D = D
@@ -146,9 +145,9 @@ class K_Means:
 
         # reset variables for flow control
         stopcond = False
-        self.iters_ = 0 # iteration count
-        self.inertia_ = np.inf # sum of distances
-        self._last_iter = False # this is only for labels centroid recomputation
+        self.iters_ = 0  # iteration count
+        self.inertia_ = np.inf  # sum of distances
+        self._last_iter = False  # this is only for labels centroid recomputation
 
         self._dists = np.empty(N, dtype=np.float32)
 
@@ -156,7 +155,7 @@ class K_Means:
             # compute labels
             labels = self._label(data, self.centroids)
 
-            self.iters_ += 1 #increment iteration counter
+            self.iters_ += 1  #increment iteration counter
 
             ## evaluate stop conditions
             # convergence condition
@@ -191,11 +190,11 @@ class K_Means:
 
     def _init_centroids(self, data):
         
-        #centroids = np.empty((self.n_clusters,self.D),dtype=data.dtype)
-        #random_init = np.random.randint(0,self.N,self.n_clusters)
+        # centroids = np.empty((self.n_clusters,self.D),dtype=data.dtype)
+        # random_init = np.random.randint(0,self.N,self.n_clusters)
         
         random_init = sample(xrange(self.N), self.n_clusters)
-        #self.init_seed = random_init
+        # self.init_seed = random_init
 
         centroids = data[random_init]
 
@@ -214,18 +213,18 @@ class K_Means:
                                    'dists_ev1', 'dists_ev2',
                                    'centroids_ev1', 'centroids_ev2',
                                    'kernel_ev1', 'kernel_ev2')
-                self.man_prof = {key:cuda.event() for key in man_prof_events}
+                self.man_prof = {key: cuda.event() for key in man_prof_events}
                 man_prof_timings = ('data_timings', 'labels_timings',
                                     'dists_timings', 'kernel_timings',
                                     'centroids_timings')
-                self.man_prof.update({key:list() for key in man_prof_timings})
+                self.man_prof.update({key: list() for key in man_prof_timings})
 
         # set up profiling for auto gpu mem management
         elif self._cuda_mem == 'auto':
             if not hasattr(self, 'auto_prof'):
                 auto_prof_events = ('kernel_ev1', 'kernel_ev2')
-                self.auto_prof = {key:cuda.event() for key in auto_prof_events}
-                self.auto_prof['kernel_timings']=list()
+                self.auto_prof = {key: cuda.event() for key in auto_prof_events}
+                self.auto_prof['kernel_timings'] = list()
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     #                          LABEL METHODS                                  #
@@ -241,9 +240,9 @@ class K_Means:
         if self._label_mode == "cuda":
             labels = self._cu_label(data, centroids)
 
-        elif self._label_mode == "special": #for tests only
-            labels=np.empty(self.N, dtype=np.int32)
-            self._cu_label_kernel(data,centroids,labels,[1,512],[1,59])
+        elif self._label_mode == "special":  #for tests only
+            labels = np.empty(self.N, dtype=np.int32)
+            self._cu_label_kernel(data, centroids, labels, [1, 512], [1, 59])
 
         elif self._label_mode == "numpy":
             labels = np_label(data, centroids, self._dists, self._converge)
@@ -256,7 +255,7 @@ class K_Means:
 
         return labels
 
-    def _compute_cuda_dims(self, data, use2d = False):
+    def _compute_cuda_dims(self, data, use2d=False):
 
         N, D = data.shape
 
@@ -270,7 +269,7 @@ class K_Means:
 
             # blocks per grid = data cardinality divided by number
             # of threads per block (1 thread - 1 data point)
-            bpg = np.int(np.ceil(np.float(N) / tpb)) 
+            bpg = np.int(np.ceil(np.float(N) / tpb))
 
 
             # if grid dimension is bigger than MAX_GRID_XYZ_DIM,
@@ -280,21 +279,20 @@ class K_Means:
                 # number of grid columns
                 gridWidth = np.ceil(bpg / self._MAX_GRID_XYZ_DIM)
                 # number of grid rows
-                gridHeight = np.ceil(bpg / gridWidth)    
+                gridHeight = np.ceil(bpg / gridWidth)
 
                 gridDim = np.int(gridWidth), np.int(gridHeight)
             else:
-                gridDim = 1,bpg
+                gridDim = 1, bpg
         else:
             blockDim = self._MAX_THREADS_BLOCK
             points_in_block = self._MAX_THREADS_BLOCK * self._PPT
             bpg = np.float(N) / points_in_block
             gridDim = np.int(np.ceil(bpg))
-            
-            
+
         self._blockDim = blockDim
         self._gridDim = gridDim
-    
+
     def _cu_label(self, data, centroids):
         #WARNING: data is being transposed when sending to GPU
 
@@ -302,16 +300,16 @@ class K_Means:
         labels_ev1, labels_ev2 = cuda.event(), cuda.event()
         dists_ev1, dists_ev2 = cuda.event(), cuda.event()
 
-        N,D = data.shape
-        K,cD = centroids.shape
-        
+        N, D = data.shape
+        K, cD = centroids.shape
+
         if self._cuda_mem not in ('manual','auto'):
             raise Exception("cuda_mem = \'manual\' or \'auto\'")
-            
+
         if self._gridDim is None or self._blockDim is None:
-            self._compute_cuda_dims(data)       
-        
-        labels = np.empty(N, dtype = np.int32)
+            self._compute_cuda_dims(data)
+
+        labels = np.empty(N, dtype=np.int32)
 
         if self._cuda_mem == 'manual':
             # copy dataset and centroids, allocate memory
@@ -326,7 +324,7 @@ class K_Means:
                 dData = cuda.to_device(dataT)
                 self.man_prof['data_ev2'].record()
                 self.man_prof['data_ev2'].synchronize()
-                time_ms = cuda.event_elapsed_time(self.man_prof['data_ev1'], 
+                time_ms = cuda.event_elapsed_time(self.man_prof['data_ev1'],
                                                   self.man_prof['data_ev2'])
                 self.man_prof['data_timings'].append(time_ms)
                 self._cudaDataHandle = dData
@@ -352,12 +350,12 @@ class K_Means:
             self.man_prof['centroids_ev1'].record()
             dCentroids = cuda.to_device(centroids)
             self.man_prof['centroids_ev2'].record()
-            
+
             # launch kernel
             self.man_prof['kernel_ev1'].record()
-            _cu_label_kernel_dists[self._gridDim,self._blockDim](dData, 
-                                                                 dCentroids, 
-                                                                 dLabels, 
+            _cu_label_kernel_dists[self._gridDim, self._blockDim](dData,
+                                                                 dCentroids,
+                                                                 dLabels,
                                                                  dDists)
             self.man_prof['kernel_ev2'].record()
 
@@ -367,9 +365,9 @@ class K_Means:
 
             # copy labels from device to host
             self.man_prof['labels_ev1'].record()
-            dLabels.copy_to_host(ary = labels)
+            dLabels.copy_to_host(ary=labels)
             self.man_prof['labels_ev2'].record()
-            
+
             # copy distance to centroids from device to host
             self.man_prof['dists_ev1'].record()
             dists = dDists.copy_to_host()
@@ -380,49 +378,49 @@ class K_Means:
             self.man_prof['dists_ev2'].synchronize()
 
             # store timings
-            time_ms = cuda.event_elapsed_time(self.man_prof['centroids_ev1'], 
+            time_ms = cuda.event_elapsed_time(self.man_prof['centroids_ev1'],
                                               self.man_prof['centroids_ev2'])
             self.man_prof['centroids_timings'].append(time_ms)
 
-            time_ms = cuda.event_elapsed_time(self.man_prof['kernel_ev1'], 
+            time_ms = cuda.event_elapsed_time(self.man_prof['kernel_ev1'],
                                               self.man_prof['kernel_ev2'])
             self.man_prof['kernel_timings'].append(time_ms)
 
-            time_ms = cuda.event_elapsed_time(self.man_prof['labels_ev1'], 
+            time_ms = cuda.event_elapsed_time(self.man_prof['labels_ev1'],
                                               self.man_prof['labels_ev2'])
             self.man_prof['labels_timings'].append(time_ms)
 
-            time_ms = cuda.event_elapsed_time(self.man_prof['dists_ev1'], 
+            time_ms = cuda.event_elapsed_time(self.man_prof['dists_ev1'],
                                               self.man_prof['dists_ev2'])
             self.man_prof['dists_timings'].append(time_ms)
 
         elif self._cuda_mem == 'auto':
             self.auto_prof['kernel_ev1'].record()
-            _cu_label_kernel_dists[self._gridDim,self._blockDim](data, 
-                                                                centroids, 
-                                                                labels, 
+            _cu_label_kernel_dists[self._gridDim,self._blockDim](data,
+                                                                centroids,
+                                                                labels,
                                                                 self._dists)
             self.auto_prof['kernel_ev2'].record()
-            time_ms = cuda.event_elapsed_time(self.auto_prof['kernel_ev1'], 
+            time_ms = cuda.event_elapsed_time(self.auto_prof['kernel_ev1'],
                                               self.auto_prof['kernel_ev2'])
             self.auto_prof['kernel_timings'].append(time_ms)
 
         else:
             raise ValueError("CUDA memory management type may either \
                               be \'manual\' or \'auto\'.")
-        
+
         return labels
-        
+
     def _cu_label_kernel(self, a, b, c, d, gridDim, blockDim):
         """
         Wraper to choose between kernels.
         """
         # if converging and manual memory management, use distance handle
         if self._cuda_mem == 'manual':
-            self._cu_label_kernel_dists[gridDim,blockDim](a,b,c,d)
+            self._cu_label_kernel_dists[gridDim, blockDim](a, b, c, d)
         # if converging and auto memory management, use distance array
         else:
-            self._cu_label_kernel_dists[gridDim,blockDim](a,b,c,d)
+            self._cu_label_kernel_dists[gridDim, blockDim](a, b, c, d)
         pass
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -447,7 +445,6 @@ class K_Means:
         return new_centroids
 
 
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                   LABEL ALGORITHMS
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -455,9 +452,8 @@ class K_Means:
 
 def py_label(data, centroids, dists, converge):
 
-
     N = data.shape[0]
-    K,D = centroids.shape
+    K, D = centroids.shape
 
     labels = np.empty(N, dtype=np.int32)
 
@@ -465,8 +461,8 @@ def py_label(data, centroids, dists, converge):
 
         # first iteration outside loop
         dist = 0.0
-        for d in range(D): # compute distance
-            diff = data[n,d] - centroids[0,d]
+        for d in range(D):  # compute distance
+            diff = data[n, d] - centroids[0, d]
             dist += diff ** 2
 
         best_dist = dist
@@ -476,8 +472,8 @@ def py_label(data, centroids, dists, converge):
         for k in range(1, K):
 
             dist = 0.0
-            for d in range(D): # compute distance
-                diff = data[n,d] - centroids[k,d]
+            for d in range(D):  # compute distance
+                diff = data[n, d] - centroids[k, d]
                 dist += diff ** 2
 
             if dist < best_dist:
@@ -492,48 +488,46 @@ def py_label(data, centroids, dists, converge):
     return labels
 
 numba_label = nb.njit(py_label)
-        
+
+
 def np_label(data, centroids, dists, converge):
     """ uses more memory because of temporaries
     """
 
+    N, D = data.shape
+    C, cD = centroids.shape
 
-    N,D = data.shape
-    C,cD = centroids.shape
-
-    labels = np.zeros(N,dtype=np.int32)
+    labels = np.zeros(N, dtype=np.int32)
 
     # first iteration of all datapoints outside loop
     # distance from points to centroid 0
     best_dist = data - centroids[0]
     best_dist = best_dist ** 2
-    best_dist = best_dist.sum(axis=1) 
+    best_dist = best_dist.sum(axis=1)
 
-
-    for c in xrange(1,C):
+    for c in xrange(1, C):
         # distance from points to centroid c
         dist = data - centroids[c]
         dist = dist ** 2
         dist = dist.sum(axis=1)
-        
-        #thisCluster = np.full(N,c,dtype=np.int32)
-        #labels = np.where(dist < bestd_ist,thisCluster,labels)
+
+        # thisCluster = np.full(N,c,dtype=np.int32)
+        # labels = np.where(dist < bestd_ist,thisCluster,labels)
         labels[dist < best_dist] = c
         best_dist = np.minimum(dist, best_dist)
 
     if converge:
-       dists = best_dist
+        dists = best_dist
 
     return labels
 
 
 # data, centroids, labels
 @cuda.jit("void(float32[:,:], float32[:,:], int32[:])")
-def _cu_label_kernel_normal(a,b,c):
+def _cu_label_kernel_normal(a, b, c):
     """
     Computes the labels of each data point without storing the distances.
     """
-
 
     # thread ID inside block
     tx = cuda.threadIdx.x
@@ -557,8 +551,8 @@ def _cu_label_kernel_normal(a,b,c):
     # 2**16 to the index
     n = ty + by * bh + bx*gh*bh
 
-    N = c.shape[0] # number of datapoints
-    K,D = b.shape # centroid shape
+    N = c.shape[0]  # number of datapoints
+    K, D = b.shape  # centroid shape
 
     if n >= N:
         return
@@ -566,18 +560,18 @@ def _cu_label_kernel_normal(a,b,c):
     # first iteration outside loop
     dist = 0.0
     for d in range(D):
-        diff = a[n,d]-b[0,d]
+        diff = a[n, d]-b[0, d]
         dist += diff ** 2
 
     best_dist = dist
     best_label = 0
 
     # remaining iterations
-    for k in range(1,K):
+    for k in range(1, K):
 
         dist = 0.0
         for d in range(D):
-            diff = a[n,d]-b[k,d]
+            diff = a[n, d]-b[k, d]
             dist += diff ** 2
 
         if dist < best_dist:
@@ -590,7 +584,7 @@ def _cu_label_kernel_normal(a,b,c):
 CUDA_PPT = 2
 # data, centroids, labels
 @cuda.jit("void(float32[:,:], float32[:,:], int32[:], float32[:])")
-def _cu_label_kernel_dists(a,b,c,dists):
+def _cu_label_kernel_dists(a, b, c, dists):
 
     """
     Computes the labels of each data point storing the distances.
@@ -599,8 +593,8 @@ def _cu_label_kernel_dists(a,b,c,dists):
     # # thread ID inside block
     tgid = cuda.grid(1) * CUDA_PPT
 
-    N = c.shape[0] # number of datapoints
-    K,D = b.shape # centroid shape
+    N = c.shape[0]  # number of datapoints
+    K, D = b.shape  # centroid shape
 
     if tgid >= N:
         return
@@ -613,20 +607,19 @@ def _cu_label_kernel_dists(a,b,c,dists):
         # first iteration outside loop
         dist = 0.0
         for d in range(D):
-            diff = a[d,n] - b[0,d]
+            diff = a[d, n] - b[0, d]
             dist += diff ** 2
 
         best_dist = dist
         best_label = 0
 
         # remaining iterations
-        for k in range(1,K):
+        for k in range(1, K):
 
             dist = 0.0
             for d in range(D):
-                diff = a[d,n]-b[k,d]
+                diff = a[d, n]-b[k, d]
                 dist += diff ** 2
-
 
             if dist < best_dist:
                 best_dist = dist
@@ -717,7 +710,7 @@ def py_recompute_centroids(data, centroids, labels, dists):
     N = labels.size
     K, D = centroids.shape
 
-    new_centroids = np.zeros((K,D), dtype=np.float32)       
+    new_centroids = np.zeros((K, D), dtype=np.float32)
 
     # count samples in clusters
     labels_bincount = np.zeros(K, dtype=np.int32)
@@ -735,7 +728,7 @@ def py_recompute_centroids(data, centroids, labels, dists):
     # from their centroids to attribute to this empty clusters
     if n_emptyClusters > 0:
         # get farthest points from clusters (K-select)
-        furtherDistsArgs = np.empty(n_emptyClusters, dtype=np.int32) 
+        furtherDistsArgs = np.empty(n_emptyClusters, dtype=np.int32)
         arg_k_select(dists, n_emptyClusters, furtherDistsArgs)
         # furtherDistsArgs = arg_k_select(dists, n_emptyClusters)
 
@@ -743,14 +736,14 @@ def py_recompute_centroids(data, centroids, labels, dists):
     for n in xrange(N):
         n_label = labels[n]
         for d in xrange(D):
-            new_centroids[n_label,d] += data[n,d]
+            new_centroids[n_label, d] += data[n, d]
 
     i = 0
     for k in xrange(K):
-        if labels_bincount[k] != 0: # compute final centroid
+        if labels_bincount[k] != 0:  # compute final centroid
             for d in xrange(D):
                 new_centroids[k, d] /= labels_bincount[k]
-        else: # centroid will be one of furthest points
+        else:  # centroid will be one of furthest points
             i_arg = furtherDistsArgs[i]
             for d in xrange(D):
                 new_centroids[k, d] = data[i_arg, d]
@@ -766,11 +759,11 @@ def np_recompute_centroids(data, centroids, labels, dists):
     as scikit-learn
     """
     # change to get dimension from class or search a non-empty cluster
-    #dim = grouped_data[0][0].shape[1]
-    N,D = data.shape
-    K,D = centroids.shape       
+    # dim = grouped_data[0][0].shape[1]
+    N, D = data.shape
+    K, D = centroids.shape
     
-    #new_centroids = centroids.copy()
+    # new_centroids = centroids.copy()
     new_centroids = np.zeros_like(centroids)
 
     nonEmptyClusters = np.unique(labels)
@@ -778,13 +771,13 @@ def np_recompute_centroids(data, centroids, labels, dists):
     n_emptyclusters = K - nonEmptyClusters.size
     furtherDistsArgs = dists.argsort()[::-1][:n_emptyclusters]
 
-    j=0 #empty cluster indexer
+    j = 0  # empty cluster indexer
     for i in xrange(K):
         if i in nonEmptyClusters:
-            new_centroids[i] = data[labels==i].mean(axis=0)
+            new_centroids[i] = data[labels == i].mean(axis=0)
         else:
             new_centroids[i] = data[furtherDistsArgs[j]]
-            j+=1
+            j += 1
 
     return new_centroids
 
@@ -795,8 +788,8 @@ if __name__ == '__main__':
     d = 200
     k = 50
 
-    data = np.random.random((n,d)).astype(np.float32)
-    centroids = np.random.random((k,d)).astype(np.float32)
+    data = np.random.random((n, d)).astype(np.float32)
+    centroids = np.random.random((k, d)).astype(np.float32)
 
     kt_start, kt_end = cuda.event(), cuda.event()
 
@@ -809,7 +802,7 @@ if __name__ == '__main__':
     dCentroids = cuda.to_device(centroids)
     dLabels = cuda.device_array(n, dtype=np.int32)
     dDists = cuda.device_array(n, dtype=np.float32)
-    _cu_label_kernel_dists[bpg,tpb](dData, dCentroids, dLabels, dDists)
+    _cu_label_kernel_dists[bpg, tpb](dData, dCentroids, dLabels, dDists)
 
     ## data column major
     # GPU data
@@ -821,7 +814,7 @@ if __name__ == '__main__':
 
     # kernel
     kt_start.record()
-    _cu_label_kernel_dists[bpg,tpb](dData, dCentroids, dLabels, dDists)
+    _cu_label_kernel_dists[bpg, tpb](dData, dCentroids, dLabels, dDists)
     kt_end.record()
     kt_end.synchronize()
 
@@ -838,12 +831,10 @@ if __name__ == '__main__':
 
     # kernel
     kt_start.record()
-    _cu_label_kernel_dists[bpg,tpb](dData, dCentroids, dLabels, dDists)
+    _cu_label_kernel_dists[bpg, tpb](dData, dCentroids, dLabels, dDists)
     kt_end.record()
     kt_end.synchronize()
 
     # time
     time_ms = cuda.event_elapsed_time(kt_start, kt_end)
     print 'Kernel time (data row major):{} ms'.format(time_ms)
-
-

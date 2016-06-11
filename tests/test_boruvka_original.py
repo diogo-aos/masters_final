@@ -154,6 +154,7 @@ def load_csr_graph(filename):
     """
     raw = np.genfromtxt(filename, delimiter = ",", dtype = np.int32)
     sp_raw = csr_matrix((raw[:,2],(raw[:,0],raw[:,1])))
+    return sp_raw
 
 def load_h5_to_csr(filename):
     f = tables.open_file(filename, 'r')
@@ -184,7 +185,7 @@ def get_boruvka_format(csr_mat):
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # #
 
 simple_graph = dict()
 simple_graph["dest"] = np.array([1, 3, 2, 0, 3, 0, 3, 0, 1, 2, 5, 4, 6, 7, 5, 7, 6, 7], dtype = np.int32)
@@ -192,14 +193,14 @@ simple_graph["weight"] = np.array([2, 2, 1, 2, 3, 1, 3, 2, 3, 3, 1, 1, 3, 7, 3, 
 simple_graph["firstEdge"] = np.array([0, 3, 5, 7, 10, 11, 14, 16], dtype = np.int32)
 simple_graph["outDegree"] = np.array([3, 2, 2, 3, 1, 3, 2, 2], dtype = np.int32)
 
-# # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # #
 simple_graph_connect = dict()
 simple_graph_connect["dest"] = np.array([1, 2, 3, 2, 0, 2, 0, 1, 7, 5, 4, 6, 7, 5, 7, 3, 5, 6], dtype = np.int32)
 simple_graph_connect["weight"] = np.array([3, 1, 2, 1, 2, 3, 2, 3, 3, 1, 1, 3, 7, 3, 2, 3, 7, 2], dtype = np.float32)
 simple_graph_connect["firstEdge"] = np.array([0, 3, 4, 6, 9, 10, 13, 15], dtype = np.int32)
 simple_graph_connect["outDegree"] = np.array([3, 1, 2, 3, 1, 3, 2, 3], dtype = np.int32)
 
-# # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # #
 
 four_elt_mat = np.genfromtxt(home + "QCThesis/datasets/graphs/4elt.edges", delimiter=" ",
                               dtype=[("firstedge","i4"),("dest","i4"),("weight","f4")],

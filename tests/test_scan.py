@@ -5,214 +5,166 @@ This is a test for the last block scan.
 """
 
 
-import MyML.helper.scan as scan
+import MyML.utils.scan as scan
 import numpy as np
 from numba import cuda
 from timeit import default_timer as timer
 
-import sys
+import unittest
 
-def last_block_test():
 
-    MAX_TPB = 512
-    n = 1024
+ARRAY_SIZE = 100000
 
-    a = np.arange(n).astype(np.int32)
-    reference = np.empty_like(a)
 
-    start = timer()
-    scan.exprefixsumNumba(a, reference, init = 0)
-    end = timer()
+class TestScanCPU(unittest.TestCase):
 
-    auxidx = -1
+    def test_exprefixsumNumba_init_0(self):
+        in_ary = np.random.rand(ARRAY_SIZE)
+        out_ary = np.empty_like(in_ary)
 
-    elb = a.size
-    p2elb = np.int(np.ceil(np.log2(elb)))
-    telb = 2 ** p2elb
-    tlb = telb / 2
-    startIdx = 0
+        init = 0
 
-    sm_size = telb * a.itemsize
+        output = scan.exprefixsumNumba(in_ary, out_ary, init=init)
 
-    aux = np.empty(1,dtype=np.int8)
+        # check last carry
+        self.assertTrue(np.isclose(output, in_ary.sum()),
+                        'carry return is not sum')
 
-    trash = cuda.device_array(1)
+        carry = init
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
 
-    e1, e2 = cuda.event(), cuda.event()
+    def test_exprefixsumNumba_init_random(self):
+        in_ary = np.random.rand(ARRAY_SIZE)
+        out_ary = np.empty_like(in_ary)
 
-    e1.record()
-    scan.last_scan[1, tlb, 0, sm_size](a, aux, -1, elb, startIdx)
-    e2.record()
+        init = np.random.randint(100000)
 
-    print "CPU took:    ", (end - start) * 1000, " ms"
-    print "Kernel took: ", cuda.event_elapsed_time(e1,e2), " ms"
+        output = scan.exprefixsumNumba(in_ary, out_ary, init=init)
 
-    print (a == reference).all()
+        # check last carry
+        self.assertTrue(np.isclose(output - init, in_ary.sum()),
+                        'carry return is not sum')
 
-def recursive_big_scan_test():
+        carry = init
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
 
-    print "running recursive scan test"
+    def test_exprefixsumNumbaSingle_init_0(self):
+        in_ary = np.random.rand(ARRAY_SIZE)
+        in_ary_cpy = in_ary.copy()
 
-    MAX_TPB = 512
-    n = 2e6
-    n = int(n)
+        init = 0
 
-    a = np.arange(n).astype(np.int32) 
-    reference = np.empty_like(a)
+        output = scan.exprefixsumNumbaSingle(in_ary, init=init)
 
-    start = timer()
-    sum_ref = scan.exprefixsumNumba(a, reference, init = 0)
-    end = timer()
+        # check last carry
+        self.assertTrue(np.isclose(output, in_ary_cpy.sum()),
+                        'carry return is not sum')
 
-    dA = cuda.to_device(a)
+        # check array
+        carry = init
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(in_ary[i], carry, 'output array not correct')
+            carry += in_ary_cpy[i]
 
-    # e1, e2 = cuda.event(), cuda.event()
+    def test_exprefixsumNumbaSingle_init_random(self):
+        in_ary = np.random.rand(ARRAY_SIZE)
+        in_ary_cpy = in_ary.copy()
 
-    # e1.record()
-    # e2.record()
+        init = np.random.randint(100000)
 
+        output = scan.exprefixsumNumbaSingle(in_ary, init=init)
 
-    start2 = timer()
-    total_sum = scan.scan_gpu(dA)
-    end2 = timer()
-    
+        # check last carry
+        self.assertTrue(np.isclose(output - init, in_ary_cpy.sum()),
+                        'carry return is not sum')
 
-    dA.copy_to_host(ary = a)
-    sum_gpu = total_sum.copy_to_host()
-    
+        # check array
+        carry = init
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(in_ary[i], carry, 'output array not correct')
+            carry += in_ary_cpy[i]
 
-    print "sum_ref = ", sum_ref
-    print "sum_gpu = ", sum_gpu
 
-    print "CPU took:    ", (end - start) * 1000, " ms"
-    print "Kernel took: ", (end2 - start2) * 1000, " ms"
+class TestScanGPU(unittest.TestCase):
 
-    print (a == reference).all()
+    def test_scan_int32(self):
+        in_ary = np.random.randint(0, 10000, ARRAY_SIZE).astype(np.int32)
+        in_ary_d = cuda.to_device(in_ary)
 
-def recursive_step_by_step():
+        output = scan.scan_gpu(in_ary_d)
 
-    ## setup
+        out_carry = output.getitem(0)
+        out_ary = in_ary_d.copy_to_host()
 
-    MAX_TPB = 512
-    n = 5000
+        # check last carry
+        self.assertTrue(np.isclose(out_carry, in_ary.sum()),
+                        'carry return is not sum')
 
-    a = np.arange(n).astype(np.int32) 
-    reference = np.empty_like(a)
+        # check array
+        carry = 0
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
 
-    start = timer()
-    sum_ref = scan.exprefixsumNumba(a, reference, init = 0)
-    end = timer()
-
-    dA = cuda.to_device(a)
-
-    # e1, e2 = cuda.event(), cuda.event()
-    # e1.record()
-    # e2.record()
-
-
-    ## scan
-    in_ary = dA
- 
-    epb = MAX_TPB * 2
-    whole_blocks = n // epb
-    el_last_block = n % epb
-
-    n_scans = whole_blocks
-    if el_last_block != 0:
-        n_scans += 1
-
-    ## prescan
-
-    dAux = cuda.device_array(shape = n_scans, dtype = np.int32)
-    sm_size = epb * in_ary.dtype.itemsize
-
-    scan.prescan[whole_blocks, MAX_TPB, 0, sm_size](in_ary, dAux)
-
-    # tIn = in_ary.copy_to_host()
-    # tAux = dAux.copy_to_host()
-
-    p2elb = np.int(np.ceil(np.log2(el_last_block)))
-    p2_el_last_block = 2 ** p2elb # the smallest number of elements that is power of 2
-    tlb = p2_el_last_block >> 1 # number of threads in last block
-
-    sm_size = p2_el_last_block * in_ary.dtype.itemsize
-
-    startIdx = n - el_last_block
-    auxIdx = n_scans - 1
-
-    scan.last_scan[1, tlb, 0, sm_size](in_ary, dAux, auxIdx, el_last_block, startIdx)
-
-    in_ary2 = dAux
-    n2 = in_ary2.size
-
-    if n2 < MAX_TPB << 1:
-        el_last_block2 = n2
-
-        p2elb2 = np.int(np.ceil(np.log2(el_last_block2)))
-        p2_el_last_block2 = 2 ** p2elb # the smallest number of elements that is power of 2
-        tlb2 = p2_el_last_block2 >> 1 # number of threads in last block
-
-        total_sum = cuda.device_array(shape = 1, dtype = np.int32)
-        sm_size2 = p2_el_last_block2 * in_ary2.dtype.itemsize
-
-        startIdx2 = 0
-        auxIdx2 = 0
-
-        scan.last_scan[1, tlb2, 0, sm_size2](in_ary2, total_sum, auxIdx2, el_last_block2, startIdx2)    
-
-    scan.scan_sum[n_scans, tlb](in_ary, dAux)
-
-    tIn = in_ary.copy_to_host()
-    tAux = dAux.copy_to_host()
-    tSum = total_sum.copy_to_host()
-
-    print "finish"
-
-def prescan_test():
-
-    a = np.arange(2048).astype(np.int32)
-    reference = np.empty_like(a)
-
-    ref_sum = scan.exprefixsumNumba(a, reference)
-
-    a1 = np.arange(1024).astype(np.int32)
-    a2 = np.arange(1024, 2048).astype(np.int32)
-
-    ref1 = np.empty_like(a1)
-    ref2 = np.empty_like(a2)
-
-    ref_sum1 = scan.exprefixsumNumba(a1, ref1)
-    ref_sum2 = scan.exprefixsumNumba(a2, ref2)
-
-    dAux = cuda.device_array(2, dtype = np.int32)
-    dA = cuda.to_device(a)
-
-    sm_size = 1024 * a.dtype.itemsize
-
-    scan.prescan[2, 512, 0, sm_size](dA, dAux)
-
-    aux = dAux.copy_to_host()
-    a_gpu = dA.copy_to_host()
-
-    print "finish"
-
-def main(argv):
-    valid_args = [0,1,2,3]
-    valid_args = map(str,valid_args)
-    if len(argv) <= 1 or argv[1] not in valid_args:
-        print "0 : last block test"
-        print "1 : recursive big scan test"
-        print "2 : recursive step by step"
-        print "3 : prescan test"
-
-    elif argv[1] == "0":
-        last_block_test()
-    elif argv[1] == "1":
-        recursive_big_scan_test()
-    elif argv[1] == "2":
-        recursive_step_by_step()
-    elif argv[1] == "3":
-        prescan_test()
-
-if __name__ == "__main__":
-    main(sys.argv)
+    def test_scan_int64(self):
+        in_ary = np.random.randint(0, 10000, ARRAY_SIZE)
+        in_ary_d = cuda.to_device(in_ary)
+
+        output = scan.scan_gpu(in_ary_d)
+
+        out_carry = output.getitem(0)
+        out_ary = in_ary_d.copy_to_host()
+
+        # check last carry
+        self.assertTrue(np.isclose(out_carry, in_ary.sum()),
+                        'carry return is not sum')
+
+        # check array
+        carry = 0
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
+
+    def test_scan_fp32(self):
+        in_ary = np.random.rand(ARRAY_SIZE).astype(np.float32)
+        in_ary_d = cuda.to_device(in_ary)
+
+        output = scan.scan_gpu(in_ary_d)
+
+        out_carry = output.getitem(0)
+        out_ary = in_ary_d.copy_to_host()
+
+        # check last carry
+        print out_carry, in_ary.sum()
+        # self.assertTrue(np.isclose(out_carry, in_ary.sum()),
+        #                 'carry return is not sum')
+
+        # check array
+        carry = 0
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
+
+    def test_scan_fp64(self):
+        in_ary = np.random.rand(ARRAY_SIZE).astype(np.float64)
+        in_ary_d = cuda.to_device(in_ary)
+
+        output = scan.scan_gpu(in_ary_d)
+
+        out_carry = output.getitem(0)
+        out_ary = in_ary_d.copy_to_host()
+
+        # check last carry
+        print out_carry, in_ary.sum()
+        # self.assertTrue(np.isclose(out_carry, in_ary.sum()),
+        #                 'carry return is not sum')
+
+        # check array
+        carry = 0
+        for i in xrange(ARRAY_SIZE):
+            self.assertEqual(out_ary[i], carry, 'output array not correct')
+            carry += in_ary[i]
