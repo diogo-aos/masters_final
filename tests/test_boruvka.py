@@ -53,6 +53,11 @@ def load_graph_for_boruvka(filename):
 
 
 class TestMethods(unittest.TestCase):
+    # def setUp(self):
+    #     cuda.current_context().trashing.clear()
+
+    def tearDown(self):
+        cuda.current_context().trashing.clear()
 
     def test_boruvka_sequential_4elt(self):
 
@@ -134,11 +139,11 @@ class TestMethods(unittest.TestCase):
 
         t1 = Timer()
         t1.tic()
-        mst, n_edges = boruvka_minho_gpu(dest, weight, firstedge, outdegree)
+        mst, n_mst = boruvka_minho_gpu(dest, weight, firstedge, outdegree)
         t1.tac()
 
-        if n_edges < mst.size:
-            mst = mst[:n_edges]
+        if n_mst < mst.size:
+            mst = mst[:n_mst]
 
         # get MST from scipy library
         graph_csr = load_sparse_csr(path_4elt)
@@ -170,11 +175,11 @@ class TestMethods(unittest.TestCase):
 
         t1 = Timer()
         t1.tic()
-        mst, n_edges = boruvka_minho_gpu(dest, weight, firstedge, outdegree)
+        mst, n_mst = boruvka_minho_gpu(dest, weight, firstedge, outdegree)
         t1.tac()
 
-        if n_edges < mst.size:
-            mst = mst[:n_edges]
+        if n_mst < mst.size:
+            mst = mst[:n_mst]
 
         # get MST from scipy library
         graph_csr = load_sparse_csr(path_usa_cal)
@@ -191,58 +196,6 @@ class TestMethods(unittest.TestCase):
         # mst.sort()
         # print mst
         # print n_edges
-
-    def test_seq_gpu(self):
-        print "HOST VS DEVICE"
-
-        same_sol = list()
-        same_cost = list()
-
-        for r in range(20):
-            sp_mat = load_sparse_csr(path_4elt)
-            dest = sp_mat.indices
-            weight = sp_mat.data
-            firstedge = sp_mat.indptr[:-1]  # last element is the total number
-            outdegree = np.empty_like(firstedge)
-            outdegree_from_firstedge(firstedge, outdegree, dest.size)
-
-            n_edges = dest.size
-            n_vertices = firstedge.size
-
-            t1, t2 = Timer(), Timer()
-
-            t1.tic()
-            mst1, n_edges1 = boruvka_minho_seq(dest, weight,
-                                               firstedge, outdegree)
-            t1.tac()
-
-            if n_edges1 < mst1.size:
-                mst1 = mst1[:n_edges1]
-            mst1.sort()
-
-            assert_msg = '4elt dataset MST not fully connected in sequential'
-            self.assertEqual(mst1.size, n_vertices-1, assert_msg)
-
-            t2.tic()
-            mst2, n_edges2 = boruvka_minho_gpu(dest, weight, firstedge,
-                                               outdegree, MAX_TPB=256)
-            t2.tac()
-
-            if n_edges2 < mst2.size:
-                mst2 = mst2[:n_edges2]
-            mst2.sort()
-
-            assert_msg = '4elt dataset MST not fully connected in gpu'
-            self.assertEqual(mst2.size, n_vertices-1, assert_msg)
-
-            # how many edges are common to both solutions
-            # same_sol.append(np.in1d(mst1, mst2).sum())
-
-            # check MST cost
-            cost1 = weight[mst1].sum()
-            cost2 = weight[mst2].sum()
-            self.assertEqual(cost1, cost2, 'MSTs have diferent costs')
-            # same_cost.append(cost1 == cost2)
 
     def test_seq_gpu(self):
         print "HOST VS DEVICE"

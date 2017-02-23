@@ -1,0 +1,2992 @@
+2015-12-14 23:33:07,076 - status - INFO - Will occupy maximum of 8063.69374943 MB in device memory.
+2015-12-14 23:33:07,625 - status - INFO - Starting experiment...
+2015-12-14 23:33:07,625 - status - INFO - Generating dataset...
+2015-12-14 23:33:07,625 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:07,625 - status - INFO - Cardinality: 100
+2015-12-14 23:33:07,625 - status - INFO - Dimensionality: 2
+2015-12-14 23:33:07,625 - status - INFO - Dataset of 100 patterns and 2 dimensions.
+2015-12-14 23:33:07,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,625 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,625 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,625 - status - INFO - Number of clusters:2
+2015-12-14 23:33:07,625 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,625 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,625 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,625 - status - INFO - Round:0
+2015-12-14 23:33:07,629 - status - INFO - Total time:0.00186920166016
+2015-12-14 23:33:07,636 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,636 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,636 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,636 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,636 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,636 - status - INFO - Number of clusters:4
+2015-12-14 23:33:07,636 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,636 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,636 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,637 - status - INFO - Round:0
+2015-12-14 23:33:07,639 - status - INFO - Total time:0.00165891647339
+2015-12-14 23:33:07,647 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,648 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,648 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,648 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,648 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,648 - status - INFO - Number of clusters:8
+2015-12-14 23:33:07,648 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,648 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,648 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,648 - status - INFO - Round:0
+2015-12-14 23:33:07,651 - status - INFO - Total time:0.00172710418701
+2015-12-14 23:33:07,660 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,660 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,660 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,660 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,660 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,660 - status - INFO - Number of clusters:16
+2015-12-14 23:33:07,660 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,660 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,660 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,660 - status - INFO - Round:0
+2015-12-14 23:33:07,663 - status - INFO - Total time:0.001797914505
+2015-12-14 23:33:07,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,672 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,672 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,672 - status - INFO - Number of clusters:32
+2015-12-14 23:33:07,672 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,672 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,672 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,672 - status - INFO - Round:0
+2015-12-14 23:33:07,675 - status - INFO - Total time:0.00197792053223
+2015-12-14 23:33:07,684 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,684 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,684 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,684 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,684 - status - INFO - Dimensionality:2
+2015-12-14 23:33:07,684 - status - INFO - Number of clusters:64
+2015-12-14 23:33:07,684 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,684 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,684 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,685 - status - INFO - Round:0
+2015-12-14 23:33:07,688 - status - INFO - Total time:0.00250482559204
+2015-12-14 23:33:07,697 - status - INFO - Generating dataset...
+2015-12-14 23:33:07,697 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:07,697 - status - INFO - Cardinality: 100
+2015-12-14 23:33:07,697 - status - INFO - Dimensionality: 20
+2015-12-14 23:33:07,697 - status - INFO - Dataset of 100 patterns and 20 dimensions.
+2015-12-14 23:33:07,697 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,697 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,697 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,697 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,697 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,697 - status - INFO - Number of clusters:2
+2015-12-14 23:33:07,697 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,697 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,697 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,698 - status - INFO - Round:0
+2015-12-14 23:33:07,701 - status - INFO - Total time:0.00188708305359
+2015-12-14 23:33:07,709 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,709 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,709 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,709 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,709 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,709 - status - INFO - Number of clusters:4
+2015-12-14 23:33:07,710 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,710 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,710 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,710 - status - INFO - Round:0
+2015-12-14 23:33:07,713 - status - INFO - Total time:0.00208616256714
+2015-12-14 23:33:07,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,722 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,722 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,722 - status - INFO - Number of clusters:8
+2015-12-14 23:33:07,722 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,722 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,722 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,723 - status - INFO - Round:0
+2015-12-14 23:33:07,726 - status - INFO - Total time:0.00247621536255
+2015-12-14 23:33:07,736 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,736 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,736 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,737 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,737 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,737 - status - INFO - Number of clusters:16
+2015-12-14 23:33:07,737 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,737 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,737 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,737 - status - INFO - Round:0
+2015-12-14 23:33:07,742 - status - INFO - Total time:0.00361490249634
+2015-12-14 23:33:07,750 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,750 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,750 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,750 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,751 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,751 - status - INFO - Number of clusters:32
+2015-12-14 23:33:07,751 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,751 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,751 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,751 - status - INFO - Round:0
+2015-12-14 23:33:07,757 - status - INFO - Total time:0.00509810447693
+2015-12-14 23:33:07,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,766 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,766 - status - INFO - Dimensionality:20
+2015-12-14 23:33:07,766 - status - INFO - Number of clusters:64
+2015-12-14 23:33:07,766 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,767 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,767 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,767 - status - INFO - Round:0
+2015-12-14 23:33:07,775 - status - INFO - Total time:0.0076470375061
+2015-12-14 23:33:07,784 - status - INFO - Generating dataset...
+2015-12-14 23:33:07,785 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:07,785 - status - INFO - Cardinality: 100
+2015-12-14 23:33:07,785 - status - INFO - Dimensionality: 200
+2015-12-14 23:33:07,785 - status - INFO - Dataset of 100 patterns and 200 dimensions.
+2015-12-14 23:33:07,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,785 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,785 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,785 - status - INFO - Number of clusters:2
+2015-12-14 23:33:07,785 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,785 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,785 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,785 - status - INFO - Round:0
+2015-12-14 23:33:07,791 - status - INFO - Total time:0.00406789779663
+2015-12-14 23:33:07,799 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,799 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,800 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,800 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,800 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,800 - status - INFO - Number of clusters:4
+2015-12-14 23:33:07,800 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,800 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,800 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,800 - status - INFO - Round:0
+2015-12-14 23:33:07,807 - status - INFO - Total time:0.00569319725037
+2015-12-14 23:33:07,816 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,816 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,816 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,816 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,816 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,816 - status - INFO - Number of clusters:8
+2015-12-14 23:33:07,816 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,816 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,816 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,816 - status - INFO - Round:0
+2015-12-14 23:33:07,827 - status - INFO - Total time:0.00938510894775
+2015-12-14 23:33:07,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,837 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,837 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,837 - status - INFO - Number of clusters:16
+2015-12-14 23:33:07,837 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,837 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,837 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,837 - status - INFO - Round:0
+2015-12-14 23:33:07,855 - status - INFO - Total time:0.0165538787842
+2015-12-14 23:33:07,865 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,865 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,865 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,865 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,865 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,865 - status - INFO - Number of clusters:32
+2015-12-14 23:33:07,865 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,865 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,865 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,866 - status - INFO - Round:0
+2015-12-14 23:33:07,898 - status - INFO - Total time:0.0310299396515
+2015-12-14 23:33:07,906 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,906 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,907 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,907 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,907 - status - INFO - Dimensionality:200
+2015-12-14 23:33:07,907 - status - INFO - Number of clusters:64
+2015-12-14 23:33:07,907 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,907 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,907 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,907 - status - INFO - Round:0
+2015-12-14 23:33:07,968 - status - INFO - Total time:0.0598719120026
+2015-12-14 23:33:07,977 - status - INFO - Generating dataset...
+2015-12-14 23:33:07,977 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:07,977 - status - INFO - Cardinality: 100
+2015-12-14 23:33:07,977 - status - INFO - Dimensionality: 1000
+2015-12-14 23:33:07,978 - status - INFO - Dataset of 100 patterns and 1000 dimensions.
+2015-12-14 23:33:07,978 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,978 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,979 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:07,979 - status - INFO - Cardinality:100
+2015-12-14 23:33:07,979 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:07,979 - status - INFO - Number of clusters:2
+2015-12-14 23:33:07,979 - status - INFO - Number of iterations:3
+2015-12-14 23:33:07,979 - status - INFO - Label mode:cuda
+2015-12-14 23:33:07,979 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:07,979 - status - INFO - Round:0
+2015-12-14 23:33:07,991 - status - INFO - Total time:0.0110590457916
+2015-12-14 23:33:08,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,000 - status - INFO - Cardinality:100
+2015-12-14 23:33:08,000 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:08,000 - status - INFO - Number of clusters:4
+2015-12-14 23:33:08,000 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,000 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,000 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,000 - status - INFO - Round:0
+2015-12-14 23:33:08,022 - status - INFO - Total time:0.020268201828
+2015-12-14 23:33:08,030 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,031 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,031 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,031 - status - INFO - Cardinality:100
+2015-12-14 23:33:08,031 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:08,031 - status - INFO - Number of clusters:8
+2015-12-14 23:33:08,031 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,031 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,031 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,031 - status - INFO - Round:0
+2015-12-14 23:33:08,070 - status - INFO - Total time:0.0380780696869
+2015-12-14 23:33:08,080 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,080 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,080 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,080 - status - INFO - Cardinality:100
+2015-12-14 23:33:08,080 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:08,080 - status - INFO - Number of clusters:16
+2015-12-14 23:33:08,080 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,080 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,080 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,080 - status - INFO - Round:0
+2015-12-14 23:33:08,156 - status - INFO - Total time:0.0742139816284
+2015-12-14 23:33:08,165 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,165 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,165 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,165 - status - INFO - Cardinality:100
+2015-12-14 23:33:08,165 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:08,165 - status - INFO - Number of clusters:32
+2015-12-14 23:33:08,165 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,165 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,166 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,166 - status - INFO - Round:0
+2015-12-14 23:33:08,313 - status - INFO - Total time:0.146300077438
+2015-12-14 23:33:08,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,323 - status - INFO - Cardinality:100
+2015-12-14 23:33:08,323 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:08,323 - status - INFO - Number of clusters:64
+2015-12-14 23:33:08,323 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,323 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,323 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,323 - status - INFO - Round:0
+2015-12-14 23:33:08,615 - status - INFO - Total time:0.290441989899
+2015-12-14 23:33:08,626 - status - INFO - Generating dataset...
+2015-12-14 23:33:08,626 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:08,626 - status - INFO - Cardinality: 1000
+2015-12-14 23:33:08,626 - status - INFO - Dimensionality: 2
+2015-12-14 23:33:08,626 - status - INFO - Dataset of 1000 patterns and 2 dimensions.
+2015-12-14 23:33:08,626 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,626 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,626 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,626 - status - INFO - Cardinality:1000
+2015-12-14 23:33:08,626 - status - INFO - Dimensionality:2
+2015-12-14 23:33:08,626 - status - INFO - Number of clusters:2
+2015-12-14 23:33:08,626 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,626 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,627 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,627 - status - INFO - Round:0
+2015-12-14 23:33:08,630 - status - INFO - Total time:0.00241804122925
+2015-12-14 23:33:08,639 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,639 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,639 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,639 - status - INFO - Cardinality:1000
+2015-12-14 23:33:08,639 - status - INFO - Dimensionality:2
+2015-12-14 23:33:08,639 - status - INFO - Number of clusters:4
+2015-12-14 23:33:08,639 - status - INFO - Number of iterations:3
+2015-12-14 23:33:08,639 - status - INFO - Label mode:cuda
+2015-12-14 23:33:08,640 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:08,640 - status - INFO - Round:0
+2015-12-14 23:33:08,643 - status - INFO - Total time:0.0021550655365
+2015-12-14 23:33:08,652 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,652 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,652 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:08,652 - status - INFO - Cardinality:1000
+2015-12-14 23:33:08,653 - status - INFO - Dimensionality:2
+2015-12-14 23:33:14,801 - status - INFO - Will occupy maximum of 8063.69374943 MB in device memory.
+2015-12-14 23:33:15,347 - status - INFO - Starting experiment...
+2015-12-14 23:33:15,348 - status - INFO - Generating dataset...
+2015-12-14 23:33:15,348 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:15,348 - status - INFO - Cardinality: 100
+2015-12-14 23:33:15,348 - status - INFO - Dimensionality: 2
+2015-12-14 23:33:15,348 - status - INFO - Dataset of 100 patterns and 2 dimensions.
+2015-12-14 23:33:15,348 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,348 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,348 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,348 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,348 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,348 - status - INFO - Number of clusters:2
+2015-12-14 23:33:15,348 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,348 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,348 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,348 - status - INFO - Round:0
+2015-12-14 23:33:15,351 - status - INFO - Total time:0.00186014175415
+2015-12-14 23:33:15,360 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,360 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,360 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,360 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,360 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,360 - status - INFO - Number of clusters:4
+2015-12-14 23:33:15,361 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,361 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,361 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,361 - status - INFO - Round:0
+2015-12-14 23:33:15,364 - status - INFO - Total time:0.00165414810181
+2015-12-14 23:33:15,372 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,372 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,372 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,372 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,372 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,372 - status - INFO - Number of clusters:8
+2015-12-14 23:33:15,372 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,372 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,372 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,372 - status - INFO - Round:0
+2015-12-14 23:33:15,375 - status - INFO - Total time:0.00171518325806
+2015-12-14 23:33:15,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,384 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,384 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,384 - status - INFO - Number of clusters:16
+2015-12-14 23:33:15,384 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,384 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,384 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,384 - status - INFO - Round:0
+2015-12-14 23:33:15,387 - status - INFO - Total time:0.00178217887878
+2015-12-14 23:33:15,396 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,396 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,396 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,396 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,396 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,396 - status - INFO - Number of clusters:32
+2015-12-14 23:33:15,397 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,397 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,397 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,397 - status - INFO - Round:0
+2015-12-14 23:33:15,400 - status - INFO - Total time:0.00198698043823
+2015-12-14 23:33:15,409 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,409 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,409 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,409 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,409 - status - INFO - Dimensionality:2
+2015-12-14 23:33:15,409 - status - INFO - Number of clusters:64
+2015-12-14 23:33:15,409 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,409 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,409 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,409 - status - INFO - Round:0
+2015-12-14 23:33:15,413 - status - INFO - Total time:0.00251793861389
+2015-12-14 23:33:15,421 - status - INFO - Generating dataset...
+2015-12-14 23:33:15,421 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:15,421 - status - INFO - Cardinality: 100
+2015-12-14 23:33:15,421 - status - INFO - Dimensionality: 20
+2015-12-14 23:33:15,422 - status - INFO - Dataset of 100 patterns and 20 dimensions.
+2015-12-14 23:33:15,422 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,422 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,422 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,422 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,422 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,422 - status - INFO - Number of clusters:2
+2015-12-14 23:33:15,422 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,422 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,422 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,422 - status - INFO - Round:0
+2015-12-14 23:33:15,425 - status - INFO - Total time:0.00188302993774
+2015-12-14 23:33:15,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,434 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,434 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,434 - status - INFO - Number of clusters:4
+2015-12-14 23:33:15,434 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,434 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,434 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,434 - status - INFO - Round:0
+2015-12-14 23:33:15,438 - status - INFO - Total time:0.00207710266113
+2015-12-14 23:33:15,448 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,448 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,448 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,448 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,448 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,448 - status - INFO - Number of clusters:8
+2015-12-14 23:33:15,448 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,448 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,448 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,448 - status - INFO - Round:0
+2015-12-14 23:33:15,452 - status - INFO - Total time:0.00248503684998
+2015-12-14 23:33:15,461 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,461 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,461 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,461 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,461 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,461 - status - INFO - Number of clusters:16
+2015-12-14 23:33:15,461 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,461 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,461 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,461 - status - INFO - Round:0
+2015-12-14 23:33:15,466 - status - INFO - Total time:0.00363993644714
+2015-12-14 23:33:15,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,476 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,476 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,476 - status - INFO - Number of clusters:32
+2015-12-14 23:33:15,476 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,476 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,476 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,476 - status - INFO - Round:0
+2015-12-14 23:33:15,482 - status - INFO - Total time:0.00509905815125
+2015-12-14 23:33:15,492 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,492 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,492 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,492 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,492 - status - INFO - Dimensionality:20
+2015-12-14 23:33:15,492 - status - INFO - Number of clusters:64
+2015-12-14 23:33:15,492 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,492 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,492 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,492 - status - INFO - Round:0
+2015-12-14 23:33:15,501 - status - INFO - Total time:0.00763583183289
+2015-12-14 23:33:15,510 - status - INFO - Generating dataset...
+2015-12-14 23:33:15,510 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:15,510 - status - INFO - Cardinality: 100
+2015-12-14 23:33:15,510 - status - INFO - Dimensionality: 200
+2015-12-14 23:33:15,510 - status - INFO - Dataset of 100 patterns and 200 dimensions.
+2015-12-14 23:33:15,510 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,510 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,510 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,510 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,510 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,510 - status - INFO - Number of clusters:2
+2015-12-14 23:33:15,510 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,511 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,511 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,511 - status - INFO - Round:0
+2015-12-14 23:33:15,516 - status - INFO - Total time:0.00406289100647
+2015-12-14 23:33:15,524 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,525 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,525 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,525 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,525 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,525 - status - INFO - Number of clusters:4
+2015-12-14 23:33:15,525 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,525 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,525 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,525 - status - INFO - Round:0
+2015-12-14 23:33:15,532 - status - INFO - Total time:0.00568199157715
+2015-12-14 23:33:15,541 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,541 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,541 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,541 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,541 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,541 - status - INFO - Number of clusters:8
+2015-12-14 23:33:15,541 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,541 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,541 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,541 - status - INFO - Round:0
+2015-12-14 23:33:15,552 - status - INFO - Total time:0.00932788848877
+2015-12-14 23:33:15,561 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,561 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,561 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,561 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,561 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,561 - status - INFO - Number of clusters:16
+2015-12-14 23:33:15,561 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,561 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,561 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,561 - status - INFO - Round:0
+2015-12-14 23:33:15,579 - status - INFO - Total time:0.0165770053864
+2015-12-14 23:33:15,589 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,589 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,589 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,589 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,589 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,589 - status - INFO - Number of clusters:32
+2015-12-14 23:33:15,589 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,589 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,589 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,589 - status - INFO - Round:0
+2015-12-14 23:33:15,622 - status - INFO - Total time:0.0310211181641
+2015-12-14 23:33:15,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,631 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,631 - status - INFO - Dimensionality:200
+2015-12-14 23:33:15,631 - status - INFO - Number of clusters:64
+2015-12-14 23:33:15,631 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,631 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,631 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,631 - status - INFO - Round:0
+2015-12-14 23:33:15,692 - status - INFO - Total time:0.0598499774933
+2015-12-14 23:33:15,701 - status - INFO - Generating dataset...
+2015-12-14 23:33:15,701 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:15,701 - status - INFO - Cardinality: 100
+2015-12-14 23:33:15,701 - status - INFO - Dimensionality: 1000
+2015-12-14 23:33:15,702 - status - INFO - Dataset of 100 patterns and 1000 dimensions.
+2015-12-14 23:33:15,702 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,702 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,702 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,702 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,702 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:15,703 - status - INFO - Number of clusters:2
+2015-12-14 23:33:15,703 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,703 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,703 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,703 - status - INFO - Round:0
+2015-12-14 23:33:15,715 - status - INFO - Total time:0.0110518932343
+2015-12-14 23:33:15,724 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,724 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,724 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,724 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,724 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:15,724 - status - INFO - Number of clusters:4
+2015-12-14 23:33:15,724 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,724 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,724 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,724 - status - INFO - Round:0
+2015-12-14 23:33:15,746 - status - INFO - Total time:0.0202639102936
+2015-12-14 23:33:15,754 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,755 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,755 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,755 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,755 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:15,755 - status - INFO - Number of clusters:8
+2015-12-14 23:33:15,755 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,755 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,755 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,755 - status - INFO - Round:0
+2015-12-14 23:33:15,794 - status - INFO - Total time:0.0380489826202
+2015-12-14 23:33:15,803 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,803 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,804 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,804 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,804 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:15,804 - status - INFO - Number of clusters:16
+2015-12-14 23:33:15,804 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,804 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,804 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,804 - status - INFO - Round:0
+2015-12-14 23:33:15,879 - status - INFO - Total time:0.0741760730743
+2015-12-14 23:33:15,888 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,889 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,889 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:15,889 - status - INFO - Cardinality:100
+2015-12-14 23:33:15,889 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:15,889 - status - INFO - Number of clusters:32
+2015-12-14 23:33:15,889 - status - INFO - Number of iterations:3
+2015-12-14 23:33:15,889 - status - INFO - Label mode:cuda
+2015-12-14 23:33:15,889 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:15,889 - status - INFO - Round:0
+2015-12-14 23:33:16,036 - status - INFO - Total time:0.146257162094
+2015-12-14 23:33:16,048 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,048 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,048 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,048 - status - INFO - Cardinality:100
+2015-12-14 23:33:16,048 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:16,048 - status - INFO - Number of clusters:64
+2015-12-14 23:33:16,048 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,048 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,048 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,048 - status - INFO - Round:0
+2015-12-14 23:33:16,340 - status - INFO - Total time:0.290621995926
+2015-12-14 23:33:16,351 - status - INFO - Generating dataset...
+2015-12-14 23:33:16,351 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:16,352 - status - INFO - Cardinality: 1000
+2015-12-14 23:33:16,352 - status - INFO - Dimensionality: 2
+2015-12-14 23:33:16,352 - status - INFO - Dataset of 1000 patterns and 2 dimensions.
+2015-12-14 23:33:16,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,352 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,352 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,352 - status - INFO - Number of clusters:2
+2015-12-14 23:33:16,352 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,352 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,352 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,352 - status - INFO - Round:0
+2015-12-14 23:33:16,356 - status - INFO - Total time:0.00249600410461
+2015-12-14 23:33:16,365 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,365 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,365 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,365 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,365 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,365 - status - INFO - Number of clusters:4
+2015-12-14 23:33:16,365 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,365 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,365 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,365 - status - INFO - Round:0
+2015-12-14 23:33:16,369 - status - INFO - Total time:0.00215315818787
+2015-12-14 23:33:16,379 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,379 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,379 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,379 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,379 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,379 - status - INFO - Number of clusters:8
+2015-12-14 23:33:16,379 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,379 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,379 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,380 - status - INFO - Round:0
+2015-12-14 23:33:16,383 - status - INFO - Total time:0.00222015380859
+2015-12-14 23:33:16,393 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,394 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,394 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,394 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,394 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,394 - status - INFO - Number of clusters:16
+2015-12-14 23:33:16,394 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,394 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,394 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,394 - status - INFO - Round:0
+2015-12-14 23:33:16,398 - status - INFO - Total time:0.00233507156372
+2015-12-14 23:33:16,407 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,407 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,407 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,407 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,407 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,407 - status - INFO - Number of clusters:32
+2015-12-14 23:33:16,407 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,407 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,407 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,407 - status - INFO - Round:0
+2015-12-14 23:33:16,411 - status - INFO - Total time:0.00251317024231
+2015-12-14 23:33:16,420 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,420 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,420 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,420 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,420 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,420 - status - INFO - Number of clusters:64
+2015-12-14 23:33:16,420 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,420 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,420 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,420 - status - INFO - Round:0
+2015-12-14 23:33:16,425 - status - INFO - Total time:0.00310087203979
+2015-12-14 23:33:16,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,435 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,435 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,435 - status - INFO - Number of clusters:256
+2015-12-14 23:33:16,435 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,435 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,435 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,435 - status - INFO - Round:0
+2015-12-14 23:33:16,441 - status - INFO - Total time:0.00482606887817
+2015-12-14 23:33:16,450 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,450 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,451 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,451 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,451 - status - INFO - Dimensionality:2
+2015-12-14 23:33:16,451 - status - INFO - Number of clusters:512
+2015-12-14 23:33:16,451 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,451 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,451 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,451 - status - INFO - Round:0
+2015-12-14 23:33:16,460 - status - INFO - Total time:0.00793600082397
+2015-12-14 23:33:16,470 - status - INFO - Generating dataset...
+2015-12-14 23:33:16,470 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:16,470 - status - INFO - Cardinality: 1000
+2015-12-14 23:33:16,470 - status - INFO - Dimensionality: 20
+2015-12-14 23:33:16,470 - status - INFO - Dataset of 1000 patterns and 20 dimensions.
+2015-12-14 23:33:16,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,470 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,470 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,470 - status - INFO - Number of clusters:2
+2015-12-14 23:33:16,471 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,471 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,471 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,471 - status - INFO - Round:0
+2015-12-14 23:33:16,474 - status - INFO - Total time:0.00235986709595
+2015-12-14 23:33:16,484 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,484 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,484 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,484 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,485 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,485 - status - INFO - Number of clusters:4
+2015-12-14 23:33:16,485 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,485 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,485 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,485 - status - INFO - Round:0
+2015-12-14 23:33:16,489 - status - INFO - Total time:0.00258684158325
+2015-12-14 23:33:16,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,498 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,498 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,498 - status - INFO - Number of clusters:8
+2015-12-14 23:33:16,498 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,498 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,499 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,499 - status - INFO - Round:0
+2015-12-14 23:33:16,503 - status - INFO - Total time:0.00318193435669
+2015-12-14 23:33:16,512 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,512 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,512 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,512 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,512 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,513 - status - INFO - Number of clusters:16
+2015-12-14 23:33:16,513 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,513 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,513 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,513 - status - INFO - Round:0
+2015-12-14 23:33:16,517 - status - INFO - Total time:0.00337696075439
+2015-12-14 23:33:16,526 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,527 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,527 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,527 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,527 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,527 - status - INFO - Number of clusters:32
+2015-12-14 23:33:16,527 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,527 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,527 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,527 - status - INFO - Round:0
+2015-12-14 23:33:16,533 - status - INFO - Total time:0.00497794151306
+2015-12-14 23:33:16,542 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,542 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,542 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,543 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,543 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,543 - status - INFO - Number of clusters:64
+2015-12-14 23:33:16,543 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,543 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,543 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,543 - status - INFO - Round:0
+2015-12-14 23:33:16,553 - status - INFO - Total time:0.00855278968811
+2015-12-14 23:33:16,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,563 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,563 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,563 - status - INFO - Number of clusters:256
+2015-12-14 23:33:16,563 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,563 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,563 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,563 - status - INFO - Round:0
+2015-12-14 23:33:16,592 - status - INFO - Total time:0.0276300907135
+2015-12-14 23:33:16,601 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,601 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,601 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,601 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,601 - status - INFO - Dimensionality:20
+2015-12-14 23:33:16,601 - status - INFO - Number of clusters:512
+2015-12-14 23:33:16,601 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,602 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,602 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,602 - status - INFO - Round:0
+2015-12-14 23:33:16,656 - status - INFO - Total time:0.0532569885254
+2015-12-14 23:33:16,669 - status - INFO - Generating dataset...
+2015-12-14 23:33:16,669 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:16,669 - status - INFO - Cardinality: 1000
+2015-12-14 23:33:16,669 - status - INFO - Dimensionality: 200
+2015-12-14 23:33:16,671 - status - INFO - Dataset of 1000 patterns and 200 dimensions.
+2015-12-14 23:33:16,671 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,671 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,671 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,671 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,671 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,671 - status - INFO - Number of clusters:2
+2015-12-14 23:33:16,671 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,671 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,671 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,671 - status - INFO - Round:0
+2015-12-14 23:33:16,677 - status - INFO - Total time:0.00420188903809
+2015-12-14 23:33:16,686 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,686 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,686 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,686 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,687 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,687 - status - INFO - Number of clusters:4
+2015-12-14 23:33:16,687 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,687 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,687 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,687 - status - INFO - Round:0
+2015-12-14 23:33:16,694 - status - INFO - Total time:0.00610780715942
+2015-12-14 23:33:16,704 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,704 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,704 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,704 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,704 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,704 - status - INFO - Number of clusters:8
+2015-12-14 23:33:16,704 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,704 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,704 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,704 - status - INFO - Round:0
+2015-12-14 23:33:16,716 - status - INFO - Total time:0.010360956192
+2015-12-14 23:33:16,726 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,726 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,726 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,726 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,726 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,726 - status - INFO - Number of clusters:16
+2015-12-14 23:33:16,726 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,726 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,726 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,726 - status - INFO - Round:0
+2015-12-14 23:33:16,745 - status - INFO - Total time:0.0181300640106
+2015-12-14 23:33:16,755 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,755 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,755 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,755 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,755 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,755 - status - INFO - Number of clusters:32
+2015-12-14 23:33:16,755 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,755 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,755 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,755 - status - INFO - Round:0
+2015-12-14 23:33:16,791 - status - INFO - Total time:0.03404712677
+2015-12-14 23:33:16,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,801 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,801 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,801 - status - INFO - Number of clusters:64
+2015-12-14 23:33:16,801 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,801 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,801 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,801 - status - INFO - Round:0
+2015-12-14 23:33:16,867 - status - INFO - Total time:0.0647158622742
+2015-12-14 23:33:16,877 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,877 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,877 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:16,877 - status - INFO - Cardinality:1000
+2015-12-14 23:33:16,877 - status - INFO - Dimensionality:200
+2015-12-14 23:33:16,877 - status - INFO - Number of clusters:256
+2015-12-14 23:33:16,877 - status - INFO - Number of iterations:3
+2015-12-14 23:33:16,878 - status - INFO - Label mode:cuda
+2015-12-14 23:33:16,878 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:16,878 - status - INFO - Round:0
+2015-12-14 23:33:17,130 - status - INFO - Total time:0.251089811325
+2015-12-14 23:33:17,140 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,140 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,140 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,140 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,140 - status - INFO - Dimensionality:200
+2015-12-14 23:33:17,140 - status - INFO - Number of clusters:512
+2015-12-14 23:33:17,140 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,140 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,140 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,140 - status - INFO - Round:0
+2015-12-14 23:33:17,641 - status - INFO - Total time:0.499517917633
+2015-12-14 23:33:17,652 - status - INFO - Generating dataset...
+2015-12-14 23:33:17,652 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:17,652 - status - INFO - Cardinality: 1000
+2015-12-14 23:33:17,652 - status - INFO - Dimensionality: 1000
+2015-12-14 23:33:17,662 - status - INFO - Dataset of 1000 patterns and 1000 dimensions.
+2015-12-14 23:33:17,662 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,662 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,662 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,662 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,662 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:17,662 - status - INFO - Number of clusters:2
+2015-12-14 23:33:17,662 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,662 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,662 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,662 - status - INFO - Round:0
+2015-12-14 23:33:17,680 - status - INFO - Total time:0.0167758464813
+2015-12-14 23:33:17,690 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,691 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,691 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,691 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,691 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:17,691 - status - INFO - Number of clusters:4
+2015-12-14 23:33:17,691 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,691 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,691 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,691 - status - INFO - Round:0
+2015-12-14 23:33:17,721 - status - INFO - Total time:0.0289587974548
+2015-12-14 23:33:17,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,732 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,732 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:17,732 - status - INFO - Number of clusters:8
+2015-12-14 23:33:17,732 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,732 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,732 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,732 - status - INFO - Round:0
+2015-12-14 23:33:17,785 - status - INFO - Total time:0.0515251159668
+2015-12-14 23:33:17,797 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,797 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,797 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,797 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,797 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:17,797 - status - INFO - Number of clusters:16
+2015-12-14 23:33:17,797 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,797 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,797 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,797 - status - INFO - Round:0
+2015-12-14 23:33:17,897 - status - INFO - Total time:0.0980250835419
+2015-12-14 23:33:17,906 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,906 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,907 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:17,907 - status - INFO - Cardinality:1000
+2015-12-14 23:33:17,907 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:17,907 - status - INFO - Number of clusters:32
+2015-12-14 23:33:17,907 - status - INFO - Number of iterations:3
+2015-12-14 23:33:17,907 - status - INFO - Label mode:cuda
+2015-12-14 23:33:17,907 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:17,907 - status - INFO - Round:0
+2015-12-14 23:33:18,099 - status - INFO - Total time:0.190810918808
+2015-12-14 23:33:18,109 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,109 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,109 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,109 - status - INFO - Cardinality:1000
+2015-12-14 23:33:18,109 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:18,109 - status - INFO - Number of clusters:64
+2015-12-14 23:33:18,109 - status - INFO - Number of iterations:3
+2015-12-14 23:33:18,110 - status - INFO - Label mode:cuda
+2015-12-14 23:33:18,110 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:18,110 - status - INFO - Round:0
+2015-12-14 23:33:18,487 - status - INFO - Total time:0.376448869705
+2015-12-14 23:33:18,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,498 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:18,498 - status - INFO - Cardinality:1000
+2015-12-14 23:33:18,498 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:18,498 - status - INFO - Number of clusters:256
+2015-12-14 23:33:18,498 - status - INFO - Number of iterations:3
+2015-12-14 23:33:18,498 - status - INFO - Label mode:cuda
+2015-12-14 23:33:18,498 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:18,498 - status - INFO - Round:0
+2015-12-14 23:33:19,989 - status - INFO - Total time:1.48989605904
+2015-12-14 23:33:20,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:20,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:20,000 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:20,000 - status - INFO - Cardinality:1000
+2015-12-14 23:33:20,000 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:20,000 - status - INFO - Number of clusters:512
+2015-12-14 23:33:20,001 - status - INFO - Number of iterations:3
+2015-12-14 23:33:20,001 - status - INFO - Label mode:cuda
+2015-12-14 23:33:20,001 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:20,001 - status - INFO - Round:0
+2015-12-14 23:33:22,974 - status - INFO - Total time:2.97156500816
+2015-12-14 23:33:22,987 - status - INFO - Generating dataset...
+2015-12-14 23:33:22,987 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:22,987 - status - INFO - Cardinality: 5000
+2015-12-14 23:33:22,987 - status - INFO - Dimensionality: 2
+2015-12-14 23:33:22,988 - status - INFO - Dataset of 5000 patterns and 2 dimensions.
+2015-12-14 23:33:22,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:22,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:22,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:22,988 - status - INFO - Cardinality:5000
+2015-12-14 23:33:22,988 - status - INFO - Dimensionality:2
+2015-12-14 23:33:22,988 - status - INFO - Number of clusters:2
+2015-12-14 23:33:22,988 - status - INFO - Number of iterations:3
+2015-12-14 23:33:22,988 - status - INFO - Label mode:cuda
+2015-12-14 23:33:22,988 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:22,988 - status - INFO - Round:0
+2015-12-14 23:33:22,992 - status - INFO - Total time:0.00223207473755
+2015-12-14 23:33:23,003 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,003 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,003 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,003 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,003 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,003 - status - INFO - Number of clusters:4
+2015-12-14 23:33:23,003 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,003 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,003 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,003 - status - INFO - Round:0
+2015-12-14 23:33:23,006 - status - INFO - Total time:0.00218605995178
+2015-12-14 23:33:23,017 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,017 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,017 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,017 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,017 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,017 - status - INFO - Number of clusters:8
+2015-12-14 23:33:23,017 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,017 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,017 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,017 - status - INFO - Round:0
+2015-12-14 23:33:23,021 - status - INFO - Total time:0.00224089622498
+2015-12-14 23:33:23,031 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,031 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,031 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,031 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,031 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,031 - status - INFO - Number of clusters:16
+2015-12-14 23:33:23,032 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,032 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,032 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,032 - status - INFO - Round:0
+2015-12-14 23:33:23,036 - status - INFO - Total time:0.00266408920288
+2015-12-14 23:33:23,045 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,045 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,046 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,046 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,046 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,046 - status - INFO - Number of clusters:32
+2015-12-14 23:33:23,046 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,046 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,046 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,046 - status - INFO - Round:0
+2015-12-14 23:33:23,050 - status - INFO - Total time:0.00257110595703
+2015-12-14 23:33:23,060 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,060 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,060 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,060 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,060 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,060 - status - INFO - Number of clusters:64
+2015-12-14 23:33:23,060 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,060 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,060 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,060 - status - INFO - Round:0
+2015-12-14 23:33:23,064 - status - INFO - Total time:0.00294995307922
+2015-12-14 23:33:23,074 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,074 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,074 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,074 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,074 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,074 - status - INFO - Number of clusters:256
+2015-12-14 23:33:23,074 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,074 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,075 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,075 - status - INFO - Round:0
+2015-12-14 23:33:23,081 - status - INFO - Total time:0.00532817840576
+2015-12-14 23:33:23,091 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,091 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,091 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,091 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,091 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,091 - status - INFO - Number of clusters:512
+2015-12-14 23:33:23,092 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,092 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,092 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,092 - status - INFO - Round:0
+2015-12-14 23:33:23,101 - status - INFO - Total time:0.00849485397339
+2015-12-14 23:33:23,111 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,111 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,112 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,112 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,112 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,112 - status - INFO - Number of clusters:1024
+2015-12-14 23:33:23,112 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,112 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,112 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,112 - status - INFO - Round:0
+2015-12-14 23:33:23,128 - status - INFO - Total time:0.0150301456451
+2015-12-14 23:33:23,138 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,138 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,138 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,138 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,138 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,138 - status - INFO - Number of clusters:1536
+2015-12-14 23:33:23,138 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,138 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,138 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,138 - status - INFO - Round:0
+2015-12-14 23:33:23,161 - status - INFO - Total time:0.0210819244385
+2015-12-14 23:33:23,171 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,171 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,171 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,171 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,171 - status - INFO - Dimensionality:2
+2015-12-14 23:33:23,171 - status - INFO - Number of clusters:2048
+2015-12-14 23:33:23,171 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,171 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,171 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,171 - status - INFO - Round:0
+2015-12-14 23:33:23,200 - status - INFO - Total time:0.027496099472
+2015-12-14 23:33:23,210 - status - INFO - Generating dataset...
+2015-12-14 23:33:23,210 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:23,210 - status - INFO - Cardinality: 5000
+2015-12-14 23:33:23,210 - status - INFO - Dimensionality: 20
+2015-12-14 23:33:23,211 - status - INFO - Dataset of 5000 patterns and 20 dimensions.
+2015-12-14 23:33:23,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,211 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,211 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,211 - status - INFO - Number of clusters:2
+2015-12-14 23:33:23,211 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,211 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,211 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,211 - status - INFO - Round:0
+2015-12-14 23:33:23,215 - status - INFO - Total time:0.00270199775696
+2015-12-14 23:33:23,225 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,225 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,225 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,225 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,225 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,226 - status - INFO - Number of clusters:4
+2015-12-14 23:33:23,226 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,226 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,226 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,226 - status - INFO - Round:0
+2015-12-14 23:33:23,230 - status - INFO - Total time:0.00290513038635
+2015-12-14 23:33:23,240 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,240 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,240 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,240 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,240 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,240 - status - INFO - Number of clusters:8
+2015-12-14 23:33:23,240 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,240 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,240 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,240 - status - INFO - Round:0
+2015-12-14 23:33:23,245 - status - INFO - Total time:0.00359392166138
+2015-12-14 23:33:23,255 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,255 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,255 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,256 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,256 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,256 - status - INFO - Number of clusters:16
+2015-12-14 23:33:23,256 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,256 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,256 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,256 - status - INFO - Round:0
+2015-12-14 23:33:23,261 - status - INFO - Total time:0.00413203239441
+2015-12-14 23:33:23,271 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,271 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,271 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,272 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,272 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,272 - status - INFO - Number of clusters:32
+2015-12-14 23:33:23,272 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,272 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,272 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,272 - status - INFO - Round:0
+2015-12-14 23:33:23,279 - status - INFO - Total time:0.00573587417603
+2015-12-14 23:33:23,289 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,289 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,290 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,290 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,290 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,290 - status - INFO - Number of clusters:64
+2015-12-14 23:33:23,290 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,290 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,290 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,290 - status - INFO - Round:0
+2015-12-14 23:33:23,300 - status - INFO - Total time:0.00900101661682
+2015-12-14 23:33:23,311 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,311 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,311 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,311 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,311 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,311 - status - INFO - Number of clusters:256
+2015-12-14 23:33:23,311 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,311 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,311 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,311 - status - INFO - Round:0
+2015-12-14 23:33:23,341 - status - INFO - Total time:0.0280349254608
+2015-12-14 23:33:23,351 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,351 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,351 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,351 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,351 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,351 - status - INFO - Number of clusters:512
+2015-12-14 23:33:23,351 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,351 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,351 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,351 - status - INFO - Round:0
+2015-12-14 23:33:23,408 - status - INFO - Total time:0.0556778907776
+2015-12-14 23:33:23,419 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,419 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,419 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,419 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,419 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,419 - status - INFO - Number of clusters:1024
+2015-12-14 23:33:23,419 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,419 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,419 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,419 - status - INFO - Round:0
+2015-12-14 23:33:23,527 - status - INFO - Total time:0.106095075607
+2015-12-14 23:33:23,540 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,540 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,540 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,540 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,541 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,541 - status - INFO - Number of clusters:1536
+2015-12-14 23:33:23,541 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,541 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,541 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,541 - status - INFO - Round:0
+2015-12-14 23:33:23,700 - status - INFO - Total time:0.157803058624
+2015-12-14 23:33:23,710 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,711 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,711 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,711 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,711 - status - INFO - Dimensionality:20
+2015-12-14 23:33:23,711 - status - INFO - Number of clusters:2048
+2015-12-14 23:33:23,711 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,711 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,711 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,711 - status - INFO - Round:0
+2015-12-14 23:33:23,922 - status - INFO - Total time:0.209535837173
+2015-12-14 23:33:23,934 - status - INFO - Generating dataset...
+2015-12-14 23:33:23,934 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:23,934 - status - INFO - Cardinality: 5000
+2015-12-14 23:33:23,934 - status - INFO - Dimensionality: 200
+2015-12-14 23:33:23,944 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-12-14 23:33:23,944 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,944 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,944 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,944 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,944 - status - INFO - Dimensionality:200
+2015-12-14 23:33:23,944 - status - INFO - Number of clusters:2
+2015-12-14 23:33:23,944 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,944 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,944 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,944 - status - INFO - Round:0
+2015-12-14 23:33:23,954 - status - INFO - Total time:0.00828981399536
+2015-12-14 23:33:23,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,965 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,965 - status - INFO - Dimensionality:200
+2015-12-14 23:33:23,965 - status - INFO - Number of clusters:4
+2015-12-14 23:33:23,965 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,965 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,965 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,965 - status - INFO - Round:0
+2015-12-14 23:33:23,977 - status - INFO - Total time:0.0109081268311
+2015-12-14 23:33:23,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,988 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:23,988 - status - INFO - Cardinality:5000
+2015-12-14 23:33:23,988 - status - INFO - Dimensionality:200
+2015-12-14 23:33:23,988 - status - INFO - Number of clusters:8
+2015-12-14 23:33:23,989 - status - INFO - Number of iterations:3
+2015-12-14 23:33:23,989 - status - INFO - Label mode:cuda
+2015-12-14 23:33:23,989 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:23,989 - status - INFO - Round:0
+2015-12-14 23:33:24,005 - status - INFO - Total time:0.0148169994354
+2015-12-14 23:33:24,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,016 - status - INFO - Cardinality:5000
+2015-12-14 23:33:24,016 - status - INFO - Dimensionality:200
+2015-12-14 23:33:24,016 - status - INFO - Number of clusters:16
+2015-12-14 23:33:24,016 - status - INFO - Number of iterations:3
+2015-12-14 23:33:24,016 - status - INFO - Label mode:cuda
+2015-12-14 23:33:24,016 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:24,016 - status - INFO - Round:0
+2015-12-14 23:33:24,042 - status - INFO - Total time:0.0249519348145
+2015-12-14 23:33:24,053 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,053 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,053 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,053 - status - INFO - Cardinality:5000
+2015-12-14 23:33:24,053 - status - INFO - Dimensionality:200
+2015-12-14 23:33:24,054 - status - INFO - Number of clusters:32
+2015-12-14 23:33:24,054 - status - INFO - Number of iterations:3
+2015-12-14 23:33:24,054 - status - INFO - Label mode:cuda
+2015-12-14 23:33:24,054 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:24,054 - status - INFO - Round:0
+2015-12-14 23:33:24,099 - status - INFO - Total time:0.0436391830444
+2015-12-14 23:33:24,110 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,110 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,110 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,110 - status - INFO - Cardinality:5000
+2015-12-14 23:33:24,110 - status - INFO - Dimensionality:200
+2015-12-14 23:33:24,110 - status - INFO - Number of clusters:64
+2015-12-14 23:33:24,110 - status - INFO - Number of iterations:3
+2015-12-14 23:33:24,110 - status - INFO - Label mode:cuda
+2015-12-14 23:33:24,110 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:24,110 - status - INFO - Round:0
+2015-12-14 23:33:24,193 - status - INFO - Total time:0.0811309814453
+2015-12-14 23:33:24,208 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,208 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,208 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,208 - status - INFO - Cardinality:5000
+2015-12-14 23:33:24,208 - status - INFO - Dimensionality:200
+2015-12-14 23:33:24,208 - status - INFO - Number of clusters:256
+2015-12-14 23:33:24,208 - status - INFO - Number of iterations:3
+2015-12-14 23:33:24,208 - status - INFO - Label mode:cuda
+2015-12-14 23:33:24,208 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:24,208 - status - INFO - Round:0
+2015-12-14 23:33:24,517 - status - INFO - Total time:0.307380914688
+2015-12-14 23:33:24,529 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,529 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,529 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:24,530 - status - INFO - Cardinality:5000
+2015-12-14 23:33:24,530 - status - INFO - Dimensionality:200
+2015-12-14 23:33:24,530 - status - INFO - Number of clusters:512
+2015-12-14 23:33:24,530 - status - INFO - Number of iterations:3
+2015-12-14 23:33:24,530 - status - INFO - Label mode:cuda
+2015-12-14 23:33:24,530 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:24,530 - status - INFO - Round:0
+2015-12-14 23:33:25,138 - status - INFO - Total time:0.607113838196
+2015-12-14 23:33:25,152 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:25,152 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:25,152 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:25,152 - status - INFO - Cardinality:5000
+2015-12-14 23:33:25,152 - status - INFO - Dimensionality:200
+2015-12-14 23:33:25,152 - status - INFO - Number of clusters:1024
+2015-12-14 23:33:25,152 - status - INFO - Number of iterations:3
+2015-12-14 23:33:25,152 - status - INFO - Label mode:cuda
+2015-12-14 23:33:25,152 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:25,152 - status - INFO - Round:0
+2015-12-14 23:33:26,362 - status - INFO - Total time:1.20859599113
+2015-12-14 23:33:26,375 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:26,375 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:26,375 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:26,376 - status - INFO - Cardinality:5000
+2015-12-14 23:33:26,376 - status - INFO - Dimensionality:200
+2015-12-14 23:33:26,376 - status - INFO - Number of clusters:1536
+2015-12-14 23:33:26,376 - status - INFO - Number of iterations:3
+2015-12-14 23:33:26,376 - status - INFO - Label mode:cuda
+2015-12-14 23:33:26,376 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:26,376 - status - INFO - Round:0
+2015-12-14 23:33:28,187 - status - INFO - Total time:1.80979609489
+2015-12-14 23:33:28,199 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:28,199 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:28,199 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:28,199 - status - INFO - Cardinality:5000
+2015-12-14 23:33:28,199 - status - INFO - Dimensionality:200
+2015-12-14 23:33:28,199 - status - INFO - Number of clusters:2048
+2015-12-14 23:33:28,199 - status - INFO - Number of iterations:3
+2015-12-14 23:33:28,199 - status - INFO - Label mode:cuda
+2015-12-14 23:33:28,199 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:28,199 - status - INFO - Round:0
+2015-12-14 23:33:30,612 - status - INFO - Total time:2.41160798073
+2015-12-14 23:33:30,624 - status - INFO - Generating dataset...
+2015-12-14 23:33:30,624 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:33:30,624 - status - INFO - Cardinality: 5000
+2015-12-14 23:33:30,624 - status - INFO - Dimensionality: 1000
+2015-12-14 23:33:30,674 - status - INFO - Dataset of 5000 patterns and 1000 dimensions.
+2015-12-14 23:33:30,674 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,674 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,674 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,674 - status - INFO - Cardinality:5000
+2015-12-14 23:33:30,674 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:30,674 - status - INFO - Number of clusters:2
+2015-12-14 23:33:30,674 - status - INFO - Number of iterations:3
+2015-12-14 23:33:30,674 - status - INFO - Label mode:cuda
+2015-12-14 23:33:30,674 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:30,675 - status - INFO - Round:0
+2015-12-14 23:33:30,738 - status - INFO - Total time:0.0616970062256
+2015-12-14 23:33:30,749 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,749 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,749 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,749 - status - INFO - Cardinality:5000
+2015-12-14 23:33:30,749 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:30,749 - status - INFO - Number of clusters:4
+2015-12-14 23:33:30,749 - status - INFO - Number of iterations:3
+2015-12-14 23:33:30,749 - status - INFO - Label mode:cuda
+2015-12-14 23:33:30,749 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:30,749 - status - INFO - Round:0
+2015-12-14 23:33:30,824 - status - INFO - Total time:0.0728061199188
+2015-12-14 23:33:30,836 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,836 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,836 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,836 - status - INFO - Cardinality:5000
+2015-12-14 23:33:30,836 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:30,836 - status - INFO - Number of clusters:8
+2015-12-14 23:33:30,836 - status - INFO - Number of iterations:3
+2015-12-14 23:33:30,836 - status - INFO - Label mode:cuda
+2015-12-14 23:33:30,836 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:30,836 - status - INFO - Round:0
+2015-12-14 23:33:30,933 - status - INFO - Total time:0.0960161685944
+2015-12-14 23:33:30,944 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,945 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,945 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:30,945 - status - INFO - Cardinality:5000
+2015-12-14 23:33:30,945 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:30,945 - status - INFO - Number of clusters:16
+2015-12-14 23:33:30,945 - status - INFO - Number of iterations:3
+2015-12-14 23:33:30,945 - status - INFO - Label mode:cuda
+2015-12-14 23:33:30,945 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:30,945 - status - INFO - Round:0
+2015-12-14 23:33:31,090 - status - INFO - Total time:0.143259048462
+2015-12-14 23:33:31,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,101 - status - INFO - Cardinality:5000
+2015-12-14 23:33:31,101 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:31,101 - status - INFO - Number of clusters:32
+2015-12-14 23:33:31,101 - status - INFO - Number of iterations:3
+2015-12-14 23:33:31,101 - status - INFO - Label mode:cuda
+2015-12-14 23:33:31,101 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:31,101 - status - INFO - Round:0
+2015-12-14 23:33:31,341 - status - INFO - Total time:0.237936019897
+2015-12-14 23:33:31,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,352 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,352 - status - INFO - Cardinality:5000
+2015-12-14 23:33:31,352 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:31,352 - status - INFO - Number of clusters:64
+2015-12-14 23:33:31,352 - status - INFO - Number of iterations:3
+2015-12-14 23:33:31,352 - status - INFO - Label mode:cuda
+2015-12-14 23:33:31,352 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:31,352 - status - INFO - Round:0
+2015-12-14 23:33:31,783 - status - INFO - Total time:0.429121017456
+2015-12-14 23:33:31,794 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,794 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,794 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:31,795 - status - INFO - Cardinality:5000
+2015-12-14 23:33:31,795 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:31,795 - status - INFO - Number of clusters:256
+2015-12-14 23:33:31,795 - status - INFO - Number of iterations:3
+2015-12-14 23:33:31,795 - status - INFO - Label mode:cuda
+2015-12-14 23:33:31,795 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:31,795 - status - INFO - Round:0
+2015-12-14 23:33:33,350 - status - INFO - Total time:1.55373907089
+2015-12-14 23:33:33,362 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:33,362 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:33,362 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:33,362 - status - INFO - Cardinality:5000
+2015-12-14 23:33:33,362 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:33,362 - status - INFO - Number of clusters:512
+2015-12-14 23:33:33,362 - status - INFO - Number of iterations:3
+2015-12-14 23:33:33,362 - status - INFO - Label mode:cuda
+2015-12-14 23:33:33,362 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:33,362 - status - INFO - Round:0
+2015-12-14 23:33:36,422 - status - INFO - Total time:3.0586271286
+2015-12-14 23:33:36,435 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:36,436 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:36,436 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:36,436 - status - INFO - Cardinality:5000
+2015-12-14 23:33:36,436 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:36,436 - status - INFO - Number of clusters:1024
+2015-12-14 23:33:36,436 - status - INFO - Number of iterations:3
+2015-12-14 23:33:36,436 - status - INFO - Label mode:cuda
+2015-12-14 23:33:36,436 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:36,436 - status - INFO - Round:0
+2015-12-14 23:33:42,504 - status - INFO - Total time:6.06666898727
+2015-12-14 23:33:42,516 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:42,516 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:42,516 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:42,516 - status - INFO - Cardinality:5000
+2015-12-14 23:33:42,516 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:42,516 - status - INFO - Number of clusters:1536
+2015-12-14 23:33:42,516 - status - INFO - Number of iterations:3
+2015-12-14 23:33:42,516 - status - INFO - Label mode:cuda
+2015-12-14 23:33:42,516 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:42,516 - status - INFO - Round:0
+2015-12-14 23:33:51,593 - status - INFO - Total time:9.07477498055
+2015-12-14 23:33:51,608 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:51,608 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:51,608 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:33:51,608 - status - INFO - Cardinality:5000
+2015-12-14 23:33:51,608 - status - INFO - Dimensionality:1000
+2015-12-14 23:33:51,608 - status - INFO - Number of clusters:2048
+2015-12-14 23:33:51,608 - status - INFO - Number of iterations:3
+2015-12-14 23:33:51,608 - status - INFO - Label mode:cuda
+2015-12-14 23:33:51,608 - status - INFO - Centroid mode:numba
+2015-12-14 23:33:51,608 - status - INFO - Round:0
+2015-12-14 23:34:03,692 - status - INFO - Total time:12.082310915
+2015-12-14 23:34:03,706 - status - INFO - Generating dataset...
+2015-12-14 23:34:03,706 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:03,706 - status - INFO - Cardinality: 10000
+2015-12-14 23:34:03,706 - status - INFO - Dimensionality: 2
+2015-12-14 23:34:03,707 - status - INFO - Dataset of 10000 patterns and 2 dimensions.
+2015-12-14 23:34:03,707 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,707 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,707 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,707 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,707 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,707 - status - INFO - Number of clusters:2
+2015-12-14 23:34:03,707 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,707 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,707 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,707 - status - INFO - Round:0
+2015-12-14 23:34:03,711 - status - INFO - Total time:0.00251007080078
+2015-12-14 23:34:03,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,722 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,722 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,722 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,722 - status - INFO - Number of clusters:4
+2015-12-14 23:34:03,722 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,722 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,722 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,722 - status - INFO - Round:0
+2015-12-14 23:34:03,726 - status - INFO - Total time:0.00243902206421
+2015-12-14 23:34:03,737 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,737 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,738 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,738 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,738 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,738 - status - INFO - Number of clusters:8
+2015-12-14 23:34:03,738 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,738 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,738 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,738 - status - INFO - Round:0
+2015-12-14 23:34:03,742 - status - INFO - Total time:0.00248599052429
+2015-12-14 23:34:03,753 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,754 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,754 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,754 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,754 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,754 - status - INFO - Number of clusters:16
+2015-12-14 23:34:03,754 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,754 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,754 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,754 - status - INFO - Round:0
+2015-12-14 23:34:03,758 - status - INFO - Total time:0.00260400772095
+2015-12-14 23:34:03,769 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,769 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,770 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,770 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,770 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,770 - status - INFO - Number of clusters:32
+2015-12-14 23:34:03,770 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,770 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,770 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,770 - status - INFO - Round:0
+2015-12-14 23:34:03,774 - status - INFO - Total time:0.00302195549011
+2015-12-14 23:34:03,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,785 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,785 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,785 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,785 - status - INFO - Number of clusters:64
+2015-12-14 23:34:03,785 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,785 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,785 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,785 - status - INFO - Round:0
+2015-12-14 23:34:03,790 - status - INFO - Total time:0.00318789482117
+2015-12-14 23:34:03,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,801 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,801 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,801 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,801 - status - INFO - Number of clusters:256
+2015-12-14 23:34:03,801 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,801 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,801 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,801 - status - INFO - Round:0
+2015-12-14 23:34:03,808 - status - INFO - Total time:0.0056049823761
+2015-12-14 23:34:03,820 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,820 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,820 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,820 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,820 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,820 - status - INFO - Number of clusters:512
+2015-12-14 23:34:03,820 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,820 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,820 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,820 - status - INFO - Round:0
+2015-12-14 23:34:03,830 - status - INFO - Total time:0.00882697105408
+2015-12-14 23:34:03,841 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,841 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,841 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,841 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,841 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,841 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:03,842 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,842 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,842 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,842 - status - INFO - Round:0
+2015-12-14 23:34:03,858 - status - INFO - Total time:0.0150620937347
+2015-12-14 23:34:03,869 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,870 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,870 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,870 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:03,870 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,870 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,870 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,870 - status - INFO - Round:0
+2015-12-14 23:34:03,893 - status - INFO - Total time:0.0217869281769
+2015-12-14 23:34:03,904 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,904 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,904 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,904 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,904 - status - INFO - Dimensionality:2
+2015-12-14 23:34:03,904 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:03,904 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,904 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,904 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,904 - status - INFO - Round:0
+2015-12-14 23:34:03,934 - status - INFO - Total time:0.02783203125
+2015-12-14 23:34:03,945 - status - INFO - Generating dataset...
+2015-12-14 23:34:03,945 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:03,945 - status - INFO - Cardinality: 10000
+2015-12-14 23:34:03,945 - status - INFO - Dimensionality: 20
+2015-12-14 23:34:03,947 - status - INFO - Dataset of 10000 patterns and 20 dimensions.
+2015-12-14 23:34:03,947 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,947 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,947 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,947 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,947 - status - INFO - Dimensionality:20
+2015-12-14 23:34:03,947 - status - INFO - Number of clusters:2
+2015-12-14 23:34:03,947 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,947 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,947 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,947 - status - INFO - Round:0
+2015-12-14 23:34:03,952 - status - INFO - Total time:0.00314402580261
+2015-12-14 23:34:03,963 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,963 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,963 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,963 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,963 - status - INFO - Dimensionality:20
+2015-12-14 23:34:03,963 - status - INFO - Number of clusters:4
+2015-12-14 23:34:03,963 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,963 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,963 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,963 - status - INFO - Round:0
+2015-12-14 23:34:03,968 - status - INFO - Total time:0.00335001945496
+2015-12-14 23:34:03,980 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,980 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,980 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,980 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,980 - status - INFO - Dimensionality:20
+2015-12-14 23:34:03,980 - status - INFO - Number of clusters:8
+2015-12-14 23:34:03,980 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,980 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,980 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,980 - status - INFO - Round:0
+2015-12-14 23:34:03,985 - status - INFO - Total time:0.00374388694763
+2015-12-14 23:34:03,996 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,996 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,996 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:03,996 - status - INFO - Cardinality:10000
+2015-12-14 23:34:03,997 - status - INFO - Dimensionality:20
+2015-12-14 23:34:03,997 - status - INFO - Number of clusters:16
+2015-12-14 23:34:03,997 - status - INFO - Number of iterations:3
+2015-12-14 23:34:03,997 - status - INFO - Label mode:cuda
+2015-12-14 23:34:03,997 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:03,997 - status - INFO - Round:0
+2015-12-14 23:34:04,003 - status - INFO - Total time:0.00483202934265
+2015-12-14 23:34:04,015 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,015 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,016 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,016 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,016 - status - INFO - Number of clusters:32
+2015-12-14 23:34:04,016 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,016 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,016 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,016 - status - INFO - Round:0
+2015-12-14 23:34:04,023 - status - INFO - Total time:0.00619602203369
+2015-12-14 23:34:04,035 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,035 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,036 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,036 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,036 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,036 - status - INFO - Number of clusters:64
+2015-12-14 23:34:04,036 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,036 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,036 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,036 - status - INFO - Round:0
+2015-12-14 23:34:04,047 - status - INFO - Total time:0.00944995880127
+2015-12-14 23:34:04,059 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,059 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,059 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,059 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,059 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,059 - status - INFO - Number of clusters:256
+2015-12-14 23:34:04,059 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,059 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,059 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,059 - status - INFO - Round:0
+2015-12-14 23:34:04,089 - status - INFO - Total time:0.028596162796
+2015-12-14 23:34:04,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,101 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,101 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,101 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,101 - status - INFO - Number of clusters:512
+2015-12-14 23:34:04,101 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,101 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,101 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,101 - status - INFO - Round:0
+2015-12-14 23:34:04,157 - status - INFO - Total time:0.0544500350952
+2015-12-14 23:34:04,169 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,169 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,169 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,169 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,169 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,169 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:04,169 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,169 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,169 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,169 - status - INFO - Round:0
+2015-12-14 23:34:04,277 - status - INFO - Total time:0.106904029846
+2015-12-14 23:34:04,289 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,290 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,290 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,290 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,290 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,290 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:04,290 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,290 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,290 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,290 - status - INFO - Round:0
+2015-12-14 23:34:04,450 - status - INFO - Total time:0.158565998077
+2015-12-14 23:34:04,462 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,462 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,462 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,462 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,462 - status - INFO - Dimensionality:20
+2015-12-14 23:34:04,462 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:04,462 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,462 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,462 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,462 - status - INFO - Round:0
+2015-12-14 23:34:04,674 - status - INFO - Total time:0.210257053375
+2015-12-14 23:34:04,686 - status - INFO - Generating dataset...
+2015-12-14 23:34:04,686 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:04,686 - status - INFO - Cardinality: 10000
+2015-12-14 23:34:04,686 - status - INFO - Dimensionality: 200
+2015-12-14 23:34:04,705 - status - INFO - Dataset of 10000 patterns and 200 dimensions.
+2015-12-14 23:34:04,705 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,706 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,706 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,706 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,706 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,706 - status - INFO - Number of clusters:2
+2015-12-14 23:34:04,706 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,706 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,706 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,706 - status - INFO - Round:0
+2015-12-14 23:34:04,720 - status - INFO - Total time:0.0124299526215
+2015-12-14 23:34:04,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,732 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,732 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,732 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,732 - status - INFO - Number of clusters:4
+2015-12-14 23:34:04,732 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,732 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,732 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,732 - status - INFO - Round:0
+2015-12-14 23:34:04,748 - status - INFO - Total time:0.0149710178375
+2015-12-14 23:34:04,760 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,760 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,760 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,760 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,761 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,761 - status - INFO - Number of clusters:8
+2015-12-14 23:34:04,761 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,761 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,761 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,761 - status - INFO - Round:0
+2015-12-14 23:34:04,782 - status - INFO - Total time:0.0202751159668
+2015-12-14 23:34:04,794 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,794 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,795 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,795 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,795 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,795 - status - INFO - Number of clusters:16
+2015-12-14 23:34:04,795 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,795 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,795 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,795 - status - INFO - Round:0
+2015-12-14 23:34:04,825 - status - INFO - Total time:0.0290830135345
+2015-12-14 23:34:04,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,837 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,837 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,837 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,838 - status - INFO - Number of clusters:32
+2015-12-14 23:34:04,838 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,838 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,838 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,838 - status - INFO - Round:0
+2015-12-14 23:34:04,887 - status - INFO - Total time:0.0478250980377
+2015-12-14 23:34:04,899 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,900 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,900 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,900 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,900 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,900 - status - INFO - Number of clusters:64
+2015-12-14 23:34:04,900 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,900 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,900 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,900 - status - INFO - Round:0
+2015-12-14 23:34:04,987 - status - INFO - Total time:0.0855588912964
+2015-12-14 23:34:04,999 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,999 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,999 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:04,999 - status - INFO - Cardinality:10000
+2015-12-14 23:34:04,999 - status - INFO - Dimensionality:200
+2015-12-14 23:34:04,999 - status - INFO - Number of clusters:256
+2015-12-14 23:34:04,999 - status - INFO - Number of iterations:3
+2015-12-14 23:34:04,999 - status - INFO - Label mode:cuda
+2015-12-14 23:34:04,999 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:04,999 - status - INFO - Round:0
+2015-12-14 23:34:05,313 - status - INFO - Total time:0.311965942383
+2015-12-14 23:34:05,325 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,325 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,325 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,325 - status - INFO - Cardinality:10000
+2015-12-14 23:34:05,325 - status - INFO - Dimensionality:200
+2015-12-14 23:34:05,325 - status - INFO - Number of clusters:512
+2015-12-14 23:34:05,325 - status - INFO - Number of iterations:3
+2015-12-14 23:34:05,325 - status - INFO - Label mode:cuda
+2015-12-14 23:34:05,325 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:05,325 - status - INFO - Round:0
+2015-12-14 23:34:05,940 - status - INFO - Total time:0.613149881363
+2015-12-14 23:34:05,952 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,952 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,952 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:05,952 - status - INFO - Cardinality:10000
+2015-12-14 23:34:05,952 - status - INFO - Dimensionality:200
+2015-12-14 23:34:05,952 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:05,952 - status - INFO - Number of iterations:3
+2015-12-14 23:34:05,952 - status - INFO - Label mode:cuda
+2015-12-14 23:34:05,953 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:05,953 - status - INFO - Round:0
+2015-12-14 23:34:07,169 - status - INFO - Total time:1.21474409103
+2015-12-14 23:34:07,181 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:07,182 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:07,182 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:07,182 - status - INFO - Cardinality:10000
+2015-12-14 23:34:07,182 - status - INFO - Dimensionality:200
+2015-12-14 23:34:07,182 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:07,182 - status - INFO - Number of iterations:3
+2015-12-14 23:34:07,182 - status - INFO - Label mode:cuda
+2015-12-14 23:34:07,182 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:07,182 - status - INFO - Round:0
+2015-12-14 23:34:09,000 - status - INFO - Total time:1.81666898727
+2015-12-14 23:34:09,014 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:09,014 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:09,014 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:09,014 - status - INFO - Cardinality:10000
+2015-12-14 23:34:09,014 - status - INFO - Dimensionality:200
+2015-12-14 23:34:09,014 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:09,014 - status - INFO - Number of iterations:3
+2015-12-14 23:34:09,014 - status - INFO - Label mode:cuda
+2015-12-14 23:34:09,014 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:09,014 - status - INFO - Round:0
+2015-12-14 23:34:11,433 - status - INFO - Total time:2.41794586182
+2015-12-14 23:34:11,447 - status - INFO - Generating dataset...
+2015-12-14 23:34:11,447 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:11,447 - status - INFO - Cardinality: 10000
+2015-12-14 23:34:11,447 - status - INFO - Dimensionality: 1000
+2015-12-14 23:34:11,550 - status - INFO - Dataset of 10000 patterns and 1000 dimensions.
+2015-12-14 23:34:11,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,550 - status - INFO - Cardinality:10000
+2015-12-14 23:34:11,550 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:11,550 - status - INFO - Number of clusters:2
+2015-12-14 23:34:11,550 - status - INFO - Number of iterations:3
+2015-12-14 23:34:11,550 - status - INFO - Label mode:cuda
+2015-12-14 23:34:11,550 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:11,550 - status - INFO - Round:0
+2015-12-14 23:34:11,659 - status - INFO - Total time:0.106867074966
+2015-12-14 23:34:11,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,672 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,672 - status - INFO - Cardinality:10000
+2015-12-14 23:34:11,672 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:11,672 - status - INFO - Number of clusters:4
+2015-12-14 23:34:11,672 - status - INFO - Number of iterations:3
+2015-12-14 23:34:11,672 - status - INFO - Label mode:cuda
+2015-12-14 23:34:11,672 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:11,672 - status - INFO - Round:0
+2015-12-14 23:34:11,799 - status - INFO - Total time:0.125133037567
+2015-12-14 23:34:11,811 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,811 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,811 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,811 - status - INFO - Cardinality:10000
+2015-12-14 23:34:11,811 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:11,811 - status - INFO - Number of clusters:8
+2015-12-14 23:34:11,811 - status - INFO - Number of iterations:3
+2015-12-14 23:34:11,812 - status - INFO - Label mode:cuda
+2015-12-14 23:34:11,812 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:11,812 - status - INFO - Round:0
+2015-12-14 23:34:11,955 - status - INFO - Total time:0.142522096634
+2015-12-14 23:34:11,969 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,969 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,969 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:11,969 - status - INFO - Cardinality:10000
+2015-12-14 23:34:11,969 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:11,969 - status - INFO - Number of clusters:16
+2015-12-14 23:34:11,969 - status - INFO - Number of iterations:3
+2015-12-14 23:34:11,969 - status - INFO - Label mode:cuda
+2015-12-14 23:34:11,969 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:11,969 - status - INFO - Round:0
+2015-12-14 23:34:12,160 - status - INFO - Total time:0.189128160477
+2015-12-14 23:34:12,172 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,172 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,172 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,172 - status - INFO - Cardinality:10000
+2015-12-14 23:34:12,172 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:12,172 - status - INFO - Number of clusters:32
+2015-12-14 23:34:12,172 - status - INFO - Number of iterations:3
+2015-12-14 23:34:12,172 - status - INFO - Label mode:cuda
+2015-12-14 23:34:12,172 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:12,172 - status - INFO - Round:0
+2015-12-14 23:34:12,458 - status - INFO - Total time:0.284311056137
+2015-12-14 23:34:12,471 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,471 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,471 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,471 - status - INFO - Cardinality:10000
+2015-12-14 23:34:12,471 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:12,471 - status - INFO - Number of clusters:64
+2015-12-14 23:34:12,471 - status - INFO - Number of iterations:3
+2015-12-14 23:34:12,471 - status - INFO - Label mode:cuda
+2015-12-14 23:34:12,471 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:12,472 - status - INFO - Round:0
+2015-12-14 23:34:12,945 - status - INFO - Total time:0.472467899323
+2015-12-14 23:34:12,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:12,958 - status - INFO - Cardinality:10000
+2015-12-14 23:34:12,958 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:12,958 - status - INFO - Number of clusters:256
+2015-12-14 23:34:12,958 - status - INFO - Number of iterations:3
+2015-12-14 23:34:12,958 - status - INFO - Label mode:cuda
+2015-12-14 23:34:12,958 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:12,958 - status - INFO - Round:0
+2015-12-14 23:34:14,618 - status - INFO - Total time:1.65813207626
+2015-12-14 23:34:14,631 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:14,631 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:14,631 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:14,631 - status - INFO - Cardinality:10000
+2015-12-14 23:34:14,631 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:14,631 - status - INFO - Number of clusters:512
+2015-12-14 23:34:14,631 - status - INFO - Number of iterations:3
+2015-12-14 23:34:14,631 - status - INFO - Label mode:cuda
+2015-12-14 23:34:14,631 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:14,631 - status - INFO - Round:0
+2015-12-14 23:34:17,741 - status - INFO - Total time:3.10854315758
+2015-12-14 23:34:17,757 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:17,757 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:17,757 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:17,757 - status - INFO - Cardinality:10000
+2015-12-14 23:34:17,757 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:17,757 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:17,757 - status - INFO - Number of iterations:3
+2015-12-14 23:34:17,757 - status - INFO - Label mode:cuda
+2015-12-14 23:34:17,757 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:17,757 - status - INFO - Round:0
+2015-12-14 23:34:23,879 - status - INFO - Total time:6.12065505981
+2015-12-14 23:34:23,894 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:23,894 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:23,894 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:23,894 - status - INFO - Cardinality:10000
+2015-12-14 23:34:23,894 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:23,894 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:23,894 - status - INFO - Number of iterations:3
+2015-12-14 23:34:23,894 - status - INFO - Label mode:cuda
+2015-12-14 23:34:23,894 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:23,894 - status - INFO - Round:0
+2015-12-14 23:34:33,028 - status - INFO - Total time:9.13222694397
+2015-12-14 23:34:33,046 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:33,046 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:33,046 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:33,046 - status - INFO - Cardinality:10000
+2015-12-14 23:34:33,046 - status - INFO - Dimensionality:1000
+2015-12-14 23:34:33,046 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:33,046 - status - INFO - Number of iterations:3
+2015-12-14 23:34:33,046 - status - INFO - Label mode:cuda
+2015-12-14 23:34:33,046 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:33,046 - status - INFO - Round:0
+2015-12-14 23:34:45,192 - status - INFO - Total time:12.1441028118
+2015-12-14 23:34:45,208 - status - INFO - Generating dataset...
+2015-12-14 23:34:45,208 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:45,208 - status - INFO - Cardinality: 50000
+2015-12-14 23:34:45,208 - status - INFO - Dimensionality: 2
+2015-12-14 23:34:45,209 - status - INFO - Dataset of 50000 patterns and 2 dimensions.
+2015-12-14 23:34:45,209 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,209 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,209 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,209 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,209 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,209 - status - INFO - Number of clusters:2
+2015-12-14 23:34:45,209 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,209 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,209 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,209 - status - INFO - Round:0
+2015-12-14 23:34:45,214 - status - INFO - Total time:0.00385093688965
+2015-12-14 23:34:45,227 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,227 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,227 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,227 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,227 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,227 - status - INFO - Number of clusters:4
+2015-12-14 23:34:45,227 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,227 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,227 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,228 - status - INFO - Round:0
+2015-12-14 23:34:45,233 - status - INFO - Total time:0.00377583503723
+2015-12-14 23:34:45,245 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,245 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,245 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,245 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,245 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,245 - status - INFO - Number of clusters:8
+2015-12-14 23:34:45,245 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,245 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,245 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,245 - status - INFO - Round:0
+2015-12-14 23:34:45,253 - status - INFO - Total time:0.00629091262817
+2015-12-14 23:34:45,266 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,266 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,266 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,266 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,266 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,266 - status - INFO - Number of clusters:16
+2015-12-14 23:34:45,266 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,266 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,266 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,266 - status - INFO - Round:0
+2015-12-14 23:34:45,272 - status - INFO - Total time:0.00414109230042
+2015-12-14 23:34:45,285 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,285 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,285 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,285 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,285 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,285 - status - INFO - Number of clusters:32
+2015-12-14 23:34:45,285 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,285 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,285 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,285 - status - INFO - Round:0
+2015-12-14 23:34:45,291 - status - INFO - Total time:0.00451302528381
+2015-12-14 23:34:45,303 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,304 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,304 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,304 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,304 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,304 - status - INFO - Number of clusters:64
+2015-12-14 23:34:45,304 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,304 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,304 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,304 - status - INFO - Round:0
+2015-12-14 23:34:45,311 - status - INFO - Total time:0.00538611412048
+2015-12-14 23:34:45,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,323 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,323 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,323 - status - INFO - Number of clusters:256
+2015-12-14 23:34:45,323 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,323 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,323 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,323 - status - INFO - Round:0
+2015-12-14 23:34:45,335 - status - INFO - Total time:0.010421037674
+2015-12-14 23:34:45,347 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,347 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,347 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,347 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,347 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,347 - status - INFO - Number of clusters:512
+2015-12-14 23:34:45,347 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,347 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,348 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,348 - status - INFO - Round:0
+2015-12-14 23:34:45,366 - status - INFO - Total time:0.0170829296112
+2015-12-14 23:34:45,378 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,378 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,378 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,378 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,378 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,378 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:45,378 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,378 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,379 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,379 - status - INFO - Round:0
+2015-12-14 23:34:45,410 - status - INFO - Total time:0.0305500030518
+2015-12-14 23:34:45,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,423 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,423 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,423 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:45,423 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,423 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,423 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,423 - status - INFO - Round:0
+2015-12-14 23:34:45,468 - status - INFO - Total time:0.0439851284027
+2015-12-14 23:34:45,481 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,481 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,481 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,481 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,481 - status - INFO - Dimensionality:2
+2015-12-14 23:34:45,481 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:45,481 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,481 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,481 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,481 - status - INFO - Round:0
+2015-12-14 23:34:45,540 - status - INFO - Total time:0.057168006897
+2015-12-14 23:34:45,552 - status - INFO - Generating dataset...
+2015-12-14 23:34:45,552 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:45,552 - status - INFO - Cardinality: 50000
+2015-12-14 23:34:45,552 - status - INFO - Dimensionality: 20
+2015-12-14 23:34:45,562 - status - INFO - Dataset of 50000 patterns and 20 dimensions.
+2015-12-14 23:34:45,562 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,562 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,562 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,563 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,563 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,563 - status - INFO - Number of clusters:2
+2015-12-14 23:34:45,563 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,563 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,563 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,563 - status - INFO - Round:0
+2015-12-14 23:34:45,572 - status - INFO - Total time:0.00747203826904
+2015-12-14 23:34:45,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,584 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,584 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,585 - status - INFO - Number of clusters:4
+2015-12-14 23:34:45,585 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,585 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,585 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,585 - status - INFO - Round:0
+2015-12-14 23:34:45,595 - status - INFO - Total time:0.00860714912415
+2015-12-14 23:34:45,607 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,608 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,608 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,608 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,608 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,608 - status - INFO - Number of clusters:8
+2015-12-14 23:34:45,608 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,608 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,608 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,608 - status - INFO - Round:0
+2015-12-14 23:34:45,619 - status - INFO - Total time:0.00961303710938
+2015-12-14 23:34:45,632 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,632 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,632 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,632 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,632 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,632 - status - INFO - Number of clusters:16
+2015-12-14 23:34:45,632 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,632 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,632 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,632 - status - INFO - Round:0
+2015-12-14 23:34:45,645 - status - INFO - Total time:0.0117280483246
+2015-12-14 23:34:45,658 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,658 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,658 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,658 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,658 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,658 - status - INFO - Number of clusters:32
+2015-12-14 23:34:45,658 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,658 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,658 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,658 - status - INFO - Round:0
+2015-12-14 23:34:45,675 - status - INFO - Total time:0.0151889324188
+2015-12-14 23:34:45,687 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,687 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,687 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,687 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,688 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,688 - status - INFO - Number of clusters:64
+2015-12-14 23:34:45,688 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,688 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,688 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,688 - status - INFO - Round:0
+2015-12-14 23:34:45,712 - status - INFO - Total time:0.0227930545807
+2015-12-14 23:34:45,725 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,725 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,725 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,725 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,725 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,725 - status - INFO - Number of clusters:256
+2015-12-14 23:34:45,725 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,725 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,726 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,726 - status - INFO - Round:0
+2015-12-14 23:34:45,795 - status - INFO - Total time:0.0684599876404
+2015-12-14 23:34:45,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,808 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,808 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,808 - status - INFO - Number of clusters:512
+2015-12-14 23:34:45,809 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,809 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,809 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,809 - status - INFO - Round:0
+2015-12-14 23:34:45,942 - status - INFO - Total time:0.131618976593
+2015-12-14 23:34:45,954 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,954 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,954 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:45,954 - status - INFO - Cardinality:50000
+2015-12-14 23:34:45,955 - status - INFO - Dimensionality:20
+2015-12-14 23:34:45,955 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:45,955 - status - INFO - Number of iterations:3
+2015-12-14 23:34:45,955 - status - INFO - Label mode:cuda
+2015-12-14 23:34:45,955 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:45,955 - status - INFO - Round:0
+2015-12-14 23:34:46,212 - status - INFO - Total time:0.255465984344
+2015-12-14 23:34:46,229 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,229 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,229 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,229 - status - INFO - Cardinality:50000
+2015-12-14 23:34:46,229 - status - INFO - Dimensionality:20
+2015-12-14 23:34:46,229 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:46,229 - status - INFO - Number of iterations:3
+2015-12-14 23:34:46,229 - status - INFO - Label mode:cuda
+2015-12-14 23:34:46,229 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:46,229 - status - INFO - Round:0
+2015-12-14 23:34:46,612 - status - INFO - Total time:0.381615877151
+2015-12-14 23:34:46,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,625 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:46,625 - status - INFO - Cardinality:50000
+2015-12-14 23:34:46,625 - status - INFO - Dimensionality:20
+2015-12-14 23:34:46,625 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:46,625 - status - INFO - Number of iterations:3
+2015-12-14 23:34:46,625 - status - INFO - Label mode:cuda
+2015-12-14 23:34:46,625 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:46,625 - status - INFO - Round:0
+2015-12-14 23:34:47,132 - status - INFO - Total time:0.50502705574
+2015-12-14 23:34:47,145 - status - INFO - Generating dataset...
+2015-12-14 23:34:47,145 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:34:47,145 - status - INFO - Cardinality: 50000
+2015-12-14 23:34:47,145 - status - INFO - Dimensionality: 200
+2015-12-14 23:34:47,253 - status - INFO - Dataset of 50000 patterns and 200 dimensions.
+2015-12-14 23:34:47,253 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,253 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,254 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,254 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,254 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,254 - status - INFO - Number of clusters:2
+2015-12-14 23:34:47,254 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,254 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,254 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,254 - status - INFO - Round:0
+2015-12-14 23:34:47,310 - status - INFO - Total time:0.0545330047607
+2015-12-14 23:34:47,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,323 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,323 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,323 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,323 - status - INFO - Number of clusters:4
+2015-12-14 23:34:47,323 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,323 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,323 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,323 - status - INFO - Round:0
+2015-12-14 23:34:47,385 - status - INFO - Total time:0.0606100559235
+2015-12-14 23:34:47,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,399 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,399 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,399 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,399 - status - INFO - Number of clusters:8
+2015-12-14 23:34:47,399 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,399 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,399 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,399 - status - INFO - Round:0
+2015-12-14 23:34:47,469 - status - INFO - Total time:0.0689699649811
+2015-12-14 23:34:47,482 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,482 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,483 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,483 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,483 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,483 - status - INFO - Number of clusters:16
+2015-12-14 23:34:47,483 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,483 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,483 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,483 - status - INFO - Round:0
+2015-12-14 23:34:47,573 - status - INFO - Total time:0.0891180038452
+2015-12-14 23:34:47,586 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,586 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,587 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,587 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,587 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,587 - status - INFO - Number of clusters:32
+2015-12-14 23:34:47,587 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,587 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,587 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,587 - status - INFO - Round:0
+2015-12-14 23:34:47,718 - status - INFO - Total time:0.129521846771
+2015-12-14 23:34:47,731 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,731 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,731 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,731 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,731 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,731 - status - INFO - Number of clusters:64
+2015-12-14 23:34:47,731 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,731 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,731 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,731 - status - INFO - Round:0
+2015-12-14 23:34:47,942 - status - INFO - Total time:0.208693027496
+2015-12-14 23:34:47,955 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,955 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,955 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:47,955 - status - INFO - Cardinality:50000
+2015-12-14 23:34:47,955 - status - INFO - Dimensionality:200
+2015-12-14 23:34:47,955 - status - INFO - Number of clusters:256
+2015-12-14 23:34:47,955 - status - INFO - Number of iterations:3
+2015-12-14 23:34:47,955 - status - INFO - Label mode:cuda
+2015-12-14 23:34:47,955 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:47,955 - status - INFO - Round:0
+2015-12-14 23:34:48,653 - status - INFO - Total time:0.696402072906
+2015-12-14 23:34:48,667 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:48,667 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:48,667 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:48,667 - status - INFO - Cardinality:50000
+2015-12-14 23:34:48,667 - status - INFO - Dimensionality:200
+2015-12-14 23:34:48,667 - status - INFO - Number of clusters:512
+2015-12-14 23:34:48,667 - status - INFO - Number of iterations:3
+2015-12-14 23:34:48,667 - status - INFO - Label mode:cuda
+2015-12-14 23:34:48,667 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:48,667 - status - INFO - Round:0
+2015-12-14 23:34:50,001 - status - INFO - Total time:1.33285307884
+2015-12-14 23:34:50,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:50,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:50,016 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:50,016 - status - INFO - Cardinality:50000
+2015-12-14 23:34:50,016 - status - INFO - Dimensionality:200
+2015-12-14 23:34:50,016 - status - INFO - Number of clusters:1024
+2015-12-14 23:34:50,016 - status - INFO - Number of iterations:3
+2015-12-14 23:34:50,016 - status - INFO - Label mode:cuda
+2015-12-14 23:34:50,016 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:50,016 - status - INFO - Round:0
+2015-12-14 23:34:52,635 - status - INFO - Total time:2.61782479286
+2015-12-14 23:34:52,650 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:52,650 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:52,650 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:52,650 - status - INFO - Cardinality:50000
+2015-12-14 23:34:52,650 - status - INFO - Dimensionality:200
+2015-12-14 23:34:52,650 - status - INFO - Number of clusters:1536
+2015-12-14 23:34:52,650 - status - INFO - Number of iterations:3
+2015-12-14 23:34:52,650 - status - INFO - Label mode:cuda
+2015-12-14 23:34:52,650 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:52,650 - status - INFO - Round:0
+2015-12-14 23:34:56,554 - status - INFO - Total time:3.90272498131
+2015-12-14 23:34:56,569 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:56,569 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:56,569 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:34:56,569 - status - INFO - Cardinality:50000
+2015-12-14 23:34:56,569 - status - INFO - Dimensionality:200
+2015-12-14 23:34:56,570 - status - INFO - Number of clusters:2048
+2015-12-14 23:34:56,570 - status - INFO - Number of iterations:3
+2015-12-14 23:34:56,570 - status - INFO - Label mode:cuda
+2015-12-14 23:34:56,570 - status - INFO - Centroid mode:numba
+2015-12-14 23:34:56,570 - status - INFO - Round:0
+2015-12-14 23:35:01,759 - status - INFO - Total time:5.1875731945
+2015-12-14 23:35:01,776 - status - INFO - Generating dataset...
+2015-12-14 23:35:01,776 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:35:01,776 - status - INFO - Cardinality: 50000
+2015-12-14 23:35:01,776 - status - INFO - Dimensionality: 1000
+2015-12-14 23:35:02,388 - status - INFO - Dataset of 50000 patterns and 1000 dimensions.
+2015-12-14 23:35:02,388 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,388 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,388 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,388 - status - INFO - Cardinality:50000
+2015-12-14 23:35:02,388 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:02,388 - status - INFO - Number of clusters:2
+2015-12-14 23:35:02,388 - status - INFO - Number of iterations:3
+2015-12-14 23:35:02,388 - status - INFO - Label mode:cuda
+2015-12-14 23:35:02,388 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:02,388 - status - INFO - Round:0
+2015-12-14 23:35:02,882 - status - INFO - Total time:0.492200136185
+2015-12-14 23:35:02,897 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,897 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,897 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:02,897 - status - INFO - Cardinality:50000
+2015-12-14 23:35:02,897 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:02,897 - status - INFO - Number of clusters:4
+2015-12-14 23:35:02,897 - status - INFO - Number of iterations:3
+2015-12-14 23:35:02,897 - status - INFO - Label mode:cuda
+2015-12-14 23:35:02,897 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:02,897 - status - INFO - Round:0
+2015-12-14 23:35:03,409 - status - INFO - Total time:0.510746955872
+2015-12-14 23:35:03,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:03,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:03,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:03,423 - status - INFO - Cardinality:50000
+2015-12-14 23:35:03,423 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:03,423 - status - INFO - Number of clusters:8
+2015-12-14 23:35:03,423 - status - INFO - Number of iterations:3
+2015-12-14 23:35:03,423 - status - INFO - Label mode:cuda
+2015-12-14 23:35:03,423 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:03,423 - status - INFO - Round:0
+2015-12-14 23:35:03,987 - status - INFO - Total time:0.562211036682
+2015-12-14 23:35:04,002 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,002 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,002 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,002 - status - INFO - Cardinality:50000
+2015-12-14 23:35:04,003 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:04,003 - status - INFO - Number of clusters:16
+2015-12-14 23:35:04,003 - status - INFO - Number of iterations:3
+2015-12-14 23:35:04,003 - status - INFO - Label mode:cuda
+2015-12-14 23:35:04,003 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:04,003 - status - INFO - Round:0
+2015-12-14 23:35:04,668 - status - INFO - Total time:0.66338801384
+2015-12-14 23:35:04,682 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,682 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,682 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:04,682 - status - INFO - Cardinality:50000
+2015-12-14 23:35:04,683 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:04,683 - status - INFO - Number of clusters:32
+2015-12-14 23:35:04,683 - status - INFO - Number of iterations:3
+2015-12-14 23:35:04,683 - status - INFO - Label mode:cuda
+2015-12-14 23:35:04,683 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:04,683 - status - INFO - Round:0
+2015-12-14 23:35:05,549 - status - INFO - Total time:0.864604949951
+2015-12-14 23:35:05,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:05,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:05,563 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:05,563 - status - INFO - Cardinality:50000
+2015-12-14 23:35:05,563 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:05,563 - status - INFO - Number of clusters:64
+2015-12-14 23:35:05,563 - status - INFO - Number of iterations:3
+2015-12-14 23:35:05,563 - status - INFO - Label mode:cuda
+2015-12-14 23:35:05,563 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:05,563 - status - INFO - Round:0
+2015-12-14 23:35:06,855 - status - INFO - Total time:1.29054808617
+2015-12-14 23:35:06,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:06,871 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:06,871 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:06,871 - status - INFO - Cardinality:50000
+2015-12-14 23:35:06,871 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:06,871 - status - INFO - Number of clusters:256
+2015-12-14 23:35:06,871 - status - INFO - Number of iterations:3
+2015-12-14 23:35:06,871 - status - INFO - Label mode:cuda
+2015-12-14 23:35:06,871 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:06,871 - status - INFO - Round:0
+2015-12-14 23:35:10,549 - status - INFO - Total time:3.67690515518
+2015-12-14 23:35:10,565 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:10,566 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:10,566 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:10,566 - status - INFO - Cardinality:50000
+2015-12-14 23:35:10,566 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:10,566 - status - INFO - Number of clusters:512
+2015-12-14 23:35:10,566 - status - INFO - Number of iterations:3
+2015-12-14 23:35:10,566 - status - INFO - Label mode:cuda
+2015-12-14 23:35:10,566 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:10,566 - status - INFO - Round:0
+2015-12-14 23:35:17,458 - status - INFO - Total time:6.89032006264
+2015-12-14 23:35:17,473 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:17,473 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:17,473 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:17,473 - status - INFO - Cardinality:50000
+2015-12-14 23:35:17,473 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:17,473 - status - INFO - Number of clusters:1024
+2015-12-14 23:35:17,473 - status - INFO - Number of iterations:3
+2015-12-14 23:35:17,473 - status - INFO - Label mode:cuda
+2015-12-14 23:35:17,473 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:17,473 - status - INFO - Round:0
+2015-12-14 23:35:30,794 - status - INFO - Total time:13.3186500072
+2015-12-14 23:35:30,810 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:30,810 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:30,810 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:30,810 - status - INFO - Cardinality:50000
+2015-12-14 23:35:30,810 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:30,810 - status - INFO - Number of clusters:1536
+2015-12-14 23:35:30,810 - status - INFO - Number of iterations:3
+2015-12-14 23:35:30,810 - status - INFO - Label mode:cuda
+2015-12-14 23:35:30,810 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:30,811 - status - INFO - Round:0
+2015-12-14 23:35:50,567 - status - INFO - Total time:19.755188942
+2015-12-14 23:35:50,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:50,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:50,584 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:35:50,584 - status - INFO - Cardinality:50000
+2015-12-14 23:35:50,584 - status - INFO - Dimensionality:1000
+2015-12-14 23:35:50,585 - status - INFO - Number of clusters:2048
+2015-12-14 23:35:50,585 - status - INFO - Number of iterations:3
+2015-12-14 23:35:50,585 - status - INFO - Label mode:cuda
+2015-12-14 23:35:50,585 - status - INFO - Centroid mode:numba
+2015-12-14 23:35:50,585 - status - INFO - Round:0
+2015-12-14 23:36:16,800 - status - INFO - Total time:26.2135498524
+2015-12-14 23:36:16,823 - status - INFO - Generating dataset...
+2015-12-14 23:36:16,823 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:36:16,823 - status - INFO - Cardinality: 100000
+2015-12-14 23:36:16,823 - status - INFO - Dimensionality: 2
+2015-12-14 23:36:16,825 - status - INFO - Dataset of 100000 patterns and 2 dimensions.
+2015-12-14 23:36:16,825 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,825 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,825 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,825 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,825 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,825 - status - INFO - Number of clusters:2
+2015-12-14 23:36:16,825 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,825 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,825 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,825 - status - INFO - Round:0
+2015-12-14 23:36:16,833 - status - INFO - Total time:0.00694918632507
+2015-12-14 23:36:16,847 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,847 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,847 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,847 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,847 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,847 - status - INFO - Number of clusters:4
+2015-12-14 23:36:16,847 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,847 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,847 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,847 - status - INFO - Round:0
+2015-12-14 23:36:16,855 - status - INFO - Total time:0.00643706321716
+2015-12-14 23:36:16,868 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,868 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,868 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,869 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,869 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,869 - status - INFO - Number of clusters:8
+2015-12-14 23:36:16,869 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,869 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,869 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,869 - status - INFO - Round:0
+2015-12-14 23:36:16,877 - status - INFO - Total time:0.0065279006958
+2015-12-14 23:36:16,891 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,891 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,891 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,891 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,891 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,891 - status - INFO - Number of clusters:16
+2015-12-14 23:36:16,892 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,892 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,892 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,892 - status - INFO - Round:0
+2015-12-14 23:36:16,899 - status - INFO - Total time:0.0065381526947
+2015-12-14 23:36:16,912 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,913 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,913 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,913 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,913 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,913 - status - INFO - Number of clusters:32
+2015-12-14 23:36:16,913 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,913 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,913 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,913 - status - INFO - Round:0
+2015-12-14 23:36:16,922 - status - INFO - Total time:0.00746011734009
+2015-12-14 23:36:16,935 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,935 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,935 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,935 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,935 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,935 - status - INFO - Number of clusters:64
+2015-12-14 23:36:16,935 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,935 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,935 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,935 - status - INFO - Round:0
+2015-12-14 23:36:16,945 - status - INFO - Total time:0.00868105888367
+2015-12-14 23:36:16,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,958 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,959 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,959 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,959 - status - INFO - Number of clusters:256
+2015-12-14 23:36:16,959 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,959 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,959 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,959 - status - INFO - Round:0
+2015-12-14 23:36:16,978 - status - INFO - Total time:0.0184450149536
+2015-12-14 23:36:16,992 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,992 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,992 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:16,992 - status - INFO - Cardinality:100000
+2015-12-14 23:36:16,992 - status - INFO - Dimensionality:2
+2015-12-14 23:36:16,992 - status - INFO - Number of clusters:512
+2015-12-14 23:36:16,992 - status - INFO - Number of iterations:3
+2015-12-14 23:36:16,992 - status - INFO - Label mode:cuda
+2015-12-14 23:36:16,992 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:16,992 - status - INFO - Round:0
+2015-12-14 23:36:17,025 - status - INFO - Total time:0.0316610336304
+2015-12-14 23:36:17,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,039 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,039 - status - INFO - Dimensionality:2
+2015-12-14 23:36:17,039 - status - INFO - Number of clusters:1024
+2015-12-14 23:36:17,039 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,039 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,039 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,039 - status - INFO - Round:0
+2015-12-14 23:36:17,097 - status - INFO - Total time:0.0568170547485
+2015-12-14 23:36:17,111 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,111 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,111 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,111 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,111 - status - INFO - Dimensionality:2
+2015-12-14 23:36:17,111 - status - INFO - Number of clusters:1536
+2015-12-14 23:36:17,111 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,111 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,111 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,111 - status - INFO - Round:0
+2015-12-14 23:36:17,197 - status - INFO - Total time:0.0843307971954
+2015-12-14 23:36:17,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,211 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,211 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,211 - status - INFO - Dimensionality:2
+2015-12-14 23:36:17,211 - status - INFO - Number of clusters:2048
+2015-12-14 23:36:17,211 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,211 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,211 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,211 - status - INFO - Round:0
+2015-12-14 23:36:17,323 - status - INFO - Total time:0.109930038452
+2015-12-14 23:36:17,336 - status - INFO - Generating dataset...
+2015-12-14 23:36:17,336 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:36:17,336 - status - INFO - Cardinality: 100000
+2015-12-14 23:36:17,336 - status - INFO - Dimensionality: 20
+2015-12-14 23:36:17,355 - status - INFO - Dataset of 100000 patterns and 20 dimensions.
+2015-12-14 23:36:17,355 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,355 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,355 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,355 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,356 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,356 - status - INFO - Number of clusters:2
+2015-12-14 23:36:17,356 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,356 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,356 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,356 - status - INFO - Round:0
+2015-12-14 23:36:17,380 - status - INFO - Total time:0.0231010913849
+2015-12-14 23:36:17,395 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,395 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,395 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,395 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,395 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,395 - status - INFO - Number of clusters:4
+2015-12-14 23:36:17,395 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,395 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,395 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,395 - status - INFO - Round:0
+2015-12-14 23:36:17,420 - status - INFO - Total time:0.0238618850708
+2015-12-14 23:36:17,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,434 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,434 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,434 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,434 - status - INFO - Number of clusters:8
+2015-12-14 23:36:17,434 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,434 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,435 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,435 - status - INFO - Round:0
+2015-12-14 23:36:17,461 - status - INFO - Total time:0.0255210399628
+2015-12-14 23:36:17,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,475 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,475 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,475 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,475 - status - INFO - Number of clusters:16
+2015-12-14 23:36:17,475 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,476 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,476 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,476 - status - INFO - Round:0
+2015-12-14 23:36:17,507 - status - INFO - Total time:0.030002117157
+2015-12-14 23:36:17,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,522 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,522 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,522 - status - INFO - Number of clusters:32
+2015-12-14 23:36:17,522 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,522 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,522 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,522 - status - INFO - Round:0
+2015-12-14 23:36:17,560 - status - INFO - Total time:0.0363011360168
+2015-12-14 23:36:17,574 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,574 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,574 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,574 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,574 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,574 - status - INFO - Number of clusters:64
+2015-12-14 23:36:17,574 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,574 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,574 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,574 - status - INFO - Round:0
+2015-12-14 23:36:17,628 - status - INFO - Total time:0.0522289276123
+2015-12-14 23:36:17,643 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,643 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,643 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,643 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,643 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,643 - status - INFO - Number of clusters:256
+2015-12-14 23:36:17,643 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,643 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,643 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,643 - status - INFO - Round:0
+2015-12-14 23:36:17,787 - status - INFO - Total time:0.142463922501
+2015-12-14 23:36:17,805 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,805 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,805 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:17,805 - status - INFO - Cardinality:100000
+2015-12-14 23:36:17,805 - status - INFO - Dimensionality:20
+2015-12-14 23:36:17,805 - status - INFO - Number of clusters:512
+2015-12-14 23:36:17,805 - status - INFO - Number of iterations:3
+2015-12-14 23:36:17,805 - status - INFO - Label mode:cuda
+2015-12-14 23:36:17,805 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:17,805 - status - INFO - Round:0
+2015-12-14 23:36:18,074 - status - INFO - Total time:0.267444849014
+2015-12-14 23:36:18,090 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,090 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,090 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,090 - status - INFO - Cardinality:100000
+2015-12-14 23:36:18,090 - status - INFO - Dimensionality:20
+2015-12-14 23:36:18,090 - status - INFO - Number of clusters:1024
+2015-12-14 23:36:18,090 - status - INFO - Number of iterations:3
+2015-12-14 23:36:18,090 - status - INFO - Label mode:cuda
+2015-12-14 23:36:18,090 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:18,090 - status - INFO - Round:0
+2015-12-14 23:36:18,602 - status - INFO - Total time:0.510025978088
+2015-12-14 23:36:18,616 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,616 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,616 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:18,616 - status - INFO - Cardinality:100000
+2015-12-14 23:36:18,616 - status - INFO - Dimensionality:20
+2015-12-14 23:36:18,616 - status - INFO - Number of clusters:1536
+2015-12-14 23:36:18,616 - status - INFO - Number of iterations:3
+2015-12-14 23:36:18,616 - status - INFO - Label mode:cuda
+2015-12-14 23:36:18,617 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:18,617 - status - INFO - Round:0
+2015-12-14 23:36:19,372 - status - INFO - Total time:0.754214048386
+2015-12-14 23:36:19,387 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:19,388 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:19,388 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:19,388 - status - INFO - Cardinality:100000
+2015-12-14 23:36:19,388 - status - INFO - Dimensionality:20
+2015-12-14 23:36:19,388 - status - INFO - Number of clusters:2048
+2015-12-14 23:36:19,388 - status - INFO - Number of iterations:3
+2015-12-14 23:36:19,388 - status - INFO - Label mode:cuda
+2015-12-14 23:36:19,388 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:19,388 - status - INFO - Round:0
+2015-12-14 23:36:20,389 - status - INFO - Total time:0.999490976334
+2015-12-14 23:36:20,404 - status - INFO - Generating dataset...
+2015-12-14 23:36:20,404 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:36:20,404 - status - INFO - Cardinality: 100000
+2015-12-14 23:36:20,404 - status - INFO - Dimensionality: 200
+2015-12-14 23:36:20,616 - status - INFO - Dataset of 100000 patterns and 200 dimensions.
+2015-12-14 23:36:20,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,617 - status - INFO - Cardinality:100000
+2015-12-14 23:36:20,617 - status - INFO - Dimensionality:200
+2015-12-14 23:36:20,617 - status - INFO - Number of clusters:2
+2015-12-14 23:36:20,617 - status - INFO - Number of iterations:3
+2015-12-14 23:36:20,617 - status - INFO - Label mode:cuda
+2015-12-14 23:36:20,617 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:20,617 - status - INFO - Round:0
+2015-12-14 23:36:20,749 - status - INFO - Total time:0.130093097687
+2015-12-14 23:36:20,763 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,764 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,764 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,764 - status - INFO - Cardinality:100000
+2015-12-14 23:36:20,764 - status - INFO - Dimensionality:200
+2015-12-14 23:36:20,764 - status - INFO - Number of clusters:4
+2015-12-14 23:36:20,764 - status - INFO - Number of iterations:3
+2015-12-14 23:36:20,764 - status - INFO - Label mode:cuda
+2015-12-14 23:36:20,764 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:20,764 - status - INFO - Round:0
+2015-12-14 23:36:20,906 - status - INFO - Total time:0.141041040421
+2015-12-14 23:36:20,921 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,921 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,921 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:20,921 - status - INFO - Cardinality:100000
+2015-12-14 23:36:20,921 - status - INFO - Dimensionality:200
+2015-12-14 23:36:20,921 - status - INFO - Number of clusters:8
+2015-12-14 23:36:20,921 - status - INFO - Number of iterations:3
+2015-12-14 23:36:20,921 - status - INFO - Label mode:cuda
+2015-12-14 23:36:20,921 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:20,921 - status - INFO - Round:0
+2015-12-14 23:36:21,089 - status - INFO - Total time:0.165809869766
+2015-12-14 23:36:21,103 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,103 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,103 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,103 - status - INFO - Cardinality:100000
+2015-12-14 23:36:21,104 - status - INFO - Dimensionality:200
+2015-12-14 23:36:21,104 - status - INFO - Number of clusters:16
+2015-12-14 23:36:21,104 - status - INFO - Number of iterations:3
+2015-12-14 23:36:21,104 - status - INFO - Label mode:cuda
+2015-12-14 23:36:21,104 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:21,104 - status - INFO - Round:0
+2015-12-14 23:36:21,306 - status - INFO - Total time:0.2004301548
+2015-12-14 23:36:21,320 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,320 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,320 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,320 - status - INFO - Cardinality:100000
+2015-12-14 23:36:21,321 - status - INFO - Dimensionality:200
+2015-12-14 23:36:21,321 - status - INFO - Number of clusters:32
+2015-12-14 23:36:21,321 - status - INFO - Number of iterations:3
+2015-12-14 23:36:21,321 - status - INFO - Label mode:cuda
+2015-12-14 23:36:21,321 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:21,321 - status - INFO - Round:0
+2015-12-14 23:36:21,598 - status - INFO - Total time:0.27607011795
+2015-12-14 23:36:21,613 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,613 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,613 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:21,613 - status - INFO - Cardinality:100000
+2015-12-14 23:36:21,613 - status - INFO - Dimensionality:200
+2015-12-14 23:36:21,613 - status - INFO - Number of clusters:64
+2015-12-14 23:36:21,613 - status - INFO - Number of iterations:3
+2015-12-14 23:36:21,613 - status - INFO - Label mode:cuda
+2015-12-14 23:36:21,613 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:21,613 - status - INFO - Round:0
+2015-12-14 23:36:22,048 - status - INFO - Total time:0.433408021927
+2015-12-14 23:36:22,063 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:22,063 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:22,063 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:22,063 - status - INFO - Cardinality:100000
+2015-12-14 23:36:22,063 - status - INFO - Dimensionality:200
+2015-12-14 23:36:22,063 - status - INFO - Number of clusters:256
+2015-12-14 23:36:22,063 - status - INFO - Number of iterations:3
+2015-12-14 23:36:22,064 - status - INFO - Label mode:cuda
+2015-12-14 23:36:22,064 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:22,064 - status - INFO - Round:0
+2015-12-14 23:36:23,439 - status - INFO - Total time:1.37452101707
+2015-12-14 23:36:23,455 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:23,455 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:23,455 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:23,455 - status - INFO - Cardinality:100000
+2015-12-14 23:36:23,455 - status - INFO - Dimensionality:200
+2015-12-14 23:36:23,455 - status - INFO - Number of clusters:512
+2015-12-14 23:36:23,455 - status - INFO - Number of iterations:3
+2015-12-14 23:36:23,455 - status - INFO - Label mode:cuda
+2015-12-14 23:36:23,455 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:23,455 - status - INFO - Round:0
+2015-12-14 23:36:26,095 - status - INFO - Total time:2.63863611221
+2015-12-14 23:36:26,112 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:26,112 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:26,112 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:26,112 - status - INFO - Cardinality:100000
+2015-12-14 23:36:26,112 - status - INFO - Dimensionality:200
+2015-12-14 23:36:26,112 - status - INFO - Number of clusters:1024
+2015-12-14 23:36:26,112 - status - INFO - Number of iterations:3
+2015-12-14 23:36:26,112 - status - INFO - Label mode:cuda
+2015-12-14 23:36:26,112 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:26,112 - status - INFO - Round:0
+2015-12-14 23:36:31,249 - status - INFO - Total time:5.13569688797
+2015-12-14 23:36:31,265 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:31,265 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:31,265 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:31,266 - status - INFO - Cardinality:100000
+2015-12-14 23:36:31,266 - status - INFO - Dimensionality:200
+2015-12-14 23:36:31,266 - status - INFO - Number of clusters:1536
+2015-12-14 23:36:31,266 - status - INFO - Number of iterations:3
+2015-12-14 23:36:31,266 - status - INFO - Label mode:cuda
+2015-12-14 23:36:31,266 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:31,266 - status - INFO - Round:0
+2015-12-14 23:36:38,910 - status - INFO - Total time:7.64309191704
+2015-12-14 23:36:38,927 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:38,927 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:38,927 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:38,927 - status - INFO - Cardinality:100000
+2015-12-14 23:36:38,927 - status - INFO - Dimensionality:200
+2015-12-14 23:36:38,927 - status - INFO - Number of clusters:2048
+2015-12-14 23:36:38,927 - status - INFO - Number of iterations:3
+2015-12-14 23:36:38,927 - status - INFO - Label mode:cuda
+2015-12-14 23:36:38,927 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:38,927 - status - INFO - Round:0
+2015-12-14 23:36:49,079 - status - INFO - Total time:10.1498758793
+2015-12-14 23:36:49,098 - status - INFO - Generating dataset...
+2015-12-14 23:36:49,098 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-12-14 23:36:49,098 - status - INFO - Cardinality: 100000
+2015-12-14 23:36:49,098 - status - INFO - Dimensionality: 1000
+2015-12-14 23:36:50,324 - status - INFO - Dataset of 100000 patterns and 1000 dimensions.
+2015-12-14 23:36:50,324 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:50,324 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:50,324 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:50,324 - status - INFO - Cardinality:100000
+2015-12-14 23:36:50,324 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:50,325 - status - INFO - Number of clusters:2
+2015-12-14 23:36:50,325 - status - INFO - Number of iterations:3
+2015-12-14 23:36:50,325 - status - INFO - Label mode:cuda
+2015-12-14 23:36:50,325 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:50,325 - status - INFO - Round:0
+2015-12-14 23:36:51,555 - status - INFO - Total time:1.22914481163
+2015-12-14 23:36:51,571 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:51,571 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:51,571 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:51,571 - status - INFO - Cardinality:100000
+2015-12-14 23:36:51,571 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:51,571 - status - INFO - Number of clusters:4
+2015-12-14 23:36:51,571 - status - INFO - Number of iterations:3
+2015-12-14 23:36:51,572 - status - INFO - Label mode:cuda
+2015-12-14 23:36:51,572 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:51,572 - status - INFO - Round:0
+2015-12-14 23:36:52,872 - status - INFO - Total time:1.29941701889
+2015-12-14 23:36:52,890 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:52,890 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:52,890 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:52,890 - status - INFO - Cardinality:100000
+2015-12-14 23:36:52,890 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:52,890 - status - INFO - Number of clusters:8
+2015-12-14 23:36:52,890 - status - INFO - Number of iterations:3
+2015-12-14 23:36:52,890 - status - INFO - Label mode:cuda
+2015-12-14 23:36:52,890 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:52,890 - status - INFO - Round:0
+2015-12-14 23:36:54,272 - status - INFO - Total time:1.3807349205
+2015-12-14 23:36:54,288 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:54,288 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:54,288 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:54,289 - status - INFO - Cardinality:100000
+2015-12-14 23:36:54,289 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:54,289 - status - INFO - Number of clusters:16
+2015-12-14 23:36:54,289 - status - INFO - Number of iterations:3
+2015-12-14 23:36:54,289 - status - INFO - Label mode:cuda
+2015-12-14 23:36:54,289 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:54,289 - status - INFO - Round:0
+2015-12-14 23:36:55,868 - status - INFO - Total time:1.57808303833
+2015-12-14 23:36:55,884 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:55,884 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:55,885 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:55,885 - status - INFO - Cardinality:100000
+2015-12-14 23:36:55,885 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:55,885 - status - INFO - Number of clusters:32
+2015-12-14 23:36:55,885 - status - INFO - Number of iterations:3
+2015-12-14 23:36:55,885 - status - INFO - Label mode:cuda
+2015-12-14 23:36:55,885 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:55,885 - status - INFO - Round:0
+2015-12-14 23:36:57,859 - status - INFO - Total time:1.97230100632
+2015-12-14 23:36:57,875 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:57,875 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:57,875 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:36:57,875 - status - INFO - Cardinality:100000
+2015-12-14 23:36:57,875 - status - INFO - Dimensionality:1000
+2015-12-14 23:36:57,875 - status - INFO - Number of clusters:64
+2015-12-14 23:36:57,875 - status - INFO - Number of iterations:3
+2015-12-14 23:36:57,875 - status - INFO - Label mode:cuda
+2015-12-14 23:36:57,875 - status - INFO - Centroid mode:numba
+2015-12-14 23:36:57,875 - status - INFO - Round:0
+2015-12-14 23:37:00,635 - status - INFO - Total time:2.75851202011
+2015-12-14 23:37:00,651 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:00,651 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:00,651 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:00,651 - status - INFO - Cardinality:100000
+2015-12-14 23:37:00,651 - status - INFO - Dimensionality:1000
+2015-12-14 23:37:00,651 - status - INFO - Number of clusters:256
+2015-12-14 23:37:00,651 - status - INFO - Number of iterations:3
+2015-12-14 23:37:00,651 - status - INFO - Label mode:cuda
+2015-12-14 23:37:00,651 - status - INFO - Centroid mode:numba
+2015-12-14 23:37:00,651 - status - INFO - Round:0
+2015-12-14 23:37:08,169 - status - INFO - Total time:7.51650881767
+2015-12-14 23:37:08,186 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:08,186 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:08,186 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:08,186 - status - INFO - Cardinality:100000
+2015-12-14 23:37:08,186 - status - INFO - Dimensionality:1000
+2015-12-14 23:37:08,186 - status - INFO - Number of clusters:512
+2015-12-14 23:37:08,186 - status - INFO - Number of iterations:3
+2015-12-14 23:37:08,186 - status - INFO - Label mode:cuda
+2015-12-14 23:37:08,186 - status - INFO - Centroid mode:numba
+2015-12-14 23:37:08,186 - status - INFO - Round:0
+2015-12-14 23:37:21,945 - status - INFO - Total time:13.7574729919
+2015-12-14 23:37:21,962 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:21,962 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:21,963 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:21,963 - status - INFO - Cardinality:100000
+2015-12-14 23:37:21,963 - status - INFO - Dimensionality:1000
+2015-12-14 23:37:21,963 - status - INFO - Number of clusters:1024
+2015-12-14 23:37:21,963 - status - INFO - Number of iterations:3
+2015-12-14 23:37:21,963 - status - INFO - Label mode:cuda
+2015-12-14 23:37:21,963 - status - INFO - Centroid mode:numba
+2015-12-14 23:37:21,963 - status - INFO - Round:0
+2015-12-14 23:37:48,367 - status - INFO - Total time:26.4027481079
+2015-12-14 23:37:48,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:48,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:48,384 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:37:48,384 - status - INFO - Cardinality:100000
+2015-12-14 23:37:48,384 - status - INFO - Dimensionality:1000
+2015-12-14 23:37:48,384 - status - INFO - Number of clusters:1536
+2015-12-14 23:37:48,384 - status - INFO - Number of iterations:3
+2015-12-14 23:37:48,385 - status - INFO - Label mode:cuda
+2015-12-14 23:37:48,385 - status - INFO - Centroid mode:numba
+2015-12-14 23:37:48,385 - status - INFO - Round:0
+2015-12-14 23:38:27,449 - status - INFO - Total time:39.0632119179
+2015-12-14 23:38:27,468 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:38:27,468 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:38:27,468 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-12-14 23:38:27,468 - status - INFO - Cardinality:100000
+2015-12-14 23:38:27,468 - status - INFO - Dimensionality:1000
+2015-12-14 23:38:27,468 - status - INFO - Number of clusters:2048
+2015-12-14 23:38:27,468 - status - INFO - Number of iterations:3
+2015-12-14 23:38:27,468 - status - INFO - Label mode:cuda
+2015-12-14 23:38:27,468 - status - INFO - Centroid mode:numba
+2015-12-14 23:38:27,468 - status - INFO - Round:0
+2015-12-14 23:39:19,172 - status - INFO - Total time:51.70251894

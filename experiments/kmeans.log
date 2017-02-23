@@ -1,0 +1,1853 @@
+2015-10-06 10:52:31,786 - status - INFO - Will occupy maximum of 409.274999619 MB in device memory.
+2015-10-06 10:52:31,818 - status - INFO - Starting experiment...
+2015-10-06 10:52:31,818 - status - INFO - Generating dataset...
+2015-10-06 10:52:31,818 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-06 10:52:31,818 - status - INFO - Cardinality: 100
+2015-10-06 10:52:31,818 - status - INFO - Dimensionality: 2
+2015-10-06 10:52:31,819 - status - INFO - Dataset of 100 patterns and 2 dimensions.
+2015-10-06 10:52:31,819 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:31,819 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:31,819 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:31,819 - status - INFO - Cardinality:100
+2015-10-06 10:52:31,820 - status - INFO - Dimensionality:2
+2015-10-06 10:52:31,820 - status - INFO - Number of clusters:2
+2015-10-06 10:52:31,820 - status - INFO - Number of iterations:3
+2015-10-06 10:52:31,820 - status - INFO - Label mode:python
+2015-10-06 10:52:31,820 - status - INFO - Centroid mode:python
+2015-10-06 10:52:31,820 - status - INFO - Round:0
+2015-10-06 10:52:31,979 - status - INFO - Total time:0.128346920013
+2015-10-06 10:52:32,034 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,034 - status - INFO - Cardinality:100
+2015-10-06 10:52:32,035 - status - INFO - Dimensionality:2
+2015-10-06 10:52:32,035 - status - INFO - Number of clusters:2
+2015-10-06 10:52:32,035 - status - INFO - Number of iterations:3
+2015-10-06 10:52:32,035 - status - INFO - Label mode:python
+2015-10-06 10:52:32,035 - status - INFO - Centroid mode:python
+2015-10-06 10:52:32,035 - status - INFO - Round:1
+2015-10-06 10:52:32,149 - status - INFO - Total time:0.111707925797
+2015-10-06 10:52:32,203 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,203 - status - INFO - Cardinality:100
+2015-10-06 10:52:32,203 - status - INFO - Dimensionality:2
+2015-10-06 10:52:32,203 - status - INFO - Number of clusters:2
+2015-10-06 10:52:32,203 - status - INFO - Number of iterations:3
+2015-10-06 10:52:32,204 - status - INFO - Label mode:python
+2015-10-06 10:52:32,204 - status - INFO - Centroid mode:python
+2015-10-06 10:52:32,204 - status - INFO - Round:2
+2015-10-06 10:52:32,290 - status - INFO - Total time:0.084132194519
+2015-10-06 10:52:32,344 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,344 - status - INFO - Cardinality:100
+2015-10-06 10:52:32,344 - status - INFO - Dimensionality:2
+2015-10-06 10:52:32,344 - status - INFO - Number of clusters:2
+2015-10-06 10:52:32,344 - status - INFO - Number of iterations:3
+2015-10-06 10:52:32,345 - status - INFO - Label mode:python
+2015-10-06 10:52:32,345 - status - INFO - Centroid mode:python
+2015-10-06 10:52:32,345 - status - INFO - Round:3
+2015-10-06 10:52:32,446 - status - INFO - Total time:0.0985159873962
+2015-10-06 10:52:32,499 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,500 - status - INFO - Cardinality:100
+2015-10-06 10:52:32,500 - status - INFO - Dimensionality:2
+2015-10-06 10:52:32,500 - status - INFO - Number of clusters:2
+2015-10-06 10:52:32,500 - status - INFO - Number of iterations:3
+2015-10-06 10:52:32,500 - status - INFO - Label mode:python
+2015-10-06 10:52:32,500 - status - INFO - Centroid mode:python
+2015-10-06 10:52:32,500 - status - INFO - Round:4
+2015-10-06 10:52:32,629 - status - INFO - Total time:0.125918865204
+2015-10-06 10:52:32,683 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,683 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,683 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:32,683 - status - INFO - Cardinality:100
+2015-10-06 10:52:32,683 - status - INFO - Dimensionality:2
+2015-10-06 10:52:32,683 - status - INFO - Number of clusters:2
+2015-10-06 10:52:32,684 - status - INFO - Number of iterations:3
+2015-10-06 10:52:32,684 - status - INFO - Label mode:numba
+2015-10-06 10:52:32,684 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:32,684 - status - INFO - Round:0
+2015-10-06 10:52:34,279 - status - INFO - Total time:1.59273386002
+2015-10-06 10:52:34,334 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,334 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,334 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,334 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,334 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,335 - status - INFO - Label mode:numba
+2015-10-06 10:52:34,335 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,335 - status - INFO - Round:1
+2015-10-06 10:52:34,339 - status - INFO - Total time:0.0019998550415
+2015-10-06 10:52:34,393 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,393 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,393 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,394 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,394 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,394 - status - INFO - Label mode:numba
+2015-10-06 10:52:34,394 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,394 - status - INFO - Round:2
+2015-10-06 10:52:34,397 - status - INFO - Total time:0.00117993354797
+2015-10-06 10:52:34,451 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,452 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,452 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,452 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,452 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,452 - status - INFO - Label mode:numba
+2015-10-06 10:52:34,452 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,452 - status - INFO - Round:3
+2015-10-06 10:52:34,456 - status - INFO - Total time:0.00110006332397
+2015-10-06 10:52:34,510 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,510 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,510 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,510 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,510 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,511 - status - INFO - Label mode:numba
+2015-10-06 10:52:34,511 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,511 - status - INFO - Round:4
+2015-10-06 10:52:34,514 - status - INFO - Total time:0.00126695632935
+2015-10-06 10:52:34,568 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,569 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,569 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,569 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,569 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,569 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,569 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,569 - status - INFO - Label mode:numpy
+2015-10-06 10:52:34,569 - status - INFO - Centroid mode:numpy
+2015-10-06 10:52:34,570 - status - INFO - Round:0
+2015-10-06 10:52:34,573 - status - INFO - Total time:0.00144505500793
+2015-10-06 10:52:34,628 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,628 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,628 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,628 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,629 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,629 - status - INFO - Label mode:numpy
+2015-10-06 10:52:34,629 - status - INFO - Centroid mode:numpy
+2015-10-06 10:52:34,629 - status - INFO - Round:1
+2015-10-06 10:52:34,632 - status - INFO - Total time:0.00137996673584
+2015-10-06 10:52:34,687 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,687 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,687 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,687 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,687 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,687 - status - INFO - Label mode:numpy
+2015-10-06 10:52:34,688 - status - INFO - Centroid mode:numpy
+2015-10-06 10:52:34,688 - status - INFO - Round:2
+2015-10-06 10:52:34,691 - status - INFO - Total time:0.00135684013367
+2015-10-06 10:52:34,745 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,745 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,746 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,746 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,746 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,746 - status - INFO - Label mode:numpy
+2015-10-06 10:52:34,746 - status - INFO - Centroid mode:numpy
+2015-10-06 10:52:34,746 - status - INFO - Round:3
+2015-10-06 10:52:34,750 - status - INFO - Total time:0.00134801864624
+2015-10-06 10:52:34,804 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,804 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,804 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,804 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,804 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,805 - status - INFO - Label mode:numpy
+2015-10-06 10:52:34,805 - status - INFO - Centroid mode:numpy
+2015-10-06 10:52:34,805 - status - INFO - Round:4
+2015-10-06 10:52:34,809 - status - INFO - Total time:0.00138711929321
+2015-10-06 10:52:34,863 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,863 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,863 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,863 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,863 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,863 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,864 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,864 - status - INFO - Label mode:cuda
+2015-10-06 10:52:34,864 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,864 - status - INFO - Round:0
+2015-10-06 10:52:34,880 - status - INFO - Total time:0.0139698982239
+2015-10-06 10:52:34,942 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:34,942 - status - INFO - Cardinality:100
+2015-10-06 10:52:34,942 - status - INFO - Dimensionality:2
+2015-10-06 10:52:34,942 - status - INFO - Number of clusters:2
+2015-10-06 10:52:34,942 - status - INFO - Number of iterations:3
+2015-10-06 10:52:34,942 - status - INFO - Label mode:cuda
+2015-10-06 10:52:34,943 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:34,943 - status - INFO - Round:1
+2015-10-06 10:52:34,955 - status - INFO - Total time:0.0103330612183
+2015-10-06 10:52:35,015 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:52:35,016 - status - INFO - Cardinality:100
+2015-10-06 10:52:35,016 - status - INFO - Dimensionality:2
+2015-10-06 10:52:35,016 - status - INFO - Number of clusters:2
+2015-10-06 10:52:35,016 - status - INFO - Number of iterations:3
+2015-10-06 10:52:35,016 - status - INFO - Label mode:cuda
+2015-10-06 10:52:35,016 - status - INFO - Centroid mode:numba
+2015-10-06 10:52:35,016 - status - INFO - Round:2
+2015-10-06 10:52:35,024 - status - INFO - Total time:0.00504803657532
+2015-10-06 10:56:04,495 - status - INFO - Will occupy maximum of 409.274999619 MB in device memory.
+2015-10-06 10:56:04,495 - status - INFO - Will occupy maximum of 409.274999619 MB in device memory.
+2015-10-06 10:56:04,520 - status - INFO - Starting experiment...
+2015-10-06 10:56:04,520 - status - INFO - Starting experiment...
+2015-10-06 10:56:04,521 - status - INFO - Generating dataset...
+2015-10-06 10:56:04,521 - status - INFO - Generating dataset...
+2015-10-06 10:56:04,521 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-06 10:56:04,521 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-06 10:56:04,521 - status - INFO - Cardinality: 100
+2015-10-06 10:56:04,521 - status - INFO - Cardinality: 100
+2015-10-06 10:56:04,522 - status - INFO - Dimensionality: 2
+2015-10-06 10:56:04,522 - status - INFO - Dimensionality: 2
+2015-10-06 10:56:04,522 - status - INFO - Dataset of 100 patterns and 2 dimensions.
+2015-10-06 10:56:04,522 - status - INFO - Dataset of 100 patterns and 2 dimensions.
+2015-10-06 10:56:04,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,522 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,523 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,523 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,523 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,523 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,523 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,523 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,523 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,523 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,524 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,524 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,524 - status - INFO - Label mode:python
+2015-10-06 10:56:04,524 - status - INFO - Label mode:python
+2015-10-06 10:56:04,524 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,524 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,524 - status - INFO - Round:0
+2015-10-06 10:56:04,524 - status - INFO - Round:0
+2015-10-06 10:56:04,569 - status - INFO - Total time:0.0413568019867
+2015-10-06 10:56:04,569 - status - INFO - Total time:0.0413568019867
+2015-10-06 10:56:04,623 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,623 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,623 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,623 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,623 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,623 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,623 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,623 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,624 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,624 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,624 - status - INFO - Label mode:python
+2015-10-06 10:56:04,624 - status - INFO - Label mode:python
+2015-10-06 10:56:04,624 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,624 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,624 - status - INFO - Round:1
+2015-10-06 10:56:04,624 - status - INFO - Round:1
+2015-10-06 10:56:04,668 - status - INFO - Total time:0.0409262180328
+2015-10-06 10:56:04,668 - status - INFO - Total time:0.0409262180328
+2015-10-06 10:56:04,725 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,725 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,725 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,725 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,725 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,725 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,725 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,725 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,725 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,725 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,726 - status - INFO - Label mode:python
+2015-10-06 10:56:04,726 - status - INFO - Label mode:python
+2015-10-06 10:56:04,726 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,726 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,726 - status - INFO - Round:2
+2015-10-06 10:56:04,726 - status - INFO - Round:2
+2015-10-06 10:56:04,769 - status - INFO - Total time:0.0410058498383
+2015-10-06 10:56:04,769 - status - INFO - Total time:0.0410058498383
+2015-10-06 10:56:04,823 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,823 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,824 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,824 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,824 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,824 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,824 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,824 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,824 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,824 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,825 - status - INFO - Label mode:python
+2015-10-06 10:56:04,825 - status - INFO - Label mode:python
+2015-10-06 10:56:04,825 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,825 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,825 - status - INFO - Round:3
+2015-10-06 10:56:04,825 - status - INFO - Round:3
+2015-10-06 10:56:04,868 - status - INFO - Total time:0.0410299301147
+2015-10-06 10:56:04,868 - status - INFO - Total time:0.0410299301147
+2015-10-06 10:56:04,922 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,922 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:04,923 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,923 - status - INFO - Cardinality:100
+2015-10-06 10:56:04,923 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,923 - status - INFO - Dimensionality:2
+2015-10-06 10:56:04,923 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,923 - status - INFO - Number of clusters:2
+2015-10-06 10:56:04,923 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,923 - status - INFO - Number of iterations:3
+2015-10-06 10:56:04,924 - status - INFO - Label mode:python
+2015-10-06 10:56:04,924 - status - INFO - Label mode:python
+2015-10-06 10:56:04,924 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,924 - status - INFO - Centroid mode:python
+2015-10-06 10:56:04,924 - status - INFO - Round:4
+2015-10-06 10:56:04,924 - status - INFO - Round:4
+2015-10-06 10:56:04,968 - status - INFO - Total time:0.0417220592499
+2015-10-06 10:56:04,968 - status - INFO - Total time:0.0417220592499
+2015-10-06 10:56:05,023 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,023 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,024 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,024 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,024 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,024 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,024 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,024 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,024 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,024 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,025 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,025 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,025 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,025 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,025 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,025 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,025 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,025 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,025 - status - INFO - Round:0
+2015-10-06 10:56:05,025 - status - INFO - Round:0
+2015-10-06 10:56:05,028 - status - INFO - Total time:0.000722169876099
+2015-10-06 10:56:05,028 - status - INFO - Total time:0.000722169876099
+2015-10-06 10:56:05,083 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,083 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,084 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,084 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,084 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,084 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,084 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,084 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,084 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,084 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,084 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,084 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,085 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,085 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,085 - status - INFO - Round:1
+2015-10-06 10:56:05,085 - status - INFO - Round:1
+2015-10-06 10:56:05,088 - status - INFO - Total time:0.000918865203857
+2015-10-06 10:56:05,088 - status - INFO - Total time:0.000918865203857
+2015-10-06 10:56:05,142 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,142 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,142 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,142 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,143 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,143 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,143 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,143 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,143 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,143 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,143 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,143 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,143 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,143 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,144 - status - INFO - Round:2
+2015-10-06 10:56:05,144 - status - INFO - Round:2
+2015-10-06 10:56:05,147 - status - INFO - Total time:0.000679016113281
+2015-10-06 10:56:05,147 - status - INFO - Total time:0.000679016113281
+2015-10-06 10:56:05,201 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,201 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,201 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,201 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,201 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,201 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,202 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,202 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,202 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,202 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,202 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,202 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,202 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,202 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,202 - status - INFO - Round:3
+2015-10-06 10:56:05,202 - status - INFO - Round:3
+2015-10-06 10:56:05,205 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:05,205 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:05,259 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,259 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,260 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,260 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,260 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,260 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,260 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,260 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,260 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,260 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,260 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,260 - status - INFO - Label mode:numba
+2015-10-06 10:56:05,261 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,261 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,261 - status - INFO - Round:4
+2015-10-06 10:56:05,261 - status - INFO - Round:4
+2015-10-06 10:56:05,264 - status - INFO - Total time:0.00068187713623
+2015-10-06 10:56:05,264 - status - INFO - Total time:0.00068187713623
+2015-10-06 10:56:05,318 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,318 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,319 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,319 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,319 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,319 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,319 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,319 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,319 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,319 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,320 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,320 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,320 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,320 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,320 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,320 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,320 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,320 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,320 - status - INFO - Round:0
+2015-10-06 10:56:05,320 - status - INFO - Round:0
+2015-10-06 10:56:05,324 - status - INFO - Total time:0.00142097473145
+2015-10-06 10:56:05,324 - status - INFO - Total time:0.00142097473145
+2015-10-06 10:56:05,378 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,378 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,378 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,378 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,378 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,378 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,379 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,379 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,379 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,379 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,379 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,379 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,379 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,379 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,379 - status - INFO - Round:1
+2015-10-06 10:56:05,379 - status - INFO - Round:1
+2015-10-06 10:56:05,383 - status - INFO - Total time:0.00135898590088
+2015-10-06 10:56:05,383 - status - INFO - Total time:0.00135898590088
+2015-10-06 10:56:05,437 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,437 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,437 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,437 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,437 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,437 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,438 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,438 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,438 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,438 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,438 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,438 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,438 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,438 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,439 - status - INFO - Round:2
+2015-10-06 10:56:05,439 - status - INFO - Round:2
+2015-10-06 10:56:05,442 - status - INFO - Total time:0.00136590003967
+2015-10-06 10:56:05,442 - status - INFO - Total time:0.00136590003967
+2015-10-06 10:56:05,496 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,496 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,496 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,496 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,496 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,496 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,497 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,497 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,497 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,497 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,497 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,497 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,498 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,498 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,498 - status - INFO - Round:3
+2015-10-06 10:56:05,498 - status - INFO - Round:3
+2015-10-06 10:56:05,502 - status - INFO - Total time:0.00138592720032
+2015-10-06 10:56:05,502 - status - INFO - Total time:0.00138592720032
+2015-10-06 10:56:05,556 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,556 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,556 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,556 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,557 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,557 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,557 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,557 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,557 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,557 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,557 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,557 - status - INFO - Label mode:numpy
+2015-10-06 10:56:05,557 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,557 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:05,558 - status - INFO - Round:4
+2015-10-06 10:56:05,558 - status - INFO - Round:4
+2015-10-06 10:56:05,561 - status - INFO - Total time:0.00138688087463
+2015-10-06 10:56:05,561 - status - INFO - Total time:0.00138688087463
+2015-10-06 10:56:05,616 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,616 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,617 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,617 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,617 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,617 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,617 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,618 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,618 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,618 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,618 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,618 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,618 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,618 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,618 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,618 - status - INFO - Round:0
+2015-10-06 10:56:05,618 - status - INFO - Round:0
+2015-10-06 10:56:05,625 - status - INFO - Total time:0.00442099571228
+2015-10-06 10:56:05,625 - status - INFO - Total time:0.00442099571228
+2015-10-06 10:56:05,686 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,686 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,687 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,687 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,687 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,687 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,687 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,687 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,687 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,687 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,687 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,687 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,688 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,688 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,688 - status - INFO - Round:1
+2015-10-06 10:56:05,688 - status - INFO - Round:1
+2015-10-06 10:56:05,695 - status - INFO - Total time:0.00407195091248
+2015-10-06 10:56:05,695 - status - INFO - Total time:0.00407195091248
+2015-10-06 10:56:05,754 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,754 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,754 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,754 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,755 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,755 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,755 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,755 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,755 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,755 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,755 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,755 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,756 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,756 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,756 - status - INFO - Round:2
+2015-10-06 10:56:05,756 - status - INFO - Round:2
+2015-10-06 10:56:05,763 - status - INFO - Total time:0.00460386276245
+2015-10-06 10:56:05,763 - status - INFO - Total time:0.00460386276245
+2015-10-06 10:56:05,822 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,822 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,822 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,822 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,823 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,823 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,823 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,823 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,823 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,823 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,823 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,823 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,823 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,823 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,824 - status - INFO - Round:3
+2015-10-06 10:56:05,824 - status - INFO - Round:3
+2015-10-06 10:56:05,830 - status - INFO - Total time:0.00415301322937
+2015-10-06 10:56:05,830 - status - INFO - Total time:0.00415301322937
+2015-10-06 10:56:05,890 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,890 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,890 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,890 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,890 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,890 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,890 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,890 - status - INFO - Number of clusters:2
+2015-10-06 10:56:05,891 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,891 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,891 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,891 - status - INFO - Label mode:cuda
+2015-10-06 10:56:05,891 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,891 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:05,891 - status - INFO - Round:4
+2015-10-06 10:56:05,891 - status - INFO - Round:4
+2015-10-06 10:56:05,898 - status - INFO - Total time:0.00410199165344
+2015-10-06 10:56:05,898 - status - INFO - Total time:0.00410199165344
+2015-10-06 10:56:05,967 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,967 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,968 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,968 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,969 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,969 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:05,969 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,969 - status - INFO - Cardinality:100
+2015-10-06 10:56:05,970 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,970 - status - INFO - Dimensionality:2
+2015-10-06 10:56:05,970 - status - INFO - Number of clusters:4
+2015-10-06 10:56:05,970 - status - INFO - Number of clusters:4
+2015-10-06 10:56:05,971 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,971 - status - INFO - Number of iterations:3
+2015-10-06 10:56:05,971 - status - INFO - Label mode:python
+2015-10-06 10:56:05,971 - status - INFO - Label mode:python
+2015-10-06 10:56:05,972 - status - INFO - Centroid mode:python
+2015-10-06 10:56:05,972 - status - INFO - Centroid mode:python
+2015-10-06 10:56:05,972 - status - INFO - Round:0
+2015-10-06 10:56:05,972 - status - INFO - Round:0
+2015-10-06 10:56:06,016 - status - INFO - Total time:0.0414490699768
+2015-10-06 10:56:06,016 - status - INFO - Total time:0.0414490699768
+2015-10-06 10:56:06,070 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,070 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,070 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,070 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,070 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,070 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,071 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,071 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,071 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,071 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,071 - status - INFO - Label mode:python
+2015-10-06 10:56:06,071 - status - INFO - Label mode:python
+2015-10-06 10:56:06,071 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,071 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,072 - status - INFO - Round:1
+2015-10-06 10:56:06,072 - status - INFO - Round:1
+2015-10-06 10:56:06,115 - status - INFO - Total time:0.0414190292358
+2015-10-06 10:56:06,115 - status - INFO - Total time:0.0414190292358
+2015-10-06 10:56:06,169 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,169 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,169 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,169 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,170 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,170 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,170 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,170 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,170 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,170 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,170 - status - INFO - Label mode:python
+2015-10-06 10:56:06,170 - status - INFO - Label mode:python
+2015-10-06 10:56:06,171 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,171 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,171 - status - INFO - Round:2
+2015-10-06 10:56:06,171 - status - INFO - Round:2
+2015-10-06 10:56:06,214 - status - INFO - Total time:0.0411460399628
+2015-10-06 10:56:06,214 - status - INFO - Total time:0.0411460399628
+2015-10-06 10:56:06,269 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,269 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,270 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,270 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,270 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,270 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,270 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,270 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,270 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,270 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,270 - status - INFO - Label mode:python
+2015-10-06 10:56:06,270 - status - INFO - Label mode:python
+2015-10-06 10:56:06,271 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,271 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,271 - status - INFO - Round:3
+2015-10-06 10:56:06,271 - status - INFO - Round:3
+2015-10-06 10:56:06,315 - status - INFO - Total time:0.0414471626282
+2015-10-06 10:56:06,315 - status - INFO - Total time:0.0414471626282
+2015-10-06 10:56:06,370 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,370 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,370 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,370 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,370 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,370 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,370 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,370 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,371 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,371 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,371 - status - INFO - Label mode:python
+2015-10-06 10:56:06,371 - status - INFO - Label mode:python
+2015-10-06 10:56:06,371 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,371 - status - INFO - Centroid mode:python
+2015-10-06 10:56:06,371 - status - INFO - Round:4
+2015-10-06 10:56:06,371 - status - INFO - Round:4
+2015-10-06 10:56:06,415 - status - INFO - Total time:0.0414800643921
+2015-10-06 10:56:06,415 - status - INFO - Total time:0.0414800643921
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,470 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,470 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,471 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,471 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,471 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,471 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,471 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,471 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,471 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,471 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,471 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,471 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,472 - status - INFO - Round:0
+2015-10-06 10:56:06,472 - status - INFO - Round:0
+2015-10-06 10:56:06,475 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:06,475 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:06,529 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,529 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,529 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,529 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,530 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,530 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,530 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,530 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,530 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,530 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,530 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,530 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,530 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,530 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,531 - status - INFO - Round:1
+2015-10-06 10:56:06,531 - status - INFO - Round:1
+2015-10-06 10:56:06,534 - status - INFO - Total time:0.000683069229126
+2015-10-06 10:56:06,534 - status - INFO - Total time:0.000683069229126
+2015-10-06 10:56:06,589 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,589 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,589 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,589 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,589 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,589 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,589 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,589 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,590 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,590 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,590 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,590 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,590 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,590 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,590 - status - INFO - Round:2
+2015-10-06 10:56:06,590 - status - INFO - Round:2
+2015-10-06 10:56:06,593 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:06,593 - status - INFO - Total time:0.000684976577759
+2015-10-06 10:56:06,648 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,648 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,648 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,648 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,648 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,648 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,648 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,648 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,649 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,649 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,649 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,649 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,649 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,649 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,649 - status - INFO - Round:3
+2015-10-06 10:56:06,649 - status - INFO - Round:3
+2015-10-06 10:56:06,652 - status - INFO - Total time:0.000702857971191
+2015-10-06 10:56:06,652 - status - INFO - Total time:0.000702857971191
+2015-10-06 10:56:06,707 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,707 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,707 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,707 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,707 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,707 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,707 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,707 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,708 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,708 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,708 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,708 - status - INFO - Label mode:numba
+2015-10-06 10:56:06,708 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,708 - status - INFO - Centroid mode:numba
+2015-10-06 10:56:06,708 - status - INFO - Round:4
+2015-10-06 10:56:06,708 - status - INFO - Round:4
+2015-10-06 10:56:06,711 - status - INFO - Total time:0.00068211555481
+2015-10-06 10:56:06,711 - status - INFO - Total time:0.00068211555481
+2015-10-06 10:56:06,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,766 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,767 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,767 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-06 10:56:06,767 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,767 - status - INFO - Cardinality:100
+2015-10-06 10:56:06,767 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,767 - status - INFO - Dimensionality:2
+2015-10-06 10:56:06,767 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,767 - status - INFO - Number of clusters:4
+2015-10-06 10:56:06,768 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,768 - status - INFO - Number of iterations:3
+2015-10-06 10:56:06,768 - status - INFO - Label mode:numpy
+2015-10-06 10:56:06,768 - status - INFO - Label mode:numpy
+2015-10-06 10:56:06,768 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:06,768 - status - INFO - Centroid mode:numpy
+2015-10-06 10:56:06,768 - status - INFO - Round:0
+2015-10-06 10:56:06,768 - status - INFO - Round:0
+2015-10-06 10:56:06,772 - status - INFO - Total time:0.00136399269104
+2015-10-06 10:56:06,772 - status - INFO - Total time:0.00136399269104
+2015-10-07 06:44:59,140 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:44:59,172 - status - INFO - Starting experiment...
+2015-10-07 06:45:39,121 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:45:39,121 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:45:39,143 - status - INFO - Starting experiment...
+2015-10-07 06:45:39,143 - status - INFO - Starting experiment...
+2015-10-07 06:45:39,143 - status - INFO - Generating dataset...
+2015-10-07 06:45:39,143 - status - INFO - Generating dataset...
+2015-10-07 06:45:39,143 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:45:39,143 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:45:39,144 - status - INFO - Cardinality: 5000
+2015-10-07 06:45:39,144 - status - INFO - Cardinality: 5000
+2015-10-07 06:45:39,144 - status - INFO - Dimensionality: 200
+2015-10-07 06:45:39,144 - status - INFO - Dimensionality: 200
+2015-10-07 06:45:39,165 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:45:39,165 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:45:49,356 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:45:49,356 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:45:49,356 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:45:49,378 - status - INFO - Starting experiment...
+2015-10-07 06:45:49,378 - status - INFO - Starting experiment...
+2015-10-07 06:45:49,378 - status - INFO - Starting experiment...
+2015-10-07 06:45:49,379 - status - INFO - Generating dataset...
+2015-10-07 06:45:49,379 - status - INFO - Generating dataset...
+2015-10-07 06:45:49,379 - status - INFO - Generating dataset...
+2015-10-07 06:45:49,379 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:45:49,379 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:45:49,379 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:45:49,380 - status - INFO - Cardinality: 5000
+2015-10-07 06:45:49,380 - status - INFO - Cardinality: 5000
+2015-10-07 06:45:49,380 - status - INFO - Cardinality: 5000
+2015-10-07 06:45:49,380 - status - INFO - Dimensionality: 200
+2015-10-07 06:45:49,380 - status - INFO - Dimensionality: 200
+2015-10-07 06:45:49,380 - status - INFO - Dimensionality: 200
+2015-10-07 06:45:49,402 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:45:49,402 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:45:49,402 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:45:49,402 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,402 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,402 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,403 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:49,404 - status - INFO - Cardinality:5000
+2015-10-07 06:45:49,404 - status - INFO - Cardinality:5000
+2015-10-07 06:45:49,404 - status - INFO - Cardinality:5000
+2015-10-07 06:45:49,404 - status - INFO - Dimensionality:200
+2015-10-07 06:45:49,404 - status - INFO - Dimensionality:200
+2015-10-07 06:45:49,404 - status - INFO - Dimensionality:200
+2015-10-07 06:45:49,404 - status - INFO - Number of clusters:256
+2015-10-07 06:45:49,404 - status - INFO - Number of clusters:256
+2015-10-07 06:45:49,404 - status - INFO - Number of clusters:256
+2015-10-07 06:45:49,405 - status - INFO - Number of iterations:3
+2015-10-07 06:45:49,405 - status - INFO - Number of iterations:3
+2015-10-07 06:45:49,405 - status - INFO - Number of iterations:3
+2015-10-07 06:45:49,405 - status - INFO - Label mode:numba
+2015-10-07 06:45:49,405 - status - INFO - Label mode:numba
+2015-10-07 06:45:49,405 - status - INFO - Label mode:numba
+2015-10-07 06:45:49,406 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:49,406 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:49,406 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:49,406 - status - INFO - Round:1
+2015-10-07 06:45:49,406 - status - INFO - Round:1
+2015-10-07 06:45:49,406 - status - INFO - Round:1
+2015-10-07 06:45:51,080 - status - INFO - Total time:1.62140202522
+2015-10-07 06:45:51,080 - status - INFO - Total time:1.62140202522
+2015-10-07 06:45:51,080 - status - INFO - Total time:1.62140202522
+2015-10-07 06:45:51,134 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,134 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,134 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,134 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,134 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,134 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,135 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,135 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,135 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,135 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,135 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,135 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,135 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,135 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,135 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,136 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,136 - status - INFO - Round:2
+2015-10-07 06:45:51,136 - status - INFO - Round:2
+2015-10-07 06:45:51,136 - status - INFO - Round:2
+2015-10-07 06:45:51,177 - status - INFO - Total time:0.0382540225983
+2015-10-07 06:45:51,177 - status - INFO - Total time:0.0382540225983
+2015-10-07 06:45:51,177 - status - INFO - Total time:0.0382540225983
+2015-10-07 06:45:51,230 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,230 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,230 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,230 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,230 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,230 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,230 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,230 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,230 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,231 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,231 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,231 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,231 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,231 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,231 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,231 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,231 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,231 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,232 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,232 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,232 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,232 - status - INFO - Round:3
+2015-10-07 06:45:51,232 - status - INFO - Round:3
+2015-10-07 06:45:51,232 - status - INFO - Round:3
+2015-10-07 06:45:51,273 - status - INFO - Total time:0.0386080741882
+2015-10-07 06:45:51,273 - status - INFO - Total time:0.0386080741882
+2015-10-07 06:45:51,273 - status - INFO - Total time:0.0386080741882
+2015-10-07 06:45:51,326 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,326 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,326 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,327 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,327 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,327 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,327 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,327 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,327 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,327 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,327 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,327 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,328 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,328 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,328 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,328 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,328 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,328 - status - INFO - Label mode:numba
+2015-10-07 06:45:51,328 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,328 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,328 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:51,329 - status - INFO - Round:4
+2015-10-07 06:45:51,329 - status - INFO - Round:4
+2015-10-07 06:45:51,329 - status - INFO - Round:4
+2015-10-07 06:45:51,369 - status - INFO - Total time:0.0382959842682
+2015-10-07 06:45:51,369 - status - INFO - Total time:0.0382959842682
+2015-10-07 06:45:51,369 - status - INFO - Total time:0.0382959842682
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,423 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,424 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,424 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,424 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,424 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,424 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,424 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,424 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,424 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,424 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,425 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,425 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,425 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,425 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,425 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,425 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,425 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,425 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,425 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,426 - status - INFO - Round:0
+2015-10-07 06:45:51,426 - status - INFO - Round:0
+2015-10-07 06:45:51,426 - status - INFO - Round:0
+2015-10-07 06:45:51,519 - status - INFO - Total time:0.0909750461578
+2015-10-07 06:45:51,519 - status - INFO - Total time:0.0909750461578
+2015-10-07 06:45:51,519 - status - INFO - Total time:0.0909750461578
+2015-10-07 06:45:51,573 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,573 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,573 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,574 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,574 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,574 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,574 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,574 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,574 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,574 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,574 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,574 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,575 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,575 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,575 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,575 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,575 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,575 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,575 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,575 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,575 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,576 - status - INFO - Round:1
+2015-10-07 06:45:51,576 - status - INFO - Round:1
+2015-10-07 06:45:51,576 - status - INFO - Round:1
+2015-10-07 06:45:51,666 - status - INFO - Total time:0.08846783638
+2015-10-07 06:45:51,666 - status - INFO - Total time:0.08846783638
+2015-10-07 06:45:51,666 - status - INFO - Total time:0.08846783638
+2015-10-07 06:45:51,721 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,721 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,721 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,721 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,721 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,721 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,721 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,721 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,721 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,722 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,722 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,722 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,722 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,722 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,722 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,722 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,722 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,722 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,723 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,723 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,723 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,723 - status - INFO - Round:2
+2015-10-07 06:45:51,723 - status - INFO - Round:2
+2015-10-07 06:45:51,723 - status - INFO - Round:2
+2015-10-07 06:45:51,815 - status - INFO - Total time:0.0894770622253
+2015-10-07 06:45:51,815 - status - INFO - Total time:0.0894770622253
+2015-10-07 06:45:51,815 - status - INFO - Total time:0.0894770622253
+2015-10-07 06:45:51,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,870 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:51,870 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,870 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,870 - status - INFO - Cardinality:5000
+2015-10-07 06:45:51,870 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,870 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,870 - status - INFO - Dimensionality:200
+2015-10-07 06:45:51,871 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,871 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,871 - status - INFO - Number of clusters:256
+2015-10-07 06:45:51,871 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,871 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,871 - status - INFO - Number of iterations:3
+2015-10-07 06:45:51,871 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,871 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,871 - status - INFO - Label mode:numpy
+2015-10-07 06:45:51,872 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,872 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,872 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:51,872 - status - INFO - Round:3
+2015-10-07 06:45:51,872 - status - INFO - Round:3
+2015-10-07 06:45:51,872 - status - INFO - Round:3
+2015-10-07 06:45:51,963 - status - INFO - Total time:0.0885050296783
+2015-10-07 06:45:51,963 - status - INFO - Total time:0.0885050296783
+2015-10-07 06:45:51,963 - status - INFO - Total time:0.0885050296783
+2015-10-07 06:45:52,018 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,018 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,018 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,018 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,018 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,018 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,019 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,019 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,019 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,019 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,019 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,019 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,019 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,019 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,019 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,020 - status - INFO - Label mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Label mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Label mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Centroid mode:numpy
+2015-10-07 06:45:52,020 - status - INFO - Round:4
+2015-10-07 06:45:52,020 - status - INFO - Round:4
+2015-10-07 06:45:52,020 - status - INFO - Round:4
+2015-10-07 06:45:52,112 - status - INFO - Total time:0.0891568660736
+2015-10-07 06:45:52,112 - status - INFO - Total time:0.0891568660736
+2015-10-07 06:45:52,112 - status - INFO - Total time:0.0891568660736
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,167 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,168 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,168 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,168 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,168 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,168 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,168 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,168 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,168 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,168 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,169 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,169 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,169 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,169 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,169 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,169 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,169 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,169 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,169 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,169 - status - INFO - Round:0
+2015-10-07 06:45:52,169 - status - INFO - Round:0
+2015-10-07 06:45:52,169 - status - INFO - Round:0
+2015-10-07 06:45:52,341 - status - INFO - Total time:0.168846845627
+2015-10-07 06:45:52,341 - status - INFO - Total time:0.168846845627
+2015-10-07 06:45:52,341 - status - INFO - Total time:0.168846845627
+2015-10-07 06:45:52,401 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,401 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,401 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,402 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,402 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,402 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,402 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,402 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,402 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,402 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,402 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,402 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,402 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,402 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,402 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,403 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,403 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,403 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,403 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,403 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,403 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,403 - status - INFO - Round:1
+2015-10-07 06:45:52,403 - status - INFO - Round:1
+2015-10-07 06:45:52,403 - status - INFO - Round:1
+2015-10-07 06:45:52,571 - status - INFO - Total time:0.165679931641
+2015-10-07 06:45:52,571 - status - INFO - Total time:0.165679931641
+2015-10-07 06:45:52,571 - status - INFO - Total time:0.165679931641
+2015-10-07 06:45:52,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,630 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,630 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,630 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,630 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,631 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,631 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,631 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,631 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,631 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,631 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,631 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,631 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,631 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,632 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,632 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,632 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,632 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,632 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,632 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,632 - status - INFO - Round:2
+2015-10-07 06:45:52,632 - status - INFO - Round:2
+2015-10-07 06:45:52,632 - status - INFO - Round:2
+2015-10-07 06:45:52,800 - status - INFO - Total time:0.165786027908
+2015-10-07 06:45:52,800 - status - INFO - Total time:0.165786027908
+2015-10-07 06:45:52,800 - status - INFO - Total time:0.165786027908
+2015-10-07 06:45:52,859 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,859 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,859 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:52,860 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,860 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,860 - status - INFO - Cardinality:5000
+2015-10-07 06:45:52,860 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,860 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,860 - status - INFO - Dimensionality:200
+2015-10-07 06:45:52,860 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,860 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,860 - status - INFO - Number of clusters:256
+2015-10-07 06:45:52,861 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,861 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,861 - status - INFO - Number of iterations:3
+2015-10-07 06:45:52,861 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,861 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,861 - status - INFO - Label mode:cuda
+2015-10-07 06:45:52,861 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,861 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,861 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:52,861 - status - INFO - Round:3
+2015-10-07 06:45:52,861 - status - INFO - Round:3
+2015-10-07 06:45:52,861 - status - INFO - Round:3
+2015-10-07 06:45:53,028 - status - INFO - Total time:0.163652181625
+2015-10-07 06:45:53,028 - status - INFO - Total time:0.163652181625
+2015-10-07 06:45:53,028 - status - INFO - Total time:0.163652181625
+2015-10-07 06:45:53,086 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,086 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,086 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,086 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,086 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,086 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,087 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,087 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,087 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,087 - status - INFO - Number of clusters:256
+2015-10-07 06:45:53,087 - status - INFO - Number of clusters:256
+2015-10-07 06:45:53,087 - status - INFO - Number of clusters:256
+2015-10-07 06:45:53,087 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,087 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,087 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,088 - status - INFO - Label mode:cuda
+2015-10-07 06:45:53,088 - status - INFO - Label mode:cuda
+2015-10-07 06:45:53,088 - status - INFO - Label mode:cuda
+2015-10-07 06:45:53,088 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:53,088 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:53,088 - status - INFO - Centroid mode:numba
+2015-10-07 06:45:53,088 - status - INFO - Round:4
+2015-10-07 06:45:53,088 - status - INFO - Round:4
+2015-10-07 06:45:53,088 - status - INFO - Round:4
+2015-10-07 06:45:53,255 - status - INFO - Total time:0.164744853973
+2015-10-07 06:45:53,255 - status - INFO - Total time:0.164744853973
+2015-10-07 06:45:53,255 - status - INFO - Total time:0.164744853973
+2015-10-07 06:45:53,314 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,314 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,314 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:45:53,315 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,315 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,315 - status - INFO - Cardinality:5000
+2015-10-07 06:45:53,316 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,316 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,316 - status - INFO - Dimensionality:200
+2015-10-07 06:45:53,316 - status - INFO - Number of clusters:512
+2015-10-07 06:45:53,316 - status - INFO - Number of clusters:512
+2015-10-07 06:45:53,316 - status - INFO - Number of clusters:512
+2015-10-07 06:45:53,316 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,316 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,316 - status - INFO - Number of iterations:3
+2015-10-07 06:45:53,316 - status - INFO - Label mode:python
+2015-10-07 06:45:53,316 - status - INFO - Label mode:python
+2015-10-07 06:45:53,316 - status - INFO - Label mode:python
+2015-10-07 06:45:53,317 - status - INFO - Centroid mode:python
+2015-10-07 06:45:53,317 - status - INFO - Centroid mode:python
+2015-10-07 06:45:53,317 - status - INFO - Centroid mode:python
+2015-10-07 06:45:53,317 - status - INFO - Round:0
+2015-10-07 06:45:53,317 - status - INFO - Round:0
+2015-10-07 06:45:53,317 - status - INFO - Round:0
+2015-10-07 06:47:42,729 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:47:42,729 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:47:42,729 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:47:42,729 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:47:42,755 - status - INFO - Starting experiment...
+2015-10-07 06:47:42,755 - status - INFO - Starting experiment...
+2015-10-07 06:47:42,755 - status - INFO - Starting experiment...
+2015-10-07 06:47:42,755 - status - INFO - Starting experiment...
+2015-10-07 06:47:42,784 - status - INFO - Generating dataset...
+2015-10-07 06:47:42,784 - status - INFO - Generating dataset...
+2015-10-07 06:47:42,784 - status - INFO - Generating dataset...
+2015-10-07 06:47:42,784 - status - INFO - Generating dataset...
+2015-10-07 06:47:42,785 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:47:42,785 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:47:42,785 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:47:42,785 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:47:42,785 - status - INFO - Cardinality: 5000
+2015-10-07 06:47:42,785 - status - INFO - Cardinality: 5000
+2015-10-07 06:47:42,785 - status - INFO - Cardinality: 5000
+2015-10-07 06:47:42,785 - status - INFO - Cardinality: 5000
+2015-10-07 06:47:42,786 - status - INFO - Dimensionality: 200
+2015-10-07 06:47:42,786 - status - INFO - Dimensionality: 200
+2015-10-07 06:47:42,786 - status - INFO - Dimensionality: 200
+2015-10-07 06:47:42,786 - status - INFO - Dimensionality: 200
+2015-10-07 06:47:42,807 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:47:42,807 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:47:42,807 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:47:42,807 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:47:42,807 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,807 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,807 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,807 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,808 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:42,809 - status - INFO - Cardinality:5000
+2015-10-07 06:47:42,809 - status - INFO - Cardinality:5000
+2015-10-07 06:47:42,809 - status - INFO - Cardinality:5000
+2015-10-07 06:47:42,809 - status - INFO - Cardinality:5000
+2015-10-07 06:47:42,809 - status - INFO - Dimensionality:200
+2015-10-07 06:47:42,809 - status - INFO - Dimensionality:200
+2015-10-07 06:47:42,809 - status - INFO - Dimensionality:200
+2015-10-07 06:47:42,809 - status - INFO - Dimensionality:200
+2015-10-07 06:47:42,809 - status - INFO - Number of clusters:256
+2015-10-07 06:47:42,809 - status - INFO - Number of clusters:256
+2015-10-07 06:47:42,809 - status - INFO - Number of clusters:256
+2015-10-07 06:47:42,809 - status - INFO - Number of clusters:256
+2015-10-07 06:47:42,810 - status - INFO - Number of iterations:3
+2015-10-07 06:47:42,810 - status - INFO - Number of iterations:3
+2015-10-07 06:47:42,810 - status - INFO - Number of iterations:3
+2015-10-07 06:47:42,810 - status - INFO - Number of iterations:3
+2015-10-07 06:47:42,810 - status - INFO - Label mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Label mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Label mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Label mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:42,810 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:42,811 - status - INFO - Round:1
+2015-10-07 06:47:42,811 - status - INFO - Round:1
+2015-10-07 06:47:42,811 - status - INFO - Round:1
+2015-10-07 06:47:42,811 - status - INFO - Round:1
+2015-10-07 06:47:43,270 - status - INFO - Total time:0.0396809577942
+2015-10-07 06:47:43,270 - status - INFO - Total time:0.0396809577942
+2015-10-07 06:47:43,270 - status - INFO - Total time:0.0396809577942
+2015-10-07 06:47:43,270 - status - INFO - Total time:0.0396809577942
+2015-10-07 06:47:43,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,398 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,399 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,399 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,399 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,399 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,399 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,399 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,399 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,399 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,399 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,399 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,399 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,399 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,400 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,400 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,400 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,400 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,400 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,400 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,400 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,400 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,401 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,401 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,401 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,401 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,401 - status - INFO - Round:2
+2015-10-07 06:47:43,401 - status - INFO - Round:2
+2015-10-07 06:47:43,401 - status - INFO - Round:2
+2015-10-07 06:47:43,401 - status - INFO - Round:2
+2015-10-07 06:47:43,846 - status - INFO - Total time:0.0386700630188
+2015-10-07 06:47:43,846 - status - INFO - Total time:0.0386700630188
+2015-10-07 06:47:43,846 - status - INFO - Total time:0.0386700630188
+2015-10-07 06:47:43,846 - status - INFO - Total time:0.0386700630188
+2015-10-07 06:47:43,974 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,974 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,974 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,974 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:43,974 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,974 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,974 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,974 - status - INFO - Cardinality:5000
+2015-10-07 06:47:43,974 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,974 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,974 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,974 - status - INFO - Dimensionality:200
+2015-10-07 06:47:43,975 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,975 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,975 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,975 - status - INFO - Number of clusters:256
+2015-10-07 06:47:43,975 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,975 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,975 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,975 - status - INFO - Number of iterations:3
+2015-10-07 06:47:43,976 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Label mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:43,976 - status - INFO - Round:3
+2015-10-07 06:47:43,976 - status - INFO - Round:3
+2015-10-07 06:47:43,976 - status - INFO - Round:3
+2015-10-07 06:47:43,976 - status - INFO - Round:3
+2015-10-07 06:47:44,423 - status - INFO - Total time:0.038489818573
+2015-10-07 06:47:44,423 - status - INFO - Total time:0.038489818573
+2015-10-07 06:47:44,423 - status - INFO - Total time:0.038489818573
+2015-10-07 06:47:44,423 - status - INFO - Total time:0.038489818573
+2015-10-07 06:47:44,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:44,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:44,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:44,550 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:44,550 - status - INFO - Cardinality:5000
+2015-10-07 06:47:44,550 - status - INFO - Cardinality:5000
+2015-10-07 06:47:44,550 - status - INFO - Cardinality:5000
+2015-10-07 06:47:44,550 - status - INFO - Cardinality:5000
+2015-10-07 06:47:44,551 - status - INFO - Dimensionality:200
+2015-10-07 06:47:44,551 - status - INFO - Dimensionality:200
+2015-10-07 06:47:44,551 - status - INFO - Dimensionality:200
+2015-10-07 06:47:44,551 - status - INFO - Dimensionality:200
+2015-10-07 06:47:44,551 - status - INFO - Number of clusters:256
+2015-10-07 06:47:44,551 - status - INFO - Number of clusters:256
+2015-10-07 06:47:44,551 - status - INFO - Number of clusters:256
+2015-10-07 06:47:44,551 - status - INFO - Number of clusters:256
+2015-10-07 06:47:44,551 - status - INFO - Number of iterations:3
+2015-10-07 06:47:44,551 - status - INFO - Number of iterations:3
+2015-10-07 06:47:44,551 - status - INFO - Number of iterations:3
+2015-10-07 06:47:44,551 - status - INFO - Number of iterations:3
+2015-10-07 06:47:44,552 - status - INFO - Label mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Label mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Label mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Label mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:44,552 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:44,553 - status - INFO - Round:4
+2015-10-07 06:47:44,553 - status - INFO - Round:4
+2015-10-07 06:47:44,553 - status - INFO - Round:4
+2015-10-07 06:47:44,553 - status - INFO - Round:4
+2015-10-07 06:47:44,998 - status - INFO - Total time:0.0382490158081
+2015-10-07 06:47:44,998 - status - INFO - Total time:0.0382490158081
+2015-10-07 06:47:44,998 - status - INFO - Total time:0.0382490158081
+2015-10-07 06:47:44,998 - status - INFO - Total time:0.0382490158081
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,126 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,127 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,127 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,127 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,127 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,127 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,127 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,127 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,127 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,127 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,127 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,127 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,127 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,128 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,128 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,128 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,128 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,128 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,128 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,128 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,128 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,129 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,129 - status - INFO - Round:0
+2015-10-07 06:47:45,129 - status - INFO - Round:0
+2015-10-07 06:47:45,129 - status - INFO - Round:0
+2015-10-07 06:47:45,129 - status - INFO - Round:0
+2015-10-07 06:47:45,625 - status - INFO - Total time:0.0879490375519
+2015-10-07 06:47:45,625 - status - INFO - Total time:0.0879490375519
+2015-10-07 06:47:45,625 - status - INFO - Total time:0.0879490375519
+2015-10-07 06:47:45,625 - status - INFO - Total time:0.0879490375519
+2015-10-07 06:47:45,753 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,753 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,753 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,753 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:45,754 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,754 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,754 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,754 - status - INFO - Cardinality:5000
+2015-10-07 06:47:45,754 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,754 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,754 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,754 - status - INFO - Dimensionality:200
+2015-10-07 06:47:45,754 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,754 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,754 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,754 - status - INFO - Number of clusters:256
+2015-10-07 06:47:45,755 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,755 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,755 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,755 - status - INFO - Number of iterations:3
+2015-10-07 06:47:45,755 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,755 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,755 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,755 - status - INFO - Label mode:numpy
+2015-10-07 06:47:45,756 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,756 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,756 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,756 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:45,756 - status - INFO - Round:1
+2015-10-07 06:47:45,756 - status - INFO - Round:1
+2015-10-07 06:47:45,756 - status - INFO - Round:1
+2015-10-07 06:47:45,756 - status - INFO - Round:1
+2015-10-07 06:47:46,255 - status - INFO - Total time:0.0876350402832
+2015-10-07 06:47:46,255 - status - INFO - Total time:0.0876350402832
+2015-10-07 06:47:46,255 - status - INFO - Total time:0.0876350402832
+2015-10-07 06:47:46,255 - status - INFO - Total time:0.0876350402832
+2015-10-07 06:47:46,408 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:46,408 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:46,408 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:46,408 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:46,408 - status - INFO - Cardinality:5000
+2015-10-07 06:47:46,408 - status - INFO - Cardinality:5000
+2015-10-07 06:47:46,408 - status - INFO - Cardinality:5000
+2015-10-07 06:47:46,408 - status - INFO - Cardinality:5000
+2015-10-07 06:47:46,408 - status - INFO - Dimensionality:200
+2015-10-07 06:47:46,408 - status - INFO - Dimensionality:200
+2015-10-07 06:47:46,408 - status - INFO - Dimensionality:200
+2015-10-07 06:47:46,408 - status - INFO - Dimensionality:200
+2015-10-07 06:47:46,409 - status - INFO - Number of clusters:256
+2015-10-07 06:47:46,409 - status - INFO - Number of clusters:256
+2015-10-07 06:47:46,409 - status - INFO - Number of clusters:256
+2015-10-07 06:47:46,409 - status - INFO - Number of clusters:256
+2015-10-07 06:47:46,409 - status - INFO - Number of iterations:3
+2015-10-07 06:47:46,409 - status - INFO - Number of iterations:3
+2015-10-07 06:47:46,409 - status - INFO - Number of iterations:3
+2015-10-07 06:47:46,409 - status - INFO - Number of iterations:3
+2015-10-07 06:47:46,410 - status - INFO - Label mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Label mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Label mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Label mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:46,410 - status - INFO - Round:2
+2015-10-07 06:47:46,410 - status - INFO - Round:2
+2015-10-07 06:47:46,410 - status - INFO - Round:2
+2015-10-07 06:47:46,410 - status - INFO - Round:2
+2015-10-07 06:47:46,908 - status - INFO - Total time:0.0887479782104
+2015-10-07 06:47:46,908 - status - INFO - Total time:0.0887479782104
+2015-10-07 06:47:46,908 - status - INFO - Total time:0.0887479782104
+2015-10-07 06:47:46,908 - status - INFO - Total time:0.0887479782104
+2015-10-07 06:47:47,036 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,036 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,036 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,036 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,036 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,036 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,036 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,036 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,037 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,037 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,037 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,037 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,037 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,037 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,037 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,037 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,037 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,037 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,037 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,037 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,038 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,038 - status - INFO - Round:3
+2015-10-07 06:47:47,038 - status - INFO - Round:3
+2015-10-07 06:47:47,038 - status - INFO - Round:3
+2015-10-07 06:47:47,038 - status - INFO - Round:3
+2015-10-07 06:47:47,535 - status - INFO - Total time:0.0889039039612
+2015-10-07 06:47:47,535 - status - INFO - Total time:0.0889039039612
+2015-10-07 06:47:47,535 - status - INFO - Total time:0.0889039039612
+2015-10-07 06:47:47,535 - status - INFO - Total time:0.0889039039612
+2015-10-07 06:47:47,664 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,664 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,664 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,664 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:47,664 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,664 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,664 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,664 - status - INFO - Cardinality:5000
+2015-10-07 06:47:47,665 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,665 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,665 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,665 - status - INFO - Dimensionality:200
+2015-10-07 06:47:47,665 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,665 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,665 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,665 - status - INFO - Number of clusters:256
+2015-10-07 06:47:47,665 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,665 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,665 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,665 - status - INFO - Number of iterations:3
+2015-10-07 06:47:47,666 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Label mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,666 - status - INFO - Centroid mode:numpy
+2015-10-07 06:47:47,667 - status - INFO - Round:4
+2015-10-07 06:47:47,667 - status - INFO - Round:4
+2015-10-07 06:47:47,667 - status - INFO - Round:4
+2015-10-07 06:47:47,667 - status - INFO - Round:4
+2015-10-07 06:47:48,164 - status - INFO - Total time:0.0895600318909
+2015-10-07 06:47:48,164 - status - INFO - Total time:0.0895600318909
+2015-10-07 06:47:48,164 - status - INFO - Total time:0.0895600318909
+2015-10-07 06:47:48,164 - status - INFO - Total time:0.0895600318909
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,292 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,293 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,293 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,293 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,293 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:48,293 - status - INFO - Cardinality:5000
+2015-10-07 06:47:48,293 - status - INFO - Cardinality:5000
+2015-10-07 06:47:48,293 - status - INFO - Cardinality:5000
+2015-10-07 06:47:48,293 - status - INFO - Cardinality:5000
+2015-10-07 06:47:48,293 - status - INFO - Dimensionality:200
+2015-10-07 06:47:48,293 - status - INFO - Dimensionality:200
+2015-10-07 06:47:48,293 - status - INFO - Dimensionality:200
+2015-10-07 06:47:48,293 - status - INFO - Dimensionality:200
+2015-10-07 06:47:48,294 - status - INFO - Number of clusters:256
+2015-10-07 06:47:48,294 - status - INFO - Number of clusters:256
+2015-10-07 06:47:48,294 - status - INFO - Number of clusters:256
+2015-10-07 06:47:48,294 - status - INFO - Number of clusters:256
+2015-10-07 06:47:48,294 - status - INFO - Number of iterations:3
+2015-10-07 06:47:48,294 - status - INFO - Number of iterations:3
+2015-10-07 06:47:48,294 - status - INFO - Number of iterations:3
+2015-10-07 06:47:48,294 - status - INFO - Number of iterations:3
+2015-10-07 06:47:48,295 - status - INFO - Label mode:cuda
+2015-10-07 06:47:48,295 - status - INFO - Label mode:cuda
+2015-10-07 06:47:48,295 - status - INFO - Label mode:cuda
+2015-10-07 06:47:48,295 - status - INFO - Label mode:cuda
+2015-10-07 06:47:48,295 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:48,295 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:48,295 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:48,295 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:48,295 - status - INFO - Round:0
+2015-10-07 06:47:48,295 - status - INFO - Round:0
+2015-10-07 06:47:48,295 - status - INFO - Round:0
+2015-10-07 06:47:48,295 - status - INFO - Round:0
+2015-10-07 06:47:48,872 - status - INFO - Total time:0.167381048203
+2015-10-07 06:47:48,872 - status - INFO - Total time:0.167381048203
+2015-10-07 06:47:48,872 - status - INFO - Total time:0.167381048203
+2015-10-07 06:47:48,872 - status - INFO - Total time:0.167381048203
+2015-10-07 06:47:50,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:50,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:50,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:50,039 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:50,039 - status - INFO - Cardinality:5000
+2015-10-07 06:47:50,039 - status - INFO - Cardinality:5000
+2015-10-07 06:47:50,039 - status - INFO - Cardinality:5000
+2015-10-07 06:47:50,039 - status - INFO - Cardinality:5000
+2015-10-07 06:47:50,039 - status - INFO - Dimensionality:200
+2015-10-07 06:47:50,039 - status - INFO - Dimensionality:200
+2015-10-07 06:47:50,039 - status - INFO - Dimensionality:200
+2015-10-07 06:47:50,039 - status - INFO - Dimensionality:200
+2015-10-07 06:47:50,040 - status - INFO - Number of clusters:256
+2015-10-07 06:47:50,040 - status - INFO - Number of clusters:256
+2015-10-07 06:47:50,040 - status - INFO - Number of clusters:256
+2015-10-07 06:47:50,040 - status - INFO - Number of clusters:256
+2015-10-07 06:47:50,040 - status - INFO - Number of iterations:3
+2015-10-07 06:47:50,040 - status - INFO - Number of iterations:3
+2015-10-07 06:47:50,040 - status - INFO - Number of iterations:3
+2015-10-07 06:47:50,040 - status - INFO - Number of iterations:3
+2015-10-07 06:47:50,041 - status - INFO - Label mode:cuda
+2015-10-07 06:47:50,041 - status - INFO - Label mode:cuda
+2015-10-07 06:47:50,041 - status - INFO - Label mode:cuda
+2015-10-07 06:47:50,041 - status - INFO - Label mode:cuda
+2015-10-07 06:47:50,041 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:50,041 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:50,041 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:50,041 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:50,041 - status - INFO - Round:1
+2015-10-07 06:47:50,041 - status - INFO - Round:1
+2015-10-07 06:47:50,041 - status - INFO - Round:1
+2015-10-07 06:47:50,041 - status - INFO - Round:1
+2015-10-07 06:47:50,620 - status - INFO - Total time:0.167762994766
+2015-10-07 06:47:50,620 - status - INFO - Total time:0.167762994766
+2015-10-07 06:47:50,620 - status - INFO - Total time:0.167762994766
+2015-10-07 06:47:50,620 - status - INFO - Total time:0.167762994766
+2015-10-07 06:47:51,771 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:51,771 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:51,771 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:51,771 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:51,772 - status - INFO - Cardinality:5000
+2015-10-07 06:47:51,772 - status - INFO - Cardinality:5000
+2015-10-07 06:47:51,772 - status - INFO - Cardinality:5000
+2015-10-07 06:47:51,772 - status - INFO - Cardinality:5000
+2015-10-07 06:47:51,772 - status - INFO - Dimensionality:200
+2015-10-07 06:47:51,772 - status - INFO - Dimensionality:200
+2015-10-07 06:47:51,772 - status - INFO - Dimensionality:200
+2015-10-07 06:47:51,772 - status - INFO - Dimensionality:200
+2015-10-07 06:47:51,772 - status - INFO - Number of clusters:256
+2015-10-07 06:47:51,772 - status - INFO - Number of clusters:256
+2015-10-07 06:47:51,772 - status - INFO - Number of clusters:256
+2015-10-07 06:47:51,772 - status - INFO - Number of clusters:256
+2015-10-07 06:47:51,773 - status - INFO - Number of iterations:3
+2015-10-07 06:47:51,773 - status - INFO - Number of iterations:3
+2015-10-07 06:47:51,773 - status - INFO - Number of iterations:3
+2015-10-07 06:47:51,773 - status - INFO - Number of iterations:3
+2015-10-07 06:47:51,773 - status - INFO - Label mode:cuda
+2015-10-07 06:47:51,773 - status - INFO - Label mode:cuda
+2015-10-07 06:47:51,773 - status - INFO - Label mode:cuda
+2015-10-07 06:47:51,773 - status - INFO - Label mode:cuda
+2015-10-07 06:47:51,774 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:51,774 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:51,774 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:51,774 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:51,774 - status - INFO - Round:2
+2015-10-07 06:47:51,774 - status - INFO - Round:2
+2015-10-07 06:47:51,774 - status - INFO - Round:2
+2015-10-07 06:47:51,774 - status - INFO - Round:2
+2015-10-07 06:47:52,352 - status - INFO - Total time:0.167565822601
+2015-10-07 06:47:52,352 - status - INFO - Total time:0.167565822601
+2015-10-07 06:47:52,352 - status - INFO - Total time:0.167565822601
+2015-10-07 06:47:52,352 - status - INFO - Total time:0.167565822601
+2015-10-07 06:47:53,503 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:53,503 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:53,503 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:53,503 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:53,504 - status - INFO - Cardinality:5000
+2015-10-07 06:47:53,504 - status - INFO - Cardinality:5000
+2015-10-07 06:47:53,504 - status - INFO - Cardinality:5000
+2015-10-07 06:47:53,504 - status - INFO - Cardinality:5000
+2015-10-07 06:47:53,504 - status - INFO - Dimensionality:200
+2015-10-07 06:47:53,504 - status - INFO - Dimensionality:200
+2015-10-07 06:47:53,504 - status - INFO - Dimensionality:200
+2015-10-07 06:47:53,504 - status - INFO - Dimensionality:200
+2015-10-07 06:47:53,505 - status - INFO - Number of clusters:256
+2015-10-07 06:47:53,505 - status - INFO - Number of clusters:256
+2015-10-07 06:47:53,505 - status - INFO - Number of clusters:256
+2015-10-07 06:47:53,505 - status - INFO - Number of clusters:256
+2015-10-07 06:47:53,505 - status - INFO - Number of iterations:3
+2015-10-07 06:47:53,505 - status - INFO - Number of iterations:3
+2015-10-07 06:47:53,505 - status - INFO - Number of iterations:3
+2015-10-07 06:47:53,505 - status - INFO - Number of iterations:3
+2015-10-07 06:47:53,505 - status - INFO - Label mode:cuda
+2015-10-07 06:47:53,505 - status - INFO - Label mode:cuda
+2015-10-07 06:47:53,505 - status - INFO - Label mode:cuda
+2015-10-07 06:47:53,505 - status - INFO - Label mode:cuda
+2015-10-07 06:47:53,506 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:53,506 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:53,506 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:53,506 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:53,506 - status - INFO - Round:3
+2015-10-07 06:47:53,506 - status - INFO - Round:3
+2015-10-07 06:47:53,506 - status - INFO - Round:3
+2015-10-07 06:47:53,506 - status - INFO - Round:3
+2015-10-07 06:47:54,083 - status - INFO - Total time:0.167346000671
+2015-10-07 06:47:54,083 - status - INFO - Total time:0.167346000671
+2015-10-07 06:47:54,083 - status - INFO - Total time:0.167346000671
+2015-10-07 06:47:54,083 - status - INFO - Total time:0.167346000671
+2015-10-07 06:47:55,235 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:55,235 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:55,235 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:55,235 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:55,235 - status - INFO - Cardinality:5000
+2015-10-07 06:47:55,235 - status - INFO - Cardinality:5000
+2015-10-07 06:47:55,235 - status - INFO - Cardinality:5000
+2015-10-07 06:47:55,235 - status - INFO - Cardinality:5000
+2015-10-07 06:47:55,236 - status - INFO - Dimensionality:200
+2015-10-07 06:47:55,236 - status - INFO - Dimensionality:200
+2015-10-07 06:47:55,236 - status - INFO - Dimensionality:200
+2015-10-07 06:47:55,236 - status - INFO - Dimensionality:200
+2015-10-07 06:47:55,236 - status - INFO - Number of clusters:256
+2015-10-07 06:47:55,236 - status - INFO - Number of clusters:256
+2015-10-07 06:47:55,236 - status - INFO - Number of clusters:256
+2015-10-07 06:47:55,236 - status - INFO - Number of clusters:256
+2015-10-07 06:47:55,237 - status - INFO - Number of iterations:3
+2015-10-07 06:47:55,237 - status - INFO - Number of iterations:3
+2015-10-07 06:47:55,237 - status - INFO - Number of iterations:3
+2015-10-07 06:47:55,237 - status - INFO - Number of iterations:3
+2015-10-07 06:47:55,237 - status - INFO - Label mode:cuda
+2015-10-07 06:47:55,237 - status - INFO - Label mode:cuda
+2015-10-07 06:47:55,237 - status - INFO - Label mode:cuda
+2015-10-07 06:47:55,237 - status - INFO - Label mode:cuda
+2015-10-07 06:47:55,237 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:55,237 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:55,237 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:55,237 - status - INFO - Centroid mode:numba
+2015-10-07 06:47:55,238 - status - INFO - Round:4
+2015-10-07 06:47:55,238 - status - INFO - Round:4
+2015-10-07 06:47:55,238 - status - INFO - Round:4
+2015-10-07 06:47:55,238 - status - INFO - Round:4
+2015-10-07 06:47:55,814 - status - INFO - Total time:0.167055845261
+2015-10-07 06:47:55,814 - status - INFO - Total time:0.167055845261
+2015-10-07 06:47:55,814 - status - INFO - Total time:0.167055845261
+2015-10-07 06:47:55,814 - status - INFO - Total time:0.167055845261
+2015-10-07 06:47:56,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,965 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,966 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:47:56,967 - status - INFO - Cardinality:5000
+2015-10-07 06:47:56,967 - status - INFO - Cardinality:5000
+2015-10-07 06:47:56,967 - status - INFO - Cardinality:5000
+2015-10-07 06:47:56,967 - status - INFO - Cardinality:5000
+2015-10-07 06:47:56,967 - status - INFO - Dimensionality:200
+2015-10-07 06:47:56,967 - status - INFO - Dimensionality:200
+2015-10-07 06:47:56,967 - status - INFO - Dimensionality:200
+2015-10-07 06:47:56,967 - status - INFO - Dimensionality:200
+2015-10-07 06:47:56,967 - status - INFO - Number of clusters:512
+2015-10-07 06:47:56,967 - status - INFO - Number of clusters:512
+2015-10-07 06:47:56,967 - status - INFO - Number of clusters:512
+2015-10-07 06:47:56,967 - status - INFO - Number of clusters:512
+2015-10-07 06:47:56,968 - status - INFO - Number of iterations:3
+2015-10-07 06:47:56,968 - status - INFO - Number of iterations:3
+2015-10-07 06:47:56,968 - status - INFO - Number of iterations:3
+2015-10-07 06:47:56,968 - status - INFO - Number of iterations:3
+2015-10-07 06:47:56,968 - status - INFO - Label mode:python
+2015-10-07 06:47:56,968 - status - INFO - Label mode:python
+2015-10-07 06:47:56,968 - status - INFO - Label mode:python
+2015-10-07 06:47:56,968 - status - INFO - Label mode:python
+2015-10-07 06:47:56,969 - status - INFO - Centroid mode:python
+2015-10-07 06:47:56,969 - status - INFO - Centroid mode:python
+2015-10-07 06:47:56,969 - status - INFO - Centroid mode:python
+2015-10-07 06:47:56,969 - status - INFO - Centroid mode:python
+2015-10-07 06:47:56,969 - status - INFO - Round:0
+2015-10-07 06:47:56,969 - status - INFO - Round:0
+2015-10-07 06:47:56,969 - status - INFO - Round:0
+2015-10-07 06:47:56,969 - status - INFO - Round:0
+2015-10-07 06:49:27,528 - status - INFO - Will occupy maximum of 511.59375 MB in device memory.
+2015-10-07 06:49:27,544 - status - INFO - Starting experiment...
+2015-10-07 06:49:27,572 - status - INFO - Generating dataset...
+2015-10-07 06:49:27,572 - status - INFO - Random data from uniform distribution in the interval [0.0,1.0[.
+2015-10-07 06:49:27,572 - status - INFO - Cardinality: 5000
+2015-10-07 06:49:27,573 - status - INFO - Dimensionality: 200
+2015-10-07 06:49:27,595 - status - INFO - Dataset of 5000 patterns and 200 dimensions.
+2015-10-07 06:49:27,595 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:49:27,596 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:49:27,596 - status - INFO - - - - - - - - - - - - - - - - - -
+2015-10-07 06:49:27,596 - status - INFO - Cardinality:5000
+2015-10-07 06:49:27,596 - status - INFO - Dimensionality:200
+2015-10-07 06:49:27,596 - status - INFO - Number of clusters:256
+2015-10-07 06:49:27,596 - status - INFO - Number of iterations:3
+2015-10-07 06:49:27,597 - status - INFO - Label mode:numba
+2015-10-07 06:49:27,597 - status - INFO - Centroid mode:numba
+2015-10-07 06:49:27,597 - status - INFO - Round:1
