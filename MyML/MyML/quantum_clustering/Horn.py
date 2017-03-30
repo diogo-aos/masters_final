@@ -46,7 +46,7 @@ def pcaFun(x, whiten=False, e=0, type='cov', method='svd',
 
 		#sort eigenthings
 		eigValOrder = eigVals.argsort()[::-1] #descending eigen indeces
-		
+
 		sortedEigVect = np.zeros(eigVect.shape)
 		sortedEigVal = np.zeros(eigVals.shape)
 
@@ -76,14 +76,14 @@ def pcaFun(x, whiten=False, e=0, type='cov', method='svd',
 
 
 # function graddesc(xyData,q,[steps])
-# purpose: performing quantum clustering in and moving the 
+# purpose: performing quantum clustering in and moving the
 #          data points down the potential gradient
 # input: xyData - the data vectors
 #        q=a parameter for the parsen window variance (q=1/(2*sigma^2))
 #		 sigma=parameter for the parsen window variance (choose q or sigma)
 #        steps=number of gradient descent steps (default=50)
 #		 eta=gradient descent step size
-# output: D=location of data o=point after GD 
+# output: D=location of data o=point after GD
 
 def graddesc(xyData, **kwargs):
 	# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -94,7 +94,7 @@ def graddesc(xyData, **kwargs):
 	sigma = kwargs.get('sigma', 0.1)
 	q = kwargs.get('q', (1.0 / (2 * pow(sigma, 2))))
 	D = kwargs.get('r', xyData)
-	eta = kwargs.get('eta'. 0.1)
+	eta = kwargs.get('eta', 0.1)
 	return_eta = kwargs.get('return_eta', False)
 	timeit = kwargs.get('timeit', False)
 	timelapse = kwargs.get('timelapse', False)
@@ -144,7 +144,7 @@ def graddesc(xyData, **kwargs):
 	# 				Algorithm starts here
 	# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-		
+
 	# first run
 	V,P,E,dV = qc(xyData, q=q, r=D)
 
@@ -152,7 +152,7 @@ def graddesc(xyData, **kwargs):
 		for i in range(steps/4):
 			# normalize potential gradient
 			dV = preprocessing.normalize(dV)
-			
+
 			# gradient descent
 			D = D - eta*dV
 
@@ -160,9 +160,9 @@ def graddesc(xyData, **kwargs):
 			if timelapse:
 				if timelapse_count in timelapse_list:
 					tD.append(D)
-				timelapse_count += 1		
+				timelapse_count += 1
 
-			"""	
+			"""
 			if timeit:
 				start_time=datetime.now()"""
 
@@ -197,7 +197,7 @@ def graddesc(xyData, **kwargs):
 
 	#returnList.append(timelapse_list)
 	return returnList
-	
+
 
 # function qc (matlab doc)
 # purpose: performing quantum clustering in n dimensions
@@ -273,7 +273,7 @@ def qc(ri,**kwargs):
 		dV1[point] = np.sum(singledV1,axis=0)
 		dV2[point] = np.sum(singledV2,axis=0)
 
-	# if there are points with 0 probability, 
+	# if there are points with 0 probability,
 	# assigned them the lowest probability of any point
 	P = np.where(P==0, np.min(np.extract((P!=0), P)), P)
 
@@ -295,7 +295,7 @@ def qc(ri,**kwargs):
 # output: clust=vector the cluter index that is asigned to each data point
 #        (it's cluster serial #)
 def fineCluster(xyData, minD, potential=None, timeit=False):
-	
+
 	if potential is not None:
 		usePotential = True
 	else:
@@ -327,7 +327,7 @@ def fineCluster(xyData, minD, potential=None, timeit=False):
 		D = pow(D,0.5)
 
 		clust = np.where(D<minD,clustInd,clust)
-		
+
 		# index of non clustered points
 		# unclust=[x for x in clust if x == 0]
 		clusted = clust.nonzero()[0]

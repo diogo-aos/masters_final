@@ -6,10 +6,13 @@ parser.add_argument('action', help='imports - tests all imports', type=str, narg
 args = parser.parse_args()
 
 def eac_imports():
-	import MyML.cluster.K_Means3 as myKM
+
+	import MyML.cluster
+	import MyML.cluster.KMeans
+	import MyML.cluster.KMedoids
+	import MyML.cluster.linkage
+
 	import MyML.utils.partition as mpart
-	import MyML.metrics.accuracy as acc
-	import MyML.cluster.linkage as linkage
 	import MyML.EAC.eac_new as eac
 	import MyML.EAC.rules as rules
 	import MyML.utils.profiling as prof
@@ -17,6 +20,7 @@ def eac_imports():
 	pass
 
 def quantum_imports():
+	import MyML.quantum_clustering
 	import MyML.quantum_clustering.Horn
 	import MyML.quantum_clustering.oracle
 	import MyML.quantum_clustering.qubit
@@ -25,9 +29,9 @@ def quantum_imports():
 	import MyML.quantum_clustering.gauss_mixture
 
 def sl_gpu_imports():
-	import MyML.cudasl.build
-	import MyML.cudasl.connected_components
-	import MyML.cudasl.mst
+	import MyML.graph.build
+	import MyML.graph.connected_components
+	import MyML.graph.mst
 
 def all_imports():
 	print 'Testing EAC imports'

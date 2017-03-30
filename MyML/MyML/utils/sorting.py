@@ -55,33 +55,33 @@ def arg_k_select(ary, k, out):
 # from: http://alienryderflex.com/quicksort/
 # max_levels=64 should work fine; it only runs into
 # problems if the array is at least 2^max_levels
-def quicksort(ary_in, max_levels,
+def quicksort(ary_in, max_levels=64,
               start_idx=None, end_idx=None,
               order="ascending"):
 
     if order == "ascending":
-        quicksort_fn = quicksort_ascending        
+        quicksort_fn = quicksort_ascending
     elif order == "descending":
-        quicksort_fn = quicksort_descending   
+        quicksort_fn = quicksort_descending
     else:
         raise ValueError("order must be \"ascending\" or \"descending\".")
 
     if start_idx is None:
         start_idx = 0
     if end_idx is None:
-        end_idx = ary.size
+        end_idx = ary_in.size
 
-    res = quicksort_fn(ary, max_levels, start_idx, end_idx)
+    res = quicksort_fn(ary_in, max_levels, start_idx, end_idx)
     return res
 
 @nb.njit
 def quicksort_ascending(ary, max_levels, start_idx, end_idx):
     beg = np.empty(max_levels, dtype=np.int64)
     end = np.empty(max_levels, dtype=np.int64)
-    
+
     beg[0] = start_idx
     end[0] = end_idx
-    
+
     i=0
     while i >= 0:
         L = beg[i]
@@ -117,7 +117,7 @@ def quicksort_ascending(ary, max_levels, start_idx, end_idx):
                 swap = beg[i]
                 beg[i] = beg[i-1]
                 beg[i-1] = swap
-                
+
                 swap = end[i]
                 end[i] = end[i-1]
                 end[i-1] = swap
@@ -130,10 +130,10 @@ def quicksort_ascending(ary, max_levels, start_idx, end_idx):
 def quicksort_descending(ary, max_levels, start_idx, end_idx):
     beg = np.empty(max_levels, dtype=np.int64)
     end = np.empty(max_levels, dtype=np.int64)
-    
+
     beg[0] = start_idx
     end[0] = end_idx
-    
+
     i=0
     while i >= 0:
         L = beg[i]
@@ -144,7 +144,7 @@ def quicksort_descending(ary, max_levels, start_idx, end_idx):
             # check if stack is full
             if i == max_levels - 1:
                 return -1
-                
+
             while L < R:
                 # search for smaller element
                 while ary[R] <= piv and L < R:
@@ -168,7 +168,7 @@ def quicksort_descending(ary, max_levels, start_idx, end_idx):
                 swap = beg[i]
                 beg[i] = beg[i-1]
                 beg[i-1] = swap
-                
+
                 swap = end[i]
                 end[i] = end[i-1]
                 end[i-1] = swap
@@ -187,9 +187,9 @@ def quicksort_descending(ary, max_levels, start_idx, end_idx):
 def quicksort_two(ary, ary2, max_levels,
                   start_idx=None, end_idx=None, order="ascending"):
     if order == "ascending":
-        quicksort_fn = quicksort_two_inner_asc        
+        quicksort_fn = quicksort_two_inner_asc
     elif order == "descending":
-        quicksort_fn = quicksort_two_inner_desc   
+        quicksort_fn = quicksort_two_inner_desc
     else:
         raise ValueError("order must be \"ascending\" or \"descending\".")
 
@@ -209,10 +209,10 @@ def quicksort_two_inner_asc(ary, ary2, beg, end, start_idx, end_idx):
     of ary.
     """
     max_levels = beg.size
-    
+
     beg[0] = start_idx
     end[0] = end_idx
-    
+
     i=0
     while i >= 0:
         L = beg[i]
@@ -248,10 +248,10 @@ def quicksort_two_inner_asc(ary, ary2, beg, end, start_idx, end_idx):
                 swap = beg[i]
                 beg[i] = beg[i-1]
                 beg[i-1] = swap
-                
+
                 swap = end[i]
                 end[i] = end[i-1]
-                end[i-1] = swap            
+                end[i-1] = swap
         else:
             i -= 1
     return 0
@@ -264,10 +264,10 @@ def quicksort_two_inner_desc(ary, ary2, beg, end, start_idx, end_idx):
     of ary.
     """
     max_levels = beg.size
-    
+
     beg[0] = start_idx
     end[0] = end_idx
-    
+
     i=0
     while i >= 0:
         L = beg[i]
@@ -303,10 +303,10 @@ def quicksort_two_inner_desc(ary, ary2, beg, end, start_idx, end_idx):
                 swap = beg[i]
                 beg[i] = beg[i-1]
                 beg[i-1] = swap
-                
+
                 swap = end[i]
                 end[i] = end[i-1]
-                end[i-1] = swap            
+                end[i-1] = swap
         else:
             i -= 1
     return 0
@@ -319,9 +319,9 @@ def quicksort_two_inner_desc(ary, ary2, beg, end, start_idx, end_idx):
 
 def check_sorted(ary, start_idx=None, end_idx=None, order="ascending"):
     if order == "ascending":
-        check_sorted_fn = check_sorted_asc        
+        check_sorted_fn = check_sorted_asc
     elif order == "descending":
-        check_sorted_fn = check_sorted_desc   
+        check_sorted_fn = check_sorted_desc
     else:
         raise ValueError("order must be \"ascending\" or \"descending\".")
 
@@ -339,7 +339,7 @@ def check_sorted_asc(ary, start_idx, end_idx):
     n = end_idx
     prev_val = ary[start_idx]
     i = start_idx + 1
-    
+
     while i < n:
         new_val = ary[i]
         if new_val < prev_val:
@@ -355,7 +355,7 @@ def check_sorted_desc(ary, start_idx, end_idx):
     n = end_idx
     prev_val = ary[start_idx]
     i = start_idx + 1
-    
+
     while i < n:
         new_val = ary[i]
         if new_val > prev_val:
@@ -378,14 +378,14 @@ def csr_datasort(data, indices, indptr, max_levels, order="ascending"):
 
     max_levels is the size of the stack to use in the Quick Sort algorithm.
 
-    Returns -i if the sorting was not successful, where i encodes row where the 
+    Returns -i if the sorting was not successful, where i encodes row where the
     sorting failed - the row is -i+1. This means that the stack was filled and
     needs to be bigger.
     """
     if order == "ascending":
-        func = csr_datasort_asc        
+        func = csr_datasort_asc
     elif order == "descending":
-        func = csr_datasort_desc   
+        func = csr_datasort_desc
     else:
         raise ValueError("order must be \"ascending\" or \"descending\".")
 
@@ -395,7 +395,7 @@ def csr_datasort(data, indices, indptr, max_levels, order="ascending"):
 
 def data_is_sorted(data, indptr, order="ascending"):
     """Checks if all the data subarrays are sorted.
-    Returns True if all are sorted and (False,i) if not, where i is the row 
+    Returns True if all are sorted and (False,i) if not, where i is the row
     the sort check failed.
     """
     if order == "ascending":
@@ -404,7 +404,7 @@ def data_is_sorted(data, indptr, order="ascending"):
         check_sorted = check_sorted_desc
     else:
          raise ValueError("order must be \"ascending\" or \"descending\".")
-       
+
     for i in range(0,indptr.size-1):
         start = indptr[i]
         end = indptr[i+1]
@@ -461,16 +461,4 @@ def data_argmax(data, indptr, degree):
     return arg, row
 
 if __name__ == '__main__':
-    x = np.random.randint(0,1000000000,10000000)
-    xc = x.copy()
-    xc.sort()
-
-    STACK_MAX = 64
-    sort_res = quicksort(x, STACK_MAX)
-
-    print "sort res:", sort_res
-    print x
-    print xc
-
-    assert np.all(xc == x)
-    print('all ok')
+    print('nothing to do...')

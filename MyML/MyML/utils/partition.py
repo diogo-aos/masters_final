@@ -14,65 +14,58 @@ import matplotlib.pyplot as plt
 import os.path
 import tables
 
-def convertIndexToBin(clusts=None,n_clusts=None,N=None):
+def convertIndexToBin(clusts):
     """Converts partition in list of arrays (one array per cluster) format to
     binary matrix."""
 
     # clusts is a list of numpy.arrays where each element in
     # in the array is the index of a sample that belongs to that cluster
-    
+
     if clusts is None:
         raise Exception("A clustering partition must be provided.")
-    
-    if N is None:
-        N = 0
-        for c in clusts:
-            N += c.size
 
-    if n_clusts == None:
-        n_clusts=len(clusts)
+    N = sum([c.size for c in clusts])
+    n_clusts = len(clusts)
 
-    clust_out=np.zeros((n_clusts,N), dtype=np.int32)
+    clust_out = np.zeros((n_clusts, N), dtype=np.uint8)
 
-    for i,clust in enumerate(clusts):
+    for i, clust in enumerate(clusts):
         clust_out[i,clust] = 1
-        # for j,ind in enumerate(clust):
-        #     clust_out[i,j]=1
 
     return clust_out
 
-def convertClusterStringToBin(clusts, n_clusts=None, N=None):
+def convertClusterStringToBin(clusts):
     """Converts partition in array format to binary matrix.
 
-    Converts N length array where the i-th element contains the id of the
-    cluster that the i-th samples belongs too to a CxN binary matrix where each
+    Converts a N length array, where the i-th element contains the id of the
+    cluster that the i-th sample belongs too, to a CxN binary matrix where each
     row corresponds to a cluster and the j-th column of the i-th row is 1 iff
-    the j-th samples belongs to the i-th column.
+    the j-th sample belongs to the i-th cluster.
 
     In the case that cluster ID can be zero then there is an offset of -1 in the
     rows, e.g. the C-th row actually corresponds to the first cluster.
 
+    It is assumed that cluster numbers go from [0, biggest_clust[ or
+    [1, biggest_clust[ uninterrupted, otherwise this function does not work.
+
     clusts         : N length array with the cluster labels of the N samples
-    n_clusts     : number of clusters; optional
-    N             : number of samples; optional
     """
     if clusts is None:
         raise Exception("A clustering partition must be provided.")
 
-    if N is None:
-        N = clusts.shape[0]
+    u_clusts = np.unique(clusts)
+    if u_clusts.size not in (clusts.max(), clusts.max()+1):
+        raise ValueError('cluster numbers go from [0, biggest_clust[ or'
+                         '[1, biggest_clust[ uninterrupted')
+    n_clusts = u_clusts.size
+    N = clusts.size
 
-    if n_clusts is None:
-        n_clusts = np.max(clusts)
-
-    if np.min(clusts) == 0:
-        n_clusts += 1
-
-    clust_out = np.zeros((n_clusts, N), dtype=np.int32)
+    clust_out = np.zeros((n_clusts, N), dtype=np.uint8)
+    offset = -1 if clusts.min() == 1 else 0
 
     for sample_ind, clust_ind in enumerate(clusts):
         # cluster_ind is never 0 so we need to subtract 1 to index the array
-        clust_out[clust_ind-1, sample_ind] = 1
+        clust_out[clust_ind+offset, sample_ind] = 1
 
     return clust_out
 
@@ -88,7 +81,7 @@ def convertClusterStringToIndex(partition):
 
     finalPartition = [None] * nclusters
     for c,l in enumerate(clusters):
-        finalPartition[c] = np.where(partition==l)[0].astype(np.int32)
+        finalPartition[c] = np.where(partition==l)[0].astype(np.uint64)
 
     return finalPartition
 
@@ -97,7 +90,7 @@ def generateEnsemble(data, generator, n_clusters=20, npartitions=30, iters=3):
     provided.
     data        : data to be fed to generator algorithm;
     generator   : generator object with a fit method;
-    n_clusters  : number of clusters that the generator should use; can be a 
+    n_clusters  : number of clusters that the generator should use; can be a
                   list with a range of numbers [min, max];
     npartitions : number of partitions that should be generated;
     iters       : number of iterations the generator should run for
@@ -110,7 +103,7 @@ def generateEnsemble(data, generator, n_clusters=20, npartitions=30, iters=3):
         if n_clusters[0] == n_clusters[1]:
             clusterRange = False
             generator.n_clusters = n_clusters[0]
-        else:           
+        else:
             clusterRange = True
             min_ncluster = n_clusters[0]
             max_ncluster = n_clusters[1]
@@ -142,7 +135,7 @@ def generateEnsembleToFiles(foldername, data, generator, n_clusters=20,
         if n_clusters[0] == n_clusters[1]:
             clusterRange = False
             generator.n_clusters = n_clusters[0]
-        else:           
+        else:
             clusterRange = True
             min_ncluster = n_clusters[0]
             max_ncluster = n_clusters[1]
@@ -191,11 +184,11 @@ def loadEnsembleFromFile(filename):
 def loadEnsembleFromFiles(filelist = None, foldername = None):
     if filelist is None and foldername is None:
         raise Exception("EITHER FILELIST OR FOLDERNAME MUST BE SUPPLIED")
-    if filelist is None:        
+    if filelist is None:
         filelist = [os.path.join(root, name)
                            for root, dirs, files in os.walk(foldername)
                            for name in files
-                           if "part" in name]   
+                           if "part" in name]
     ensemble = list()
     for filename in filelist:
         ensemble.append(loadPartitionFromFile(filename))
@@ -221,7 +214,7 @@ def loadPartitionFromFile(filename):
 def generateEnsembleToFileHDF(file, data, generator, n_clusters=20,
                               npartitions=30, iters=3, progress=False):
     """
-    TODO: check if generator(the algorithm to be used) has fit method and 
+    TODO: check if generator(the algorithm to be used) has fit method and
     n_clusters,labels_ attributes
     """
     # open/create file if file is string of path
@@ -244,7 +237,7 @@ def generateEnsembleToFileHDF(file, data, generator, n_clusters=20,
         if n_clusters[0] == n_clusters[1]:
             clusterRange = False
             generator.n_clusters = n_clusters[0]
-        else:           
+        else:
             clusterRange = True
             min_ncluster = n_clusters[0]
             max_ncluster = n_clusters[1]
@@ -264,7 +257,7 @@ def generateEnsembleToFileHDF(file, data, generator, n_clusters=20,
             generator.n_clusters = k
 
         generator.fit(data)
-        
+
         # convert partition to list of arrays
         partition = convertClusterStringToIndex(generator.labels_)
 
@@ -357,7 +350,7 @@ def savePartitionToFileHDF(file, partition, n):
         f.close()
 
 def loadEnsembleFromFileHDF(file, generator=False, metadata=False):
-    """Loads an ensemble from file. If generator is set to True, then the 
+    """Loads an ensemble from file. If generator is set to True, then the
     function returns a generator that will read one partition at a time instead
     of the whole ensemble being read to memory at once."""
 
@@ -412,7 +405,7 @@ def loadEnsembleFromFileHDF(file, generator=False, metadata=False):
 def _loadWholeEnsembleFromFileHDF(file, close=False):
     """This function loads the entire ensemble to memory.
     _file_ is a _tables.File.file_.
-    _close_ is a _boolean_ that indicates if the file should be closed in the 
+    _close_ is a _boolean_ that indicates if the file should be closed in the
     end or not.
     """
     ensemble = list()
@@ -429,9 +422,9 @@ def _loadGeneratorEnsembleFromFileHDF(file, close=False):
     """This function is a generator that goes through all the partitions in the
     ensemble file, loading each to memory as needed.
     _file_ is a _tables.File.file_.
-    _close_ is a _boolean_ that indicates if the file should be closed in the 
+    _close_ is a _boolean_ that indicates if the file should be closed in the
     end or not.
-    """    
+    """
     for p in file.iterNodes('/'):
         # create list of cluster arrays and append it to ensemble list
         yield [i[:] for i in file.iterNodes(p)]
@@ -505,7 +498,7 @@ class PlotEnsemble:
             self._plotPartition(self.curr_partition, draw_perimeter)
 
     def _plotPartition(self, clust_idx, draw_perimeter=False):
-        
+
         if not draw_perimeter:
             for clust in self.ensemble[clust_idx]:
                 plt.plot(self.data[clust, 0], self.data[clust, 1], '.')
@@ -519,7 +512,7 @@ class PlotEnsemble:
 
                 if clust.size < 5:
                     self.missing_hulls += 1
-                    continue                
+                    continue
                 hull = ConvexHull(points)
                 for simplex in hull.simplices:
                     plt.plot(points[simplex, 0], points[simplex, 1], 'k-')

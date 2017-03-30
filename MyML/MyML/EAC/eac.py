@@ -26,8 +26,8 @@ from scipy.sparse.csgraph import connected_components
 import scipy_numba.sparse.csgraph._min_spanning_tree as nbMST
 from scipy_numba.spatial.distance import squareform
 
-from MyML.cluster.linkage import scipy_numba_slink_wraper as slink
-from MyML.cluster.linkage import labels_from_Z
+from MyML.cluster import SL as slink
+from MyML.cluster import clusters_from_SL as labels_from_Z
 
 import sparse as eac_sp
 biggest_cluster_size = eac_sp._compute_max_assocs_from_ensemble
@@ -118,7 +118,7 @@ class EAC():
             if self.sp_max_assocs is None:
                 self.sp_max_assocs = biggest_cluster_size(ensemble)
                 self.sp_max_assocs *= self.sp_max_assocs_factor
-            
+
             coassoc = EAC_CSR(self.n_samples, max_assocs=self.sp_max_assocs,
                               condensed=self.condensed,
                               max_assocs_type=self.sp_max_assocs_mode,
@@ -179,10 +179,10 @@ class EAC():
         return labels
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # #                                                             # # # #
 # # # #                                                             # # # #
 # # # #                                                             # # # #
@@ -198,7 +198,7 @@ class EAC():
 
 def sp_sl_lifetime(mat, max_dist=None, n_clusters=0):
     """
-    Converts graph weights to dissimilarities if input graph is in 
+    Converts graph weights to dissimilarities if input graph is in
     similarities. Computes MST (Kruskal) of dissimilarity graph.
     Compute number of disconnected clusters (components).
     Sort MST in increasing order to get equivalent of SL clustering.
@@ -211,10 +211,10 @@ def sp_sl_lifetime(mat, max_dist=None, n_clusters=0):
         max_dist        : maximum valid distance in the matrix. If None
                           (default) it assumes the maximum value present in the
                           input graph.
-        n_clusters      : number of clusters to compute. If 0 (default), 
+        n_clusters      : number of clusters to compute. If 0 (default),
                           use lifetime criteria.
     Outputs:
-        n_fclusts       : final number of clusters        
+        n_fclusts       : final number of clusters
         labels          : final clustering labels
     """
     if max_dist is None:
@@ -254,15 +254,15 @@ def sp_sl_lifetime(mat, max_dist=None, n_clusters=0):
     # cut associations if necessary
     if nc_stable > n_disconnect_clusters:
         n_cuts = nc_stable - n_disconnect_clusters
-        
+
         mst.data[asort[-n_cuts:]] = 0
-        mst.eliminate_zeros()   
+        mst.eliminate_zeros()
 
     if nc_stable > 1:
         n_comps, labels = connected_components(mst)
     else:
         labels = np.empty(0, dtype=np.int32)
-        n_comps = 1  
+        n_comps = 1
 
     return n_comps, labels
 
@@ -270,7 +270,7 @@ def sp_sl_lifetime(mat, max_dist=None, n_clusters=0):
 def sp_sl_lifetime_disk(coassoc_path, max_dist,
                         n_clusters=0, index_dir='/tmp/'):
     """
-    Converts graph weights to dissimilarities if input graph is in 
+    Converts graph weights to dissimilarities if input graph is in
     similarities. Computes MST (Kruskal) of dissimilarity graph.
     Compute number of disconnected clusters (components).
     Sort MST in increasing order to get equivalent of SL clustering.
@@ -283,10 +283,10 @@ def sp_sl_lifetime_disk(coassoc_path, max_dist,
         max_val         : maximum value from which dissimilarity will be
                           computed. If False (default) assumes input graph
                           already encodes dissimilarities.
-        n_clusters      : number of clusters to compute. If 0 (default), 
+        n_clusters      : number of clusters to compute. If 0 (default),
                           use lifetime criteria.
     Outputs:
-        n_fclusts       : final number of clusters        
+        n_fclusts       : final number of clusters
         labels          : final clustering labels
     """
     # get minimum spanning tree
@@ -322,15 +322,15 @@ def sp_sl_lifetime_disk(coassoc_path, max_dist,
     # cut associations if necessary
     if nc_stable > n_disconnect_clusters:
         n_cuts = nc_stable - n_disconnect_clusters
-        
+
         mst.data[asort[-n_cuts:]] = 0
-        mst.eliminate_zeros()   
+        mst.eliminate_zeros()
 
     if nc_stable > 1:
         n_comps, labels = connected_components(mst)
     else:
         labels = np.empty(0, dtype=np.int32)
-        n_comps = 1  
+        n_comps = 1
 
     return n_comps, labels
 
@@ -357,7 +357,7 @@ def full_sl_lifetime(mat, n_samples, n_clusters=0):
         i=0
         for l in np.unique(labels):
             labels[labels == l] = i
-            i += 1        
+            i += 1
     else:
         labels = np.empty(0, dtype=np.int32)
 
